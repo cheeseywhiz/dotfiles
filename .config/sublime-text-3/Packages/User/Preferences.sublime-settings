@@ -1,0 +1,18 @@
+{
+	"color_scheme": "Packages/Color Scheme - Default/Pastels on Dark.tmTheme",
+	"font_size": 8,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+
+	// Set to true to ensure the last line of the file ends in a newline
+    // character when saving
+    "ensure_newline_at_eof_on_save": true,
+
+    // Set to true to insert spaces when tab is pressed
+    "translate_tabs_to_spaces": true,
+
+    // Columns in which to display vertical rulers
+    "rulers": [0, 79],
+}
