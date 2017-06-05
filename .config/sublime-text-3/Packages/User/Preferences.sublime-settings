@@ -1,18 +1,28 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Pastels on Dark.tmTheme",
+	"color_scheme": "Packages/Gotham-Theme/Gotham.tmTheme",
+	"ensure_newline_at_eof_on_save": true,
 	"font_size": 8,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
-
-	// Set to true to ensure the last line of the file ends in a newline
-    // character when saving
-    "ensure_newline_at_eof_on_save": true,
-
-    // Set to true to insert spaces when tab is pressed
-    "translate_tabs_to_spaces": true,
-
-    // Columns in which to display vertical rulers
-    "rulers": [0, 79],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"rulers":
+	[
+		0,
+		79
+	],
+	"theme": "Gotham.sublime-theme",
+	"theme_gotham_compact_sidebar": true,
+	"theme_gotham_compact_tab": true,
+	"theme_gotham_horizontal_scrollbar_thinnest": true,
+	"theme_gotham_modified_tab_marker_yellow": true,
+	"theme_gotham_sidebar_font_xsmall": true,
+	"theme_gotham_sidebar_mini": true,
+	"theme_gotham_vertical_scrollbar_thinnest": true,
+	"translate_tabs_to_spaces": true
 }

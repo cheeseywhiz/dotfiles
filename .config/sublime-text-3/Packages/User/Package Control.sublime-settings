@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"Anaconda",
+		"Gotham Theme",
 		"Package Control",
 		"Terminal"
 	]
