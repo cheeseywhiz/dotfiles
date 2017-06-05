@@ -1,3 +1,4 @@
+!! rofi
 rofi.location:          0
 rofi.color-enabled:     true
 !                       'background', 'border'
@@ -18,3 +19,9 @@ rofi.width:             1366
 rofi.opacity:           90
 rofi.font:              San Fransisco Display Regular 16
 
+!! URxvt
+Urxvt.chdir: /home/cheese
+URxvt.tranparent: true
+URxvt.shading: 10
+URxvt.scrollBar: false
+URxvt.reverseVideo: true

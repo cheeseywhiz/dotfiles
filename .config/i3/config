@@ -42,7 +42,7 @@ exec --no-startup-id synclient HorizEdgeScroll=1 VertEdgeScroll=1 VertScrollDelt
 floating_modifier $mod
 
 # start a terminal
-set $terminal urxvt -cd /home/cheese -tr -sh 10 +sb -rv
+set $terminal urxvt
 bindsym $mod+Return exec $terminal
 
 # kill focused window
