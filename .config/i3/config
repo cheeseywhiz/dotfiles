@@ -94,6 +94,7 @@ bindsym $mod+Shift+space floating toggle
 
 # Open file is a tiling window
 for_window [window_role="GtkFileChooserDialog"] floating disable
+for_window [class="feh"] fullscreen toggle
 
 # change focus between tiling / floating windows
 bindsym $mod+space focus mode_toggle
