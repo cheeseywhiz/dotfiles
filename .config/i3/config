@@ -269,5 +269,6 @@ exec i3-msg 'workspace $ws4; exec gitkraken'
 exec i3-msg 'workspace $ws1'
 
 # init compton graphics drivers and desktop image
+exec_always xrdb -merge /home/cheese/.Xresources
 exec_always --no-startup-id compton -bc --config /home/cheese/.config/compton.conf
 exec_always --no-startup-id feh --bg-fill /home/cheese/Pictures/background.png
