@@ -20,8 +20,8 @@ rofi.opacity:           90
 rofi.font:              San Fransisco Display Regular 16
 
 !! URxvt
-Urxvt.chdir: /home/cheese
-URxvt.tranparent: true
-URxvt.shading: 10
+URxvt.chdir: /home/cheese
 URxvt.scrollBar: false
-URxvt.reverseVideo: true
+URxvt.depth: 32
+URxvt.foreground: #ffffff
+URxvt.background: rgba:0000/0000/0000/eedd
