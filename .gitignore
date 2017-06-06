@@ -1,11 +1,9 @@
 *
 */
-!requirements.txt
 !.gitignore
 !.bash_logout
 !.bash_profile
 !.bashrc
-!.i3
 !.Xresources
 !.xinitrc
 .config/*
@@ -14,10 +12,10 @@
 !.config/sublime-text-3/Packages/*
 !.config/sublime-text-3/Cache/*
 !.config/compton.conf/*
-!.fonts
-!.i3blocks
+!.fonts/*
+!.i3blocks/*
 !compton.conf
-!gtk-2.0
-!gtk-3.0
+!.config/gtk-2.0/*
+!.config/gtk-3.0/*
 Pictures/*
 !Pictures/background.png
