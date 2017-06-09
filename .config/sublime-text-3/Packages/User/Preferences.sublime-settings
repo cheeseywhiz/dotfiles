@@ -2,7 +2,7 @@
 	"color_scheme": "Packages/Gotham-Theme/Gotham.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 	"font_face": "Monospace",
-	"font_size": 8,
+	"font_size": 9,
 	"ignored_packages":
 	[
 		"Vintage"
