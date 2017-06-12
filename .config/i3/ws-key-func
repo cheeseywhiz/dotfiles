@@ -1,0 +1,25 @@
+#!/usr/bin/env python3
+import json
+from subprocess import PIPE, run
+
+CMD_DICT = {
+    1: 'firefox',
+    2: 'subl3',
+    3: 'urxvt',
+    4: 'gitkraken',
+}
+
+ws_data = run(
+    'i3-msg -t get_workspaces',
+    shell=True,
+    stdout=PIPE,
+).stdout
+
+ws_dict = json.loads(ws_data)
+
+current_ws = [i['num'] for i in ws_dict if i['visible']][0]
+
+# colon is 'do nothing' command
+cmd = CMD_DICT.get(current_ws, ':')
+
+run(cmd, shell=True)

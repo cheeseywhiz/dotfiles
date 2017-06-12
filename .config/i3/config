@@ -115,6 +115,9 @@ set $ws4 "4 "
 
 assign [class="GitKraken"] $ws4
 
+# Execute key command for each workspace
+bindsym $mod+x exec python3 /home/cheese/.config/i3/ws-key-func
+
 # switch to workspace
 bindsym $mod+1 workspace $ws1
 bindsym $mod+2 workspace $ws2
@@ -263,12 +266,14 @@ bindsym shift+XF86MonBrightnessDown exec xbacklight -set 1 $slow
 bindsym XF86MonBrightnessUp exec xbacklight -inc 10 $quick
 bindsym shift+XF86MonBrightnessUp exec xbacklight -set 100 $slow
 
+### now handled by $mod+x ws-key-func
+### Execute the central command for each workspace
 ##init
-exec i3-msg 'workspace $ws1; exec firefox'
-exec i3-msg 'workspace $ws2; exec subl3'
-exec i3-msg 'workspace $ws3; exec $terminal'
-exec i3-msg 'workspace $ws4; exec gitkraken'
-exec i3-msg 'workspace $ws1'
+# exec i3-msg 'workspace $ws1; exec firefox'
+# exec i3-msg 'workspace $ws2; exec subl3'
+# exec i3-msg 'workspace $ws3; exec $terminal'
+# exec i3-msg 'workspace $ws4; exec gitkraken'
+# exec i3-msg 'workspace $ws1'
 
 # init compton graphics drivers and desktop image
 exec_always xrdb -merge /home/cheese/.Xresources

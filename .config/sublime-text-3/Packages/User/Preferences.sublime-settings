@@ -17,6 +17,12 @@
 		0,
 		79
 	],
+
+	// Disables horizontal scrolling if enabled.
+    // May be set to true, false, or "auto", where it will be disabled for
+    // source code, and otherwise enabled.
+    "word_wrap": "false",
+
 	"theme": "Gotham.sublime-theme",
 	"theme_gotham_compact_sidebar": true,
 	"theme_gotham_compact_tab": true,
@@ -25,5 +31,5 @@
 	"theme_gotham_sidebar_font_xsmall": true,
 	"theme_gotham_sidebar_mini": true,
 	"theme_gotham_vertical_scrollbar_thinnest": true,
-	"translate_tabs_to_spaces": true
+	"translate_tabs_to_spaces": true,
 }
