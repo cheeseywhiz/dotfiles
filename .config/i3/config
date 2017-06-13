@@ -116,7 +116,7 @@ set $ws4 "4 "
 assign [class="GitKraken"] $ws4
 
 # Execute key command for each workspace
-bindsym $mod+x exec python3 /home/cheese/.config/i3/ws-key-func
+bindsym $mod+x exec /home/cheese/.config/i3/ws-key-func
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1

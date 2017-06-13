@@ -1,0 +1,30 @@
+#!/usr/bin/python3
+"""
+Reader for sys-msg interface.
+"""
+from csv import reader
+from sys import maxsize
+from time import time
+from sys_msg_int import PIPE
+
+
+def main() -> int:
+    with open(PIPE) as csvfile:
+        headers, output = list(reader(csvfile))
+
+    time_, t_limit, long, short, color = output
+
+    if not t_limit:
+        t_limit = maxsize
+
+    if time() - float(time_) <= float(t_limit):
+        print(long)
+        print(short)
+        if color:
+            print(color)
+
+    return 0
+
+
+if __name__ == '__main__':
+    main()

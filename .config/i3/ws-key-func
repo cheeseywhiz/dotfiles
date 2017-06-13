@@ -1,12 +1,54 @@
-#!/usr/bin/env python3
+#!/home/cheese/.config/i3/bin/python
 import json
 from subprocess import PIPE, run
+from sys_msg_int import write
 
 CMD_DICT = {
-    1: 'firefox',
-    2: 'subl3',
-    3: 'urxvt',
-    4: 'gitkraken',
+    1: {
+        'cmd': 'firefox',
+        'msg': {
+            'long': 'Opening Firefox',
+            'short': 'firefox',
+            't': 3,
+            'color': None,
+        },
+    },
+    2: {
+        'cmd': 'subl3',
+        'msg': {
+            'long': 'Opening Sublime',
+            'short': 'sublime',
+            't': 3,
+            'color': None,
+        },
+    },
+    3: {
+        'cmd': 'urxvt',
+        'msg': {
+            'long': 'Opening URxvt',
+            'short': 'URxvt',
+            't': 3,
+            'color': None,
+        },
+    },
+    4: {
+        'cmd': 'gitkraken',
+        'msg': {
+            'long': 'Opening GitKraken',
+            'short': 'GitKraken',
+            't': 3,
+            'color': None,
+        },
+    },
+    None: {
+        'cmd': ':',
+        'msg': {
+            'long': None,
+            'short': None,
+            't': None,
+            'color': None,
+        },
+    },
 }
 
 ws_data = run(
@@ -19,7 +61,8 @@ ws_dict = json.loads(ws_data)
 
 current_ws = [i['num'] for i in ws_dict if i['visible']][0]
 
-# colon is 'do nothing' command
-cmd = CMD_DICT.get(current_ws, ':')
+workspace = CMD_DICT.get(current_ws, CMD_DICT[None])
 
-run(cmd, shell=True)
+write(**workspace['msg'])
+
+run(workspace['cmd'], shell=True)
