@@ -14,8 +14,17 @@
 !.config/compton.conf/*
 !.fonts/*
 !.i3blocks/*
+.i3blocks/sys-msg/pipe
 !compton.conf
 !.config/gtk-2.0/*
 !.config/gtk-3.0/*
 Pictures/*
 !Pictures/background.png
+*/**/bin
+*/**/include
+*/**/lib
+*/**/pip-selfcheck.json
+*/**/*.pyc
+*/**/__pycache__/*
+*/**/*.egg
+*/**/*.egg-info

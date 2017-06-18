@@ -14,15 +14,8 @@
 	],
 	"rulers":
 	[
-		0,
 		79
 	],
-
-	// Disables horizontal scrolling if enabled.
-    // May be set to true, false, or "auto", where it will be disabled for
-    // source code, and otherwise enabled.
-    "word_wrap": "false",
-
 	"theme": "Gotham.sublime-theme",
 	"theme_gotham_compact_sidebar": true,
 	"theme_gotham_compact_tab": true,
@@ -31,5 +24,31 @@
 	"theme_gotham_sidebar_font_xsmall": true,
 	"theme_gotham_sidebar_mini": true,
 	"theme_gotham_vertical_scrollbar_thinnest": true,
+
 	"translate_tabs_to_spaces": true,
+	"word_wrap": "false",
+	"wide_caret": true,
+	// default + underscore
+	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?_",
+	"always_show_minimap_viewport": true,
+	"trim_trailing_white_space_on_save": true,
+	"show_tab_close_buttons": false,
+
+    // Sidebar - exclude distracting files and folders
+    "file_exclude_patterns":
+    [
+        ".DS_Store",
+        "*.pid",
+        "*.pyc",
+    ],
+    "folder_exclude_patterns":
+    [
+        ".git",
+        "__pycache__",
+        "env",
+        "env3",
+        "bin",
+        "include",
+        "lib",
+    ],
 }

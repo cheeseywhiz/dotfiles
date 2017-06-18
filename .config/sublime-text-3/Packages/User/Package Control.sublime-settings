@@ -5,9 +5,13 @@
 	],
 	"installed_packages":
 	[
+		"All Autocomplete",
 		"Anaconda",
+		"GitGutter",
 		"Gotham Theme",
 		"Package Control",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
 		"Terminal"
 	]
 }
