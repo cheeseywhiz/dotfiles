@@ -36,4 +36,6 @@
         "E309",
         "E228"
     ],
+
+    "disable_anaconda_completion": true,
 }

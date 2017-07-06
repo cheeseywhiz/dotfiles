@@ -12,6 +12,8 @@
 		"Package Control",
 		"SideBarEnhancements",
 		"SublimeCodeIntel",
+		"SublimeLinter-cpplint",
+		"SummitLinter",
 		"Terminal"
 	]
 }
