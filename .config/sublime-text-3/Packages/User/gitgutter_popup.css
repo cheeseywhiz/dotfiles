@@ -1,0 +1,19 @@
+/* GitGutter Popup Stylesheet - User */
+
+/**
+ * TEXT VIEW
+ *
+ * Shows the old content or diff.
+ **/
+.git-gutter div.highlight {
+    /* Defaults */
+    border-style: none;
+    border-radius: 0;
+    line-height: 1.3rem;
+    margin: 0;
+    padding: 0.7rem 0.7rem 0.6rem 0.7rem;
+
+    /* User */
+    font-family: Monospace, serif;
+    font-size: 14px;
+}

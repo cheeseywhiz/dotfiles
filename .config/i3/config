@@ -114,6 +114,7 @@ set $ws3 "3 "
 set $ws4 "4 "
 
 assign [class="GitKraken"] $ws4
+for_window [class="GitKraken"] floating enable
 
 # Execute key command for each workspace
 bindsym $mod+x exec /home/cheese/.config/i3/ws-key-func
