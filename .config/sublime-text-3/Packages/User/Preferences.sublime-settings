@@ -25,6 +25,7 @@
 	"font_size": 10,
 	"ignored_packages":
 	[
+		"All Autocomplete",
 		"Vintage"
 	],
 	"indent_guide_options":
