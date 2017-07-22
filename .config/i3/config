@@ -50,6 +50,7 @@ bindsym $mod+Shift+q kill
 
 # start rofi (a program launcher)
 bindsym $mod+d exec rofi -show run
+bindsym Mod1+Tab exec rofi -show window
 
 # change focus
 bindsym $mod+j focus left
@@ -279,4 +280,8 @@ bindsym shift+XF86MonBrightnessUp exec xbacklight -set 100 $slow
 # init compton graphics drivers and desktop image
 exec_always xrdb -merge /home/cheese/.Xresources
 exec_always --no-startup-id compton -bc --config /home/cheese/.config/compton.conf
-exec_always --no-startup-id feh --bg-fill /home/cheese/Pictures/background.png
+
+#wal config
+set $wal_cmd /usr/bin/wal -i /home/cheese/Pictures/wallpapers
+exec --no-startup-id $wal_cmd
+bindsym $mod+q exec $wal_cmd

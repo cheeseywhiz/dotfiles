@@ -20,6 +20,8 @@ i3-gaps
 
 sublime-text-dev
 
+python-pywal
+
 ## Non-requirements
 
 ### pacman
