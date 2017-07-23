@@ -282,6 +282,6 @@ exec_always xrdb -merge /home/cheese/.Xresources
 exec_always --no-startup-id compton -bc --config /home/cheese/.config/compton.conf
 
 #wal config
-set $wal_cmd /usr/bin/wal -i /home/cheese/Pictures/wallpapers
+set $wal_cmd /usr/bin/wal -i /home/cheese/Pictures/wallpapers -a 93
 exec --no-startup-id $wal_cmd
 bindsym $mod+q exec $wal_cmd
