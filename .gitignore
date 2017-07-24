@@ -12,6 +12,8 @@
 !.config/sublime-text-3/Packages/*
 !.config/sublime-text-3/Cache/*
 !.config/compton.conf/*
+.config/neofetch/*
+!.config/neofetch/config
 !.fonts/*
 !.i3blocks/*
 .i3blocks/sys-msg/pipe
@@ -19,7 +21,6 @@
 !.config/gtk-2.0/*
 !.config/gtk-3.0/*
 Pictures/*
-!Pictures/background.png
 */**/bin
 */**/include
 */**/lib
