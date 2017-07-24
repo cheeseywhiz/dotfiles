@@ -10,23 +10,26 @@ print_info() {
     info title
     info underline
 
-    info "OS" distro
-    info "Kernel" kernel
-    info "Shell" shell
-    info "Terminal" term
+    info "OS" distro &
+    info "Kernel" kernel &
+    info "Shell" shell &
+    info "Terminal" term &
+    wait
     info line_break
 
-    info "Uptime" uptime
-    info "Model" model
-    info "Disk" disk
-    info "CPU" cpu
-    info "GPU" gpu
-    info "Resolution" resolution
+    info "Uptime" uptime &
+    info "Model" model &
+    info "Disk" disk &
+    info "CPU" cpu &
+    info "GPU" gpu &
+    info "Resolution" resolution &
+    wait
     info line_break
 
-    info "WM" wm
-    info "Packages" packages
-    info "Theme" theme
+    info "WM" wm &
+    info "Packages" packages &
+    info "Theme" theme &
+    wait
     info line_break
 
     info cols
