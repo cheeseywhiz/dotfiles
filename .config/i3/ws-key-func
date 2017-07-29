@@ -1,7 +1,7 @@
 #!/home/cheese/.config/i3/bin/python
 import json
 from subprocess import PIPE, Popen
-from sys_msg_int import write
+# from sys_msg_int import write
 from cmd_dict import cmd_dict
 
 # i3 provides json data for workspaces
@@ -15,6 +15,6 @@ current_ws = [i['num'] for i in ws_dict if i['visible']][0]
 
 workspace = cmd_dict.get(current_ws, cmd_dict[None])
 
-write(**workspace['msg'])
+# write(**workspace['msg'])
 
 Popen(workspace['cmd'])

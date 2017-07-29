@@ -1,20 +1,20 @@
 cmd_dict = {
     None: {
-        'cmd': ['exec'],
+        'cmd': ['bash', '-c', 'exec'],
         'msg': {
             'long': None,
             'short': None,
-            't': None,
             'color': None,
+            't': None,
         },
     },
     1: {
-        'cmd': ['firefox', 'https://www.reddit.com/'],
+        'cmd': ['firefox', '--new-window'],
         'msg': {
             'long': 'Opening Firefox',
             'short': 'Firefox',
-            't': 3,
             'color': None,
+            't': 3,
         },
     },
     2: {
@@ -22,8 +22,8 @@ cmd_dict = {
         'msg': {
             'long': 'Opening Sublime',
             'short': 'Sublime',
-            't': 3,
             'color': None,
+            't': 3,
         },
     },
     3: {
@@ -31,8 +31,8 @@ cmd_dict = {
         'msg': {
             'long': 'Opening URxvt',
             'short': 'URxvt',
-            't': 3,
             'color': None,
+            't': 3,
         },
     },
     4: {
@@ -40,8 +40,8 @@ cmd_dict = {
         'msg': {
             'long': 'Opening GitKraken',
             'short': 'GitKraken',
-            't': 3,
             'color': None,
+            't': 3,
         },
     },
     10: {
@@ -49,8 +49,8 @@ cmd_dict = {
         'msg': {
             'long': 'Opening private Firefox window',
             'short': 'Firefox private',
-            't': 3,
             'color': None,
+            't': 3,
         },
     },
 }
