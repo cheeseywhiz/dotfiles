@@ -20,6 +20,8 @@ i3-gaps
 
 sublime-text-dev
 
+polybar-git
+
 python-pywal
 
 ## Non-requirements

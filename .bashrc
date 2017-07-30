@@ -7,7 +7,7 @@
 
 (wal -r &)
 
-alias ls='ls --color=auto'
+alias ls='ls -h --color=auto'
 alias ll='ls -l'
 alias la='ls -al'
 alias pipes='pipes.sh -p 20 -r 3000 -t 0 -R'

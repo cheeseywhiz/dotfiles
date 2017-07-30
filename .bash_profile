@@ -6,7 +6,7 @@
 
 # start x only on Arch terminal #1
 if [[ $(tty) = /dev/tty1 ]]; then
-    startx |& sudo tee /dev/tty7 > /dev/null
+    startx |& sudo tee /dev/tty7 | sudo tee /var/xlog > /dev/null
 
 # etc
 elif [[ $(tty) = /dev/tty2 ]]; then
