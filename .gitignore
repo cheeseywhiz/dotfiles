@@ -6,6 +6,8 @@
 !.bashrc
 !.Xresources
 !.xinitrc
+.themes/*
+!.themes/Flatabulous-wal/*
 .config/*
 !.config/i3/*
 .config/sublime-text-3/*

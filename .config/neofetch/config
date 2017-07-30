@@ -456,7 +456,7 @@ underline_char=" "
 #
 # Display colors 0-15 in the blocks. (16 colors)
 # neofetch --block_range 0 15
-block_range=(0 7)
+block_range=(0 15)
 
 # Toggle color blocks
 #
@@ -477,7 +477,7 @@ block_width=4
 # Default:  '1'
 # Values:   'num'
 # Flag:     --block_height
-block_height=2
+block_height=1
 
 
 # Progress Bars

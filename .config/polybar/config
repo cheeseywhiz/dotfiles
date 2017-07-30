@@ -8,13 +8,23 @@
 ;=====================================================
 
 [colors]
-background = ${xrdb:color0:#222222}
-background-alt = #444444
-foreground = ${xrdb:color7:#dfdfdf}
-foreground-alt = ${xrdb:color4:#555555}
+color0 = ${xrdb:color0}
+color1 = ${xrdb:color1}
+color2 = ${xrdb:color2}
+color3 = ${xrdb:color3}
+color4 = ${xrdb:color4}
+color5 = ${xrdb:color5}
+color6 = ${xrdb:color6}
+color7 = ${xrdb:color7}
+color8 = ${xrdb:color8}
+
+background = ${self.color0}
+background-alt = ${self.color8}
+foreground = ${self.color7}
+foreground-alt = ${self.color4}
 primary = #ffb52a
 secondary = #e60053
-alert = #bd2c40
+alert = ${self.color1}
 
 [bar/top]
 monitor = eDP-1
@@ -23,7 +33,7 @@ height = 24
 ; offset-x = 1%
 ; offset-y = 1%
 radius = 6.0
-fixed-center = false
+fixed-center = true
 
 background = ${colors.background}
 foreground = ${colors.foreground}
@@ -46,8 +56,9 @@ font-1 = Monospace:pixelsize=9:antialias=false;1
 font-2 = FontAwesome:pixelsize=11;1
 ; font-3 = Sans:pixelsize=11;1
 
-modules-left = i3 xwindow
-modules-right = cpu volume battery batterytime filesystem date powermenu
+modules-left = i3
+modules-center = xwindow
+modules-right = cpu volume battery batterytime filesystem clock powermenu
 
 tray-position = center
 tray-padding = 2
@@ -89,7 +100,7 @@ mount-0 = /
 label-mounted = %free%
 label-mounted-underline = #666666
 label-unmounted = %mountpoint% not mounted
-label-unmounted-foreground = ${colors.foreground-alt}
+label-unmounted-foreground = ${colors.color5}
 
 [module/i3]
 type = internal/i3
@@ -107,7 +118,7 @@ label-mode-background = ${colors.primary}
 ; focused = Active workspace on focused monitor
 label-focused = %index% %icon%
 label-focused-background = ${colors.background-alt}
-label-focused-underline = ${colors.primary}
+label-focused-underline = ${colors.color7}
 label-focused-padding = 2
 
 ; unfocused = Inactive workspace on any monitor
@@ -169,7 +180,7 @@ card = intel_backlight
 type = internal/cpu
 interval = 2
 format-prefix = " "
-format-prefix-foreground = ${colors.foreground-alt}
+format-prefix-foreground = ${colors.color1}
 format-underline = #f90000
 label = %percentage%%
 
@@ -215,7 +226,7 @@ format-disconnected =
 ; label-disconnected = %ifname% disconnected
 ; label-disconnected-foreground = ${colors.foreground-alt}
 
-[module/date]
+[module/clock]
 type = internal/date
 ; interval = 5
 
@@ -228,7 +239,7 @@ time-alt = %A, %B %e, %Y at %I:%M:%S %P
 
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #0a6cf5
+format-underline = ${colors.color6}
 
 label = %date%%time%
 
@@ -238,9 +249,15 @@ date-alt =
 [module/volume]
 type = internal/volume
 
-format-volume = <label-volume>
-label-volume = " %percentage%%"
+format-volume = <ramp-volume> <label-volume>
+format-volume-underline = ${colors.color2}
+label-volume = %percentage%%
 label-volume-foreground = ${colors.foreground}
+
+ramp-volume-0 = 
+ramp-volume-1 = 
+ramp-volume-2 = 
+ramp-volume-foreground = ${colors.foreground-alt}
 
 label-muted = 
 format-muted-foreground = ${colors.foreground-alt}
@@ -269,7 +286,7 @@ adapter = AC
 full-at = 95
 
 format-charging = <animation-charging> <label-charging>
-format-charging-underline = ${colors.primary}
+format-charging-underline = ${colors.color3}
 
 format-discharging = <ramp-capacity> <label-discharging>
 format-discharging-underline = ${self.format-charging-underline}
@@ -298,7 +315,7 @@ type = internal/battery
 time-format = %H:%M:%S
 
 format-charging = <label-charging>
-format-charging-underline = ${colors.secondary}
+format-charging-underline = ${colors.color4}
 label-charging = %time% to F
 
 format-full = 
@@ -332,9 +349,10 @@ type = custom/menu
 format-spacing = 2
 
 label-open = 
-label-open-foreground = ${colors.secondary}
+label-open-foreground = ${colors.color2}
+label-open-underline = ${colors.color7}
 label-close =  cancel
-label-close-foreground = ${colors.secondary}
+label-close-foreground = ${colors.color2}
 label-separator = |
 label-separator-foreground = ${colors.foreground-alt}
 
