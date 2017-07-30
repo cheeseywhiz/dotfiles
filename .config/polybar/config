@@ -1,12 +1,3 @@
-;=====================================================
-;
-;   To learn more about how to configure Polybar
-;   go to https://github.com/jaagr/polybar
-;
-;   The README contains alot of information
-;
-;=====================================================
-
 [colors]
 color0 = ${xrdb:color0}
 color1 = ${xrdb:color1}
@@ -33,7 +24,7 @@ height = 24
 ; offset-x = 1%
 ; offset-y = 1%
 radius = 6.0
-fixed-center = false
+fixed-center = true
 
 background = ${colors.background}
 foreground = ${colors.foreground}
@@ -68,28 +59,6 @@ tray-padding = 2
 
 scroll-up = i3wm-wsnext
 scroll-down = i3wm-wsprev
-
-[module/xwindow]
-type = internal/xwindow
-label = %title%
-; label-maxlen = 50
-
-[module/filesystem]
-underline = ${colors.color5}
-
-type = internal/fs
-interval = 25
-
-mount-0 = /
-
-format-mounted = <label-mounted>
-format-mounted-padding = 1
-format-mounted-prefix = " "
-format-mounted-prefix-foreground = ${colors.iconcolor}
-label-mounted = %free%
-format-mounted-underline = ${self.underline}
-
-label-unmounted =
 
 [module/i3]
 underline = ${colors.color7}
@@ -131,6 +100,11 @@ ws-icon-1 = 2; 
 ws-icon-2 = 3; 
 ws-icon-3 = 4; 
 
+[module/xwindow]
+type = internal/xwindow
+label = %title%
+; label-maxlen = 50
+
 [module/cpu]
 underline = ${colors.color1}
 
@@ -143,38 +117,6 @@ format-underline = ${self.underline}
 
 format-padding = 1
 label = %percentage%%
-
-[module/memory]
-underline = ${colors.color1}
-
-type = internal/memory
-interval = 2
-
-format-prefix = " "
-format-prefix-foreground = ${colors.iconcolor}
-format-underline = ${self.underline}
-
-label = %percentage_used%%
-
-[module/clock]
-underline = ${colors.color6}
-
-type = internal/date
-
-; primary
-date = %I:%M %P
-; alt
-time-alt = %A, %B %e, %Y at %I:%M:%S %P
-
-format-padding = 1
-format-prefix = " "
-format-prefix-foreground = ${colors.iconcolor}
-format-underline = ${self.underline}
-
-label = %date%%time%
-
-time = 
-date-alt = 
 
 [module/volume]
 underline = ${colors.color2}
@@ -272,8 +214,46 @@ format-discharging-padding = 1
 format-discharging-underline = ${self.underline}
 label-discharging = %time% to E
 
+[module/filesystem]
+underline = ${colors.color5}
+
+type = internal/fs
+interval = 25
+
+mount-0 = /
+
+format-mounted = <label-mounted>
+format-mounted-padding = 1
+format-mounted-prefix = " "
+format-mounted-prefix-foreground = ${colors.iconcolor}
+label-mounted = %free%
+format-mounted-underline = ${self.underline}
+
+label-unmounted =
+
+[module/clock]
+underline = ${colors.color6}
+
+type = internal/date
+
+; primary
+date = %-I:%M %P
+; alt
+time-alt = %A, %B %e, %Y at %-I:%M:%S %P
+
+format-padding = 1
+format-prefix = " "
+format-prefix-foreground = ${colors.iconcolor}
+format-underline = ${self.underline}
+
+label = %date%%time%
+
+time = 
+date-alt = 
+
 [module/powermenu]
 underline = ${colors.color7}
+
 type = custom/menu
 
 format-spacing = 0
