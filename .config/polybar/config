@@ -9,7 +9,7 @@
 
 [colors]
 background = ${xrdb:color0:#222222}
-background-alt = #444
+background-alt = #444444
 foreground = ${xrdb:color7:#dfdfdf}
 foreground-alt = ${xrdb:color4:#555555}
 primary = #ffb52a
@@ -17,19 +17,19 @@ secondary = #e60053
 alert = #bd2c40
 
 [bar/top]
-monitor = ${env:MONITOR:eDP-1}
+monitor = eDP-1
 width = 100%
 height = 24
-;offset-x = 1%
-;offset-y = 1%
+; offset-x = 1%
+; offset-y = 1%
 radius = 6.0
-fixed-center = true
+fixed-center = false
 
 background = ${colors.background}
 foreground = ${colors.foreground}
 
 line-size = 3
-line-color = #ff0000
+line-color = #00ff00
 
 border-size = 3
 border-color = #00000000
@@ -42,19 +42,19 @@ module-margin-right = 2
 
 ; TODO: font-0 = SFNS Display:pixelsize=10;1
 font-0 = Sans:pixelsize=10;1
-font-1 = Monospace:size=8:antialias=false;0
-font-2 = FontAwesome:pixelsize=11;0
-font-3 = Sans:pixelsize=11;0
+font-1 = Monospace:pixelsize=9:antialias=false;1
+font-2 = FontAwesome:pixelsize=11;1
+; font-3 = Sans:pixelsize=11;1
 
 modules-left = i3 xwindow
-modules-right = volume filesystem cpu wlan battery batterytime temperature date powermenu
+modules-right = cpu volume battery batterytime filesystem date powermenu
 
 tray-position = center
 tray-padding = 2
-;tray-transparent = true
-;tray-background = #0063ff
+; tray-transparent = true
+; tray-background = #0063ff
 
-;override-redirect = true
+; override-redirect = true
 
 scroll-up = i3wm-wsnext
 scroll-down = i3wm-wsprev
@@ -62,7 +62,7 @@ scroll-down = i3wm-wsprev
 [module/xwindow]
 type = internal/xwindow
 label = %title%
-label-maxlen = 50
+; label-maxlen = 50
 
 [module/xkeyboard]
 type = internal/xkeyboard
@@ -87,6 +87,7 @@ interval = 25
 mount-0 = /
 
 label-mounted = %free%
+label-mounted-underline = #666666
 label-unmounted = %mountpoint% not mounted
 label-unmounted-foreground = ${colors.foreground-alt}
 
@@ -97,7 +98,7 @@ index-sort = true
 wrapping-scroll = false
 
 ; Only show workspaces on the same output as the bar
-;pin-workspaces = true
+; pin-workspaces = true
 
 label-mode-padding = 2
 label-mode-foreground = #000000
@@ -143,7 +144,7 @@ label-song-maxlen = 25
 label-song-ellipsis = true
 
 [module/xbacklight]
-;type = internal/xbacklight
+; type = internal/xbacklight
 
 format = <label> <bar>
 label = BL
@@ -190,16 +191,12 @@ format-connected-underline = #9f78e1
 label-connected = %essid%
 
 format-disconnected =
-;format-disconnected = <label-disconnected>
-;format-disconnected-underline = ${self.format-connected-underline}
-;label-disconnected = %ifname% disconnected
-;label-disconnected-foreground = ${colors.foreground-alt}
+; format-disconnected = <label-disconnected>
+; format-disconnected-underline = ${self.format-connected-underline}
+; label-disconnected = %ifname% disconnected
+; label-disconnected-foreground = ${colors.foreground-alt}
 
 ramp-signal-0 = 
-ramp-signal-1 = 
-ramp-signal-2 = 
-ramp-signal-3 = 
-ramp-signal-4 = 
 ramp-signal-foreground = ${colors.foreground-alt}
 
 [module/eth]
@@ -213,35 +210,39 @@ format-connected-prefix-foreground = ${colors.foreground-alt}
 label-connected = %local_ip%
 
 format-disconnected =
-;format-disconnected = <label-disconnected>
-;format-disconnected-underline = ${self.format-connected-underline}
-;label-disconnected = %ifname% disconnected
-;label-disconnected-foreground = ${colors.foreground-alt}
+; format-disconnected = <label-disconnected>
+; format-disconnected-underline = ${self.format-connected-underline}
+; label-disconnected = %ifname% disconnected
+; label-disconnected-foreground = ${colors.foreground-alt}
 
 [module/date]
 type = internal/date
-;interval = 5
+; interval = 5
 
-date = %Y/%m/%d
-date-alt = 
-
-time = %H:%M:%S
-time-alt = %H:%M
+; date = %F %r
+; date = %c
+; primary
+date = %I:%M %P
+; alt
+time-alt = %A, %B %e, %Y at %I:%M:%S %P
 
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
 format-underline = #0a6cf5
 
-label = %date% %time%
+label = %date%%time%
+
+time = 
+date-alt = 
 
 [module/volume]
 type = internal/volume
 
-format-volume = <label-volume><bar-volume>
-label-volume = " "
+format-volume = <label-volume>
+label-volume = " %percentage%%"
 label-volume-foreground = ${colors.foreground}
 
-label-muted = ""
+label-muted = 
 format-muted-foreground = ${colors.foreground-alt}
 
 bar-volume-width = 10
@@ -268,7 +269,7 @@ adapter = AC
 full-at = 95
 
 format-charging = <animation-charging> <label-charging>
-format-charging-underline = #ffb52a
+format-charging-underline = ${colors.primary}
 
 format-discharging = <ramp-capacity> <label-discharging>
 format-discharging-underline = ${self.format-charging-underline}
@@ -294,17 +295,17 @@ animation-charging-framerate = 1000
 
 [module/batterytime]
 type = internal/battery
-time-format = %Hh %Mm %Ss
+time-format = %H:%M:%S
 
 format-charging = <label-charging>
-format-charging-underline = ${module.battery.format-charging-underline:#ffb52a}
-label-charging = %time% to full
+format-charging-underline = ${colors.secondary}
+label-charging = %time% to F
 
 format-full = 
 
 format-discharging = <label-discharging>
 format-discharging-underline = ${self.format-charging-underline}
-label-discharging = %time% to empty
+label-discharging = %time% to E
 
 [module/temperature]
 type = internal/temperature
@@ -328,7 +329,7 @@ ramp-foreground = ${colors.foreground-alt}
 [module/powermenu]
 type = custom/menu
 
-format-spacing = 1
+format-spacing = 2
 
 label-open = 
 label-open-foreground = ${colors.secondary}
@@ -347,17 +348,17 @@ menu-1-0-exec = menu-open-0
 menu-1-1 = reboot
 menu-1-1-exec = sudo reboot
 
-menu-2-0 = power off
+menu-2-0 = "power off"
 menu-2-0-exec = sudo poweroff
 menu-2-1 = cancel
 menu-2-1-exec = menu-open-0
 
 [settings]
 screenchange-reload = true
-;compositing-background = xor
-;compositing-background = screen
-;compositing-foreground = source
-;compositing-border = over
+; compositing-background = xor
+; compositing-background = screen
+; compositing-foreground = source
+; compositing-border = over
 
 [global/wm]
 margin-top = 5
