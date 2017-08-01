@@ -35,7 +35,7 @@ line-size = 4
 border-size = 4
 border-color = ${colors.transparent}
 
-padding-left = 2
+; padding-left = 0
 ; padding-right = 0
 
 ; module-margin-left = 0
@@ -45,7 +45,6 @@ padding-left = 2
 font-0 = Sans:pixelsize=10;1
 font-1 = Monospace:pixelsize=9:antialias=false;1
 font-2 = FontAwesome:pixelsize=11;1
-; font-3 = Sans:pixelsize=11;1
 
 modules-left = i3
 modules-center = xwindow
@@ -66,9 +65,13 @@ underline = ${colors.color7}
 padding = 2
 
 type = internal/i3
-format = "  <label-state><label-mode>"
+format = <label-state><label-mode>
 index-sort = true
 wrapping-scroll = false
+
+format-prefix = 
+format-prefix-padding = 2
+format-prefix-foreground = ${colors.icon}
 
 ; Only show workspaces on the same output as the bar
 ; pin-workspaces = true
