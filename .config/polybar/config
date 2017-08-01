@@ -1,21 +1,22 @@
 [colors]
-color0 = ${xrdb:color0}
-color1 = ${xrdb:color1}
-color2 = ${xrdb:color2}
-color3 = ${xrdb:color3}
-color4 = ${xrdb:color4}
-color5 = ${xrdb:color5}
-color6 = ${xrdb:color6}
-color7 = ${xrdb:color7}
-color8 = ${xrdb:color8}
+transparent = #00000000
+; use blank color until wal pushes new colors
+color0 = ${xrdb:color0:${self.transparent}}
+color1 = ${xrdb:color1:${self.transparent}}
+color2 = ${xrdb:color2:${self.transparent}}
+color3 = ${xrdb:color3:${self.transparent}}
+color4 = ${xrdb:color4:${self.transparent}}
+color5 = ${xrdb:color5:${self.transparent}}
+color6 = ${xrdb:color6:${self.transparent}}
+color7 = ${xrdb:color7:${self.transparent}}
+color8 = ${xrdb:color8:${self.transparent}}
 
 background = ${self.color0}
-background-alt = ${self.color8}
+background-alt = ${self.color4}
 foreground = ${self.color7}
 
-iconcolor = ${self.color4}
+icon = ${self.color4}
 alert = ${self.color1}
-transparent = #00000000
 
 [bar/top]
 monitor = eDP-1
@@ -29,12 +30,12 @@ fixed-center = true
 background = ${colors.background}
 foreground = ${colors.foreground}
 
-line-size = 3
+line-size = 4
 
-border-size = 3
+border-size = 4
 border-color = ${colors.transparent}
 
-; padding-left = 0
+padding-left = 2
 ; padding-right = 0
 
 ; module-margin-left = 0
@@ -65,7 +66,7 @@ underline = ${colors.color7}
 padding = 2
 
 type = internal/i3
-format = <label-state><label-mode>
+format = "  <label-state><label-mode>"
 index-sort = true
 wrapping-scroll = false
 
@@ -98,7 +99,7 @@ label-urgent-padding = ${self.padding}
 ws-icon-0 = 1; 
 ws-icon-1 = 2; 
 ws-icon-2 = 3; 
-ws-icon-3 = 4; 
+ws-icon-3 = 4; 
 
 [module/xwindow]
 type = internal/xwindow
@@ -112,7 +113,7 @@ type = internal/cpu
 interval = 2
 
 format-prefix = " "
-format-prefix-foreground = ${colors.iconcolor}
+format-prefix-foreground = ${colors.icon}
 format-underline = ${self.underline}
 
 format-padding = 1
@@ -122,6 +123,7 @@ label = %percentage%%
 underline = ${colors.color2}
 
 type = internal/volume
+master-mixer = IEC958
 
 format-volume = <ramp-volume> <label-volume>
 format-volume-padding = 1
@@ -132,11 +134,11 @@ label-volume-foreground = ${colors.foreground}
 ramp-volume-0 = 
 ramp-volume-1 = 
 ramp-volume-2 = 
-ramp-volume-foreground = ${colors.iconcolor}
+ramp-volume-foreground = ${colors.icon}
 
 label-muted = 
 label-muted-padding = 1
-format-muted-foreground = ${colors.iconcolor}
+format-muted-foreground = ${colors.icon}
 format-muted-underline = ${self.underline}
 
 bar-volume-width = 10
@@ -154,7 +156,7 @@ bar-volume-fill = =
 bar-volume-fill-font = 2
 bar-volume-empty = ─
 bar-volume-empty-font = 2
-bar-volume-empty-foreground = ${colors.iconcolor}
+bar-volume-empty-foreground = ${colors.icon}
 
 [module/battery]
 underline = ${colors.color3}
@@ -173,22 +175,25 @@ format-discharging-padding = 1
 format-discharging-underline = ${self.underline}
 
 format-full-prefix = " "
-format-full-prefix-foreground = ${colors.iconcolor}
+format-full-prefix-foreground = ${colors.icon}
 format-full-underline = ${self.underline}
 
-ramp-capacity-0 = 
-ramp-capacity-1 = 
-ramp-capacity-2 = 
-ramp-capacity-3 = 
-ramp-capacity-4 = 
-ramp-capacity-foreground = ${colors.iconcolor}
+ramp-capacity-0 =  
+ramp-capacity-0-padding = 1
+ramp-capacity-0-background = ${colors.alert}
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-3 = 
+ramp-capacity-4 = 
+ramp-capacity-5 = 
+ramp-capacity-foreground = ${colors.icon}
 
 animation-charging-0 = 
 animation-charging-1 = 
 animation-charging-2 = 
 animation-charging-3 = 
 animation-charging-4 = 
-animation-charging-foreground = ${colors.iconcolor}
+animation-charging-foreground = ${colors.icon}
 animation-charging-framerate = 1000
 
 [module/batterytime]
@@ -196,10 +201,10 @@ underline = ${colors.color4}
 
 type = internal/battery
 time-format = %-H:%M
-full-at = 100
+full-at = 95
 
 format-charging-prefix = " "
-format-charging-prefix-foreground = ${colors.iconcolor}
+format-charging-prefix-foreground = ${colors.icon}
 format-charging = <label-charging>
 format-charging-padding = 1
 format-charging-underline = ${self.underline}
@@ -208,7 +213,7 @@ label-charging = %time% to F
 format-full = 
 
 format-discharging-prefix = " "
-format-discharging-prefix-foreground = ${colors.iconcolor}
+format-discharging-prefix-foreground = ${colors.icon}
 format-discharging = <label-discharging>
 format-discharging-padding = 1
 format-discharging-underline = ${self.underline}
@@ -225,7 +230,7 @@ mount-0 = /
 format-mounted = <label-mounted>
 format-mounted-padding = 1
 format-mounted-prefix = " "
-format-mounted-prefix-foreground = ${colors.iconcolor}
+format-mounted-prefix-foreground = ${colors.icon}
 label-mounted = %free%
 format-mounted-underline = ${self.underline}
 
@@ -243,7 +248,7 @@ time-alt = %A, %B %e, %Y at %-I:%M:%S %P
 
 format-padding = 1
 format-prefix = " "
-format-prefix-foreground = ${colors.iconcolor}
+format-prefix-foreground = ${colors.icon}
 format-underline = ${self.underline}
 
 label = %date%%time%
@@ -267,7 +272,7 @@ label-close-foreground = ${colors.color2}
 label-close-underline = ${self.underline}
 label-separator = |
 label-separator-padding = 1
-label-separator-foreground = ${colors.iconcolor}
+label-separator-foreground = ${colors.icon}
 label-separator-underline = ${self.underline}
 
 menu-0-0 = reboot

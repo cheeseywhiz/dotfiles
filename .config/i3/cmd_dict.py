@@ -9,7 +9,7 @@ cmd_dict = {
         },
     },
     1: {
-        'cmd': ['firefox', '--new-window'],
+        'cmd': ['chromium', 'https://www.reddit.com/'],
         'msg': {
             'long': 'Opening Firefox',
             'short': 'Firefox',
@@ -45,7 +45,7 @@ cmd_dict = {
         },
     },
     10: {
-        'cmd': ['firefox', '--private-window', 'https://www.reddit.com/'],
+        'cmd': ['chromium', '--incognito', 'https://www.reddit.com/'],
         'msg': {
             'long': 'Opening private Firefox window',
             'short': 'Firefox private',

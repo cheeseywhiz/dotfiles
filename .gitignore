@@ -32,3 +32,5 @@ Pictures/*
 */**/__pycache__/*
 */**/*.egg
 */**/*.egg-info
+!.config/res
+!.config/res/*

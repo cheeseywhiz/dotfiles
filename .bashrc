@@ -7,6 +7,7 @@
 
 (wal -r &)
 
+alias pacman='pacman --color=auto'
 alias ls='ls -h --color=auto'
 alias ll='ls -l'
 alias la='ls -al'
