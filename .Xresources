@@ -1,11 +1,4 @@
 !! rofi
-!                     bg       border     sep
-!rofi.color-window:   #111111, #00123456, #ffffff
-
-!                     bg         fg       bg alt     hl bg      hl fg
-!rofi.color-normal:   #00123456, #ffffff, #00123456, #00123456, #efa211
-!rofi.color-urgent:   #00123456, #ffffff, #00123456, #00123456, #efa211
-!rofi.color-active:   #00123456, #ffffff, #00123456, #00123456, #efa211
 rofi.hide-scrollbar: true
 rofi.lines:          5
 rofi.width:          33
@@ -15,5 +8,3 @@ rofi.font:           SFNS Display 16
 URxvt.chdir:        /home/cheese
 URxvt.scrollBar:    false
 URxvt.depth:        32
-URxvt.urgentOnBell: true
-URxvt.font:         6x13

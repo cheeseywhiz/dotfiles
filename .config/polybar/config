@@ -177,9 +177,10 @@ format-discharging = <ramp-capacity> <label-discharging>
 format-discharging-padding = 1
 format-discharging-underline = ${self.underline}
 
-format-full-prefix = " "
-format-full-prefix-foreground = ${colors.icon}
-format-full-underline = ${self.underline}
+label-full = 
+label-full-padding = 1
+label-full-prefix-foreground = ${colors.icon}
+label-full-underline = ${self.underline}
 
 ramp-capacity-0 =  
 ramp-capacity-0-padding = 1
