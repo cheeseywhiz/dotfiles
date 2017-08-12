@@ -1,3 +1,9 @@
+chromium = [
+    'chromium',
+    '--load-extension=/home/cheese/.cache/wal/wal_chrome',
+    'https://www.reddit.com/',
+]
+
 cmd_dict = {
     None: {
         'cmd': ['bash', '-c', 'exec'],
@@ -9,7 +15,7 @@ cmd_dict = {
         },
     },
     1: {
-        'cmd': ['chromium', 'https://www.reddit.com/'],
+        'cmd': chromium,
         'msg': {
             'long': 'Opening Firefox',
             'short': 'Firefox',
@@ -45,7 +51,7 @@ cmd_dict = {
         },
     },
     10: {
-        'cmd': ['chromium', '--incognito', 'https://www.reddit.com/'],
+        'cmd': [*chromium, '--incognito'],
         'msg': {
             'long': 'Opening private Firefox window',
             'short': 'Firefox private',

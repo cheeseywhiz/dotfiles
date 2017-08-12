@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# TODO: generate images by tinting a grayscale theme according to wal palatte
 import json
 import os
 from pywal.settings import CACHE_DIR
@@ -27,27 +28,24 @@ def wal_palatte():
 
 def manifest_json(palatte):
     return json.dumps({
-        "manifest_version": 2,
-        "name": "wal_theme",
-        "version": "1.0",
-        "theme": {
-            "colors": {
-                "frame": palatte['color1'],
-                "toolbar": palatte['color0'],
-                "tab_text": palatte['color7'],
-                "tab_background_text": palatte['color8'],
-                "bookmark_text": palatte['color7'],
-                "ntp_background": palatte['color0'],
-                "ntp_text": palatte['color7'],
+        'manifest_version': 2,
+        'name': 'wal_chrome',
+        'version': '1.0',
+        'theme': {
+            'colors': {
+                'frame': palatte['color1'],
+                'toolbar': palatte['color0'],
+                'tab_text': palatte['color7'],
+                'tab_background_text': palatte['color8'],
+                'bookmark_text': palatte['color7'],
+                'ntp_background': palatte['color0'],
+                'ntp_text': palatte['color7'],
             }, }, })
 
 
 def main():
     palatte = wal_palatte()
-    json_path = os.path.join(os.path.join(
-        CACHE_DIR,
-        'wal_chrome'),
-        'manifest.json')
+    json_path = os.path.join(CACHE_DIR, 'wal_chrome', 'manifest.json')
     with open(json_path, 'w') as file:
         file.write(manifest_json(palatte))
 
