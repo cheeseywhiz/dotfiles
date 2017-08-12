@@ -18,6 +18,7 @@ Pictures/*
 !.config/sublime-text-3/Cache/*
 !.config/compton.conf/*
 !.config/neofetch/config
+!.config/wal/*
 !.fonts/*
 !.i3blocks/*
 !compton.conf

@@ -249,20 +249,11 @@ bindsym shift+XF86MonBrightnessDown exec xbacklight -set 1 $slow
 bindsym XF86MonBrightnessUp exec xbacklight -inc 10 $quick
 bindsym shift+XF86MonBrightnessUp exec xbacklight -set 100 $slow
 
-### now handled by $mod+x ws-key-func
-### Execute the central command for each workspace
-##init
-# exec i3-msg 'workspace 1; exec firefox'
-# exec i3-msg 'workspace 2; exec subl3'
-# exec i3-msg 'workspace 3; exec $terminal'
-# exec i3-msg 'workspace 4; exec gitkraken'
-# exec i3-msg 'workspace 1'
-
-set $wal_cmd /usr/bin/wal -i $HOME/Pictures/wallpapers -a 93
+set $wal_cmd $HOME/.config/wal/launch.sh
 
 exec_always --no-startup-id compton -bc --config $HOME/.config/compton.conf
 exec --no-startup-id $wal_cmd
 
 bindsym $mod+Shift+x exec xrdb -merge $HOME/.Xresources
-bindsym $mod+Shift+l exec $bar_cmd
+bindsym $mod+Shift+b exec $bar_cmd
 bindsym $mod+Shift+w exec $wal_cmd
