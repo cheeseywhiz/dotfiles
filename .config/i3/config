@@ -47,6 +47,7 @@ floating_modifier $mod
 # start a terminal
 set $terminal urxvt
 bindsym $mod+Return exec $terminal
+bindsym $mod+Shift+Return exec transparent
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -249,7 +250,7 @@ bindsym shift+XF86MonBrightnessDown exec xbacklight -set 1 $slow
 bindsym XF86MonBrightnessUp exec xbacklight -inc 10 $quick
 bindsym shift+XF86MonBrightnessUp exec xbacklight -set 100 $slow
 
-set $wal_cmd $HOME/.config/wal/launch.sh
+set $wal_cmd $HOME/.config/wal/launch.sh $HOME/Pictures/wallpapers
 
 exec_always --no-startup-id compton -bc --config $HOME/.config/compton.conf
 exec --no-startup-id $wal_cmd

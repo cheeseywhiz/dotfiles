@@ -7,6 +7,7 @@
 
 (wal -r &)
 
+alias wallaunch='$HOME/.config/wal/launch.sh'
 alias reset='reset -Q'
 alias pacman='pacman --color=auto'
 alias ls='ls -h --color=auto'

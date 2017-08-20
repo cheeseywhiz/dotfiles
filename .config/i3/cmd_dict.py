@@ -1,5 +1,6 @@
 chromium = [
     'chromium',
+    '--new-window',
     '--load-extension=/home/cheese/.cache/wal/wal_chrome',
     'https://www.reddit.com/',
 ]

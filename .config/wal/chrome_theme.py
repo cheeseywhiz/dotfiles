@@ -32,6 +32,9 @@ def manifest_json(palatte):
         'name': 'wal_chrome',
         'version': '1.0',
         'theme': {
+            'images': {
+                'theme_ntp_background': 'img/theme_ntp_background.jpg'
+            },
             'colors': {
                 'frame': palatte['color1'],
                 'toolbar': palatte['color0'],
@@ -40,6 +43,11 @@ def manifest_json(palatte):
                 'bookmark_text': palatte['color7'],
                 'ntp_background': palatte['color0'],
                 'ntp_text': palatte['color7'],
+            },
+            'properties': {
+                'ntp_background_repeat': 'no-repeat',
+                'ntp_background_alignment': 'middle middle',
+                'ntp_logo_alternate': 0,
             }, }, })
 
 

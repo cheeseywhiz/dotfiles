@@ -107,7 +107,7 @@ ws-icon-3 = 4; 
 [module/xwindow]
 type = internal/xwindow
 label = %title%
-; label-maxlen = 50
+label-maxlen = 100
 
 [module/cpu]
 underline = ${colors.color1}
@@ -179,7 +179,7 @@ format-discharging-underline = ${self.underline}
 
 label-full = 
 label-full-padding = 1
-label-full-prefix-foreground = ${colors.icon}
+label-full-foreground = ${colors.icon}
 label-full-underline = ${self.underline}
 
 ramp-capacity-0 =  
@@ -214,7 +214,7 @@ format-charging-padding = 1
 format-charging-underline = ${self.underline}
 label-charging = %time% to F
 
-format-full = 
+label-full =
 
 format-discharging-prefix = " "
 format-discharging-prefix-foreground = ${colors.icon}
@@ -229,7 +229,7 @@ underline = ${colors.color5}
 type = internal/fs
 interval = 25
 
-mount-0 = /
+mount-0 = /mnt/home
 
 format-mounted = <label-mounted>
 format-mounted-padding = 1
