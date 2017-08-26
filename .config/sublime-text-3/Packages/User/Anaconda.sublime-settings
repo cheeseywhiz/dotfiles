@@ -33,8 +33,10 @@
     */
     "pep8_ignore":
     [
+        "E228",
         "E309",
-        "E228"
+        "E731",
+        "W503",
     ],
 
     "disable_anaconda_completion": false,

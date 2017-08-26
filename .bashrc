@@ -8,6 +8,8 @@
 (wal -r &)
 
 alias wallaunch='$HOME/.config/wal/launch.sh'
+alias walnow='cat $HOME/.cache/wal/wal'
+alias walcopy='cp $(walnow) $HOME/Pictures/wallpapers'
 alias reset='reset -Q'
 alias pacman='pacman --color=auto'
 alias ls='ls -h --color=auto'

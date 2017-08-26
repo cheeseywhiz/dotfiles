@@ -116,7 +116,7 @@ assign [class="GitKraken"] 4
 for_window [class="GitKraken"] floating enable
 
 # Execute key command for each workspace
-bindsym $mod+x exec $HOME/.config/i3/ws-key-func
+bindsym $mod+x exec $HOME/.config/i3/i3launcher.py
 
 # switch to workspace
 bindsym $mod+1 workspace 1
@@ -129,6 +129,7 @@ bindsym $mod+7 workspace 7
 bindsym $mod+8 workspace 8
 bindsym $mod+9 workspace 9
 bindsym $mod+0 workspace 10
+bindsym $mod+grave workspace 10
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace 1
@@ -141,6 +142,7 @@ bindsym $mod+Shift+7 move container to workspace 7
 bindsym $mod+Shift+8 move container to workspace 8
 bindsym $mod+Shift+9 move container to workspace 9
 bindsym $mod+Shift+0 move container to workspace 10
+bindsym $mod+Shift+grave move container to workspace 10
 
 ##i3-gaps inactive-text-color
 for_window [class="^.*"] border pixel 0
@@ -191,7 +193,7 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 # bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
-bindsym $mod+Shift+e exit
+bindsym $mod+Shift+Ctrl+e exit
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
