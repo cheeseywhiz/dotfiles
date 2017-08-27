@@ -69,7 +69,7 @@ format = <label-state><label-mode>
 index-sort = true
 wrapping-scroll = false
 
-format-prefix = %{A1:$HOME/.config/i3/ws-key-func:}%{A}
+format-prefix = %{A1:$HOME/.config/i3/i3launcher.py:}%{A}
 format-prefix-padding = 2
 format-prefix-foreground = ${colors.icon}
 
