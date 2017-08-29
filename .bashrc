@@ -7,6 +7,7 @@
 
 (wal -r &)
 
+alias sudo='sudo'
 alias wallaunch='$HOME/.config/wal/launch.sh'
 alias walnow='cat $HOME/.cache/wal/wal'
 alias walcopy='cp $(walnow) $HOME/Pictures/wallpapers'

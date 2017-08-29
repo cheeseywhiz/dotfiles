@@ -252,9 +252,9 @@ bindsym shift+XF86MonBrightnessDown exec xbacklight -set 1 $slow
 bindsym XF86MonBrightnessUp exec xbacklight -inc 10 $quick
 bindsym shift+XF86MonBrightnessUp exec xbacklight -set 100 $slow
 
-set $wallaunch $HOME/.config/wal/launch.sh
+set $wallaunch $HOME/.config/wal/launch.py
 set $wal_args $HOME/Pictures/wallpapers
-set $reddit_wal_args $($HOME/cheeseywhiz/Reddit-scripts/wallpapers/collect.py /tmp/wal)
+set $reddit_wal_args $(collect -d -v)
 
 exec_always --no-startup-id compton -bc --config $HOME/.config/compton.conf
 exec --no-startup-id $wallaunch $reddit_wal_args

@@ -1,9 +1,16 @@
 #!/usr/bin/env python3
+"""Centralized and standardized wal launch process"""
+import argparse
+import os
 import pathlib
 import subprocess
 import sys
 
 WAL_CACHE = pathlib.Path.home() / '.cache/wal'
+
+
+def path_type(path):
+    return os.path.abspath(os.path.expanduser(path))
 
 
 def call(*args, **Popen_kwargs):
@@ -27,9 +34,19 @@ def wal(path):
     call(pathlib.Path.home() / '.config/wal/chrome_theme.py')
 
 
-def main(_, path):
-    wal(path)
+def main(argv=None):
+    if argv is None:
+        argv = sys.argv[1:]
+
+    arg = argparse.ArgumentParser(description=__doc__)
+
+    arg.add_argument(
+        'path', type=path_type,
+        help='Path given directly to wal -i.')
+
+    args = arg.parse_args(argv)
+    wal(args.path)
 
 
 if __name__ == '__main__':
-    main(*sys.argv)
+    main()

@@ -4,11 +4,6 @@ import pathlib
 import subprocess
 from cmd_dict import cmd_dict
 
-
-def exec(*args):
-    return subprocess.Popen(args)
-
-
 unspecified = object()
 
 ws_cmd = subprocess.Popen(

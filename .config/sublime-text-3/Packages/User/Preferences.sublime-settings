@@ -19,7 +19,10 @@
 		"include",
 		"lib",
 		"Old Firefox Data",
-		"Sublime Projects"
+		"Sublime Projects",
+		"build",
+		"*.egg-info",
+		"dist"
 	],
 	"font_face": "Monospace",
 	"font_size": 10,
