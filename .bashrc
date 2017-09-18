@@ -8,7 +8,7 @@
 (wal -r &)
 
 alias sudo='sudo'
-alias wallaunch='$HOME/.config/wal/launch.sh'
+alias wallaunch='$HOME/.config/wal/launch.py'
 alias walnow='cat $HOME/.cache/wal/wal'
 alias walcopy='cp $(walnow) $HOME/Pictures/wallpapers'
 alias reset='reset -Q'

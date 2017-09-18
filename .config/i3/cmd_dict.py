@@ -6,7 +6,7 @@ chromium = (
 
 cmd_dict = {
     1: chromium,
-    2: ('subl3', ),
+    2: ('subl', ),
     3: ('urxvt', ),
     4: ('gitkraken', ),
     10: (*chromium, '--incognito', 'https://www.reddit.com/'),
