@@ -1,6 +1,6 @@
 {
 	"always_show_minimap_viewport": true,
-	"color_scheme": "Packages/Gotham-Theme/Gotham.tmTheme",
+	"color_scheme": "Packages/Gotham Theme/Gotham.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
 	[
@@ -24,8 +24,8 @@
 		"*.egg-info",
 		"dist"
 	],
-	"font_face": "Monospace",
-	"font_size": 10,
+	"font_face": "Consolas",
+	"font_size": 11,
 	"ignored_packages":
 	[
 		"All Autocomplete",
