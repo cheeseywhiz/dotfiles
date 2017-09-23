@@ -9,8 +9,7 @@
 
 rel_git_path() {
     if git rev-parse >& /dev/null; then
-        echo -n "git: "
-        realpath --relative-to=$(dirname $(dirname $(realpath $(git rev-parse --git-dir)))) $(pwd)
+        realpath --relative-to=$(git rev-parse --git-dir)/../.. $(pwd)
     else
         pwd
     fi
