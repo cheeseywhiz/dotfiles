@@ -20,10 +20,10 @@ class ImagePath(collect.path.Path):
     def save(self, array):
         """Save an array as an image to this path."""
         array = np.clip(array, 0, 255)
-        array = np.asarray(array, dtype=np.uint8)
+        array = np.asarray(array, np.uint8)
 
         with open(self, 'wb') as file:
-            Image.fromarray(array).save(file, format='png')
+            Image.fromarray(array).save(file)
 
         return self
 
@@ -63,14 +63,12 @@ class TintParser(argparse.ArgumentParser):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         super().add_argument(
-            'input', type=ImagePath,
-            help='Input image path')
-        super().add_argument(
-            'output', type=ImagePath,
-            help='Output image path')
+            'input', type=ImagePath, help='Input image path')
         super().add_argument(
             'color',
             help='The hex color to apply to the image. Preceeding # optional.')
+        super().add_argument(
+            'output', type=ImagePath, help='Output image path')
 
     def parse_args(self, argv=None, *args, **kwargs):
         if argv is None:
