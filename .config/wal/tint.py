@@ -47,7 +47,8 @@ def tint_map(grayscale_map, color):
                 color_array[i, j, k] = value
                 grayscale_rgb[i, j, k] = pixel
 
-    return np.clip(color_array * grayscale_rgb / 127, 0, 255)
+    new_array = color_array * grayscale_rgb / np.mean(grayscale_map)
+    return np.clip(new_array, 0, 255)
 
 
 def hex_to_rgb(hex_str):

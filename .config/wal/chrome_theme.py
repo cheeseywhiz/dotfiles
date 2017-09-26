@@ -8,7 +8,7 @@ import collect
 import tint
 
 FILE = collect.path.Path(__file__)
-IMAGE_MAP = tint.ImagePath(FILE.parent / 'theme_toolbar.png')
+DIR = FILE.parent
 CACHE_DIR = collect.path.Path(CACHE_DIR)
 
 log = collect.logging.getLogger()
@@ -49,13 +49,13 @@ def ntp_background():
 
 def toolbar(hex_palatte):
     """Generate the toolbar image based on color0."""
-    IMAGE_MAP.tint(
+    tint.ImagePath(DIR / 'theme_toolbar.png').tint(
         hex_palatte[0], CACHE_DIR / 'wal_chrome/img/theme_toolbar.png')
 
 
 def frame(hex_palatte):
     """Generate the frame image based on color1."""
-    IMAGE_MAP.tint(
+    tint.ImagePath(DIR / 'theme_frame.png').tint(
         hex_palatte[1], CACHE_DIR / 'wal_chrome/img/theme_frame.png')
 
 
@@ -92,7 +92,8 @@ def main():
     frame(hex_palatte)
 
     with (CACHE_DIR / 'wal_chrome/manifest.json').open('w') as file:
-        json.dump(manifest(rgb_palatte), file)
+        json.dump(manifest(rgb_palatte), file, separators=(',', ':'))
+        file.write('\n')
 
     log.info('Made chrome theme')
 
