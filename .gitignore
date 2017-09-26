@@ -4,7 +4,6 @@
 .config/*
 .config/sublime-text-3/*
 .config/neofetch/*
-.i3blocks/sys-msg/pipe
 Pictures/*
 !.gitignore
 !.bash_logout
@@ -12,15 +11,13 @@ Pictures/*
 !.bashrc
 !.Xresources
 !.xinitrc
-!.themes/Flatabulous-wal/*
+!.fonts/FontAwesome.otf
 !.config/i3/*
 !.config/sublime-text-3/Packages/*
 .config/sublime-text-3/Packages/SublimeCodeIntel
 !.config/compton.conf/*
 !.config/neofetch/config
 !.config/wal/*
-!.fonts/*
-!.i3blocks/*
 !compton.conf
 !.config/gtk-2.0/*
 !.config/gtk-3.0/*
