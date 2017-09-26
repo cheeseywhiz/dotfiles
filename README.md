@@ -4,7 +4,7 @@ compton
 
 feh
 
-i3blocks
+git
 
 rofi
 
@@ -14,11 +14,17 @@ pulseaudio
 
 rxvt-unicode
 
+sublime-text
+
 ## AUR
+
+chromium
+
+gitkraken
 
 i3-gaps
 
-sublime-text-dev
+neofetch
 
 polybar-git
 
@@ -28,15 +34,9 @@ python-pywal
 
 ### pacman
 
-firefox
-
-git
-
 lxappearance
 
 ranger
-
-screenfetch
 
 scrot
 

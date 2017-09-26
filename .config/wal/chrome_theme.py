@@ -97,8 +97,7 @@ def main():
     frame(hex_p)
 
     with (THEME_DIR / 'manifest.json').open('w') as file:
-        json.dump(manifest(rgb_p), file, separators=(',', ':'))
-        file.write('\n')
+        json.dump(manifest(rgb_p), file)
 
     log.info('Made chrome theme')
 
