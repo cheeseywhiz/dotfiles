@@ -1,0 +1,23 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"Anaconda",
+		"Git blame",
+		"GitGutter",
+		"Gitignore",
+		"Gotham Theme",
+		"i3 wm",
+		"INI",
+		"Package Control",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeLinter-cpplint",
+		"SummitLinter",
+		"Terminal"
+	]
+}

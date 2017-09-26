@@ -1,0 +1,43 @@
+{
+	/*
+        If this is set to true, anaconda will show errors inline.
+    */
+    "anaconda_linter_phantoms": true,
+
+    /*
+        Sets the linting behaviour for anaconda:
+
+        "always" - Linting works always even while you are writing (in the background)
+        "load-save" - Linting works in file load and save only
+        "save-only" - Linting works in file save only
+    */
+    "anaconda_linting_behaviour": "save-only",
+
+    /*
+        Do not fix the errors listed here:
+        Note: By default we ignore E309 as this is not pep8 but it does
+        conflict with pep257 D211.
+    */
+    "autoformat_ignore":
+    [
+        "E309",
+        "E228"
+    ],
+
+    /*
+        A list of pep8 error numbers to ignore.
+        The list of error codes is in this file:
+            https://github.com/jcrocholl/pep8/blob/master/pep8.py.
+        Search for "Ennn:", where nnn is a 3-digit number.
+        E309 is ignored by default as it conflicts with pep257 E211
+    */
+    "pep8_ignore":
+    [
+        "E228",
+        "E309",
+        "E731",
+        "W503",
+    ],
+
+    "disable_anaconda_completion": false,
+}

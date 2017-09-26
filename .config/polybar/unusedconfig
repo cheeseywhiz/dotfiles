@@ -1,0 +1,116 @@
+[module/xkeyboard]
+type = internal/xkeyboard
+blacklist-0 = num lock
+underline = ${colors.color1}
+
+format-prefix = " "
+format-prefix-foreground = ${colors.foreground-alt}
+format-prefix-underline = ${self.underline}
+
+label-layout = %layout%
+label-layout-underline = ${self.underline}
+
+label-indicator-padding = 2
+label-indicator-margin = 1
+label-indicator-background = ${colors.alert}
+label-indicator-underline = ${self.underline}
+
+[module/mpd]
+type = internal/mpd
+format-online = <label-song>  <icon-prev> <icon-stop> <toggle> <icon-next>
+
+icon-prev = 
+icon-stop = 
+icon-play = 
+icon-pause = 
+icon-next = 
+
+label-song-maxlen = 25
+label-song-ellipsis = true
+
+[module/xbacklight]
+; type = internal/xbacklight
+
+format = <label> <bar>
+label = BL
+
+bar-width = 10
+bar-indicator = |
+bar-indicator-foreground = #ff
+bar-indicator-font = 2
+bar-fill = ─
+bar-fill-font = 2
+bar-fill-foreground = #9f78e1
+bar-empty = ─
+bar-empty-font = 2
+bar-empty-foreground = ${colors.foreground-alt}
+
+[module/backlight-acpi]
+inherit = module/xbacklight
+type = internal/backlight
+card = intel_backlight
+
+[module/wlan]
+type = internal/network
+interface = wlp6s0
+interval = 3.0
+
+format-connected = <ramp-signal> <label-connected>
+format-connected-underline = ${colors.color1}
+label-connected = %essid%
+
+format-disconnected =
+; format-disconnected = <label-disconnected>
+; format-disconnected-underline = ${self.format-connected-underline}
+; label-disconnected = %ifname% disconnected
+; label-disconnected-foreground = ${colors.foreground-alt}
+
+ramp-signal-0 = 
+ramp-signal-foreground = ${colors.foreground-alt}
+
+[module/eth]
+type = internal/network
+interface = enp7s0
+interval = 3.0
+
+format-connected-underline = #55aa55
+format-connected-prefix = " "
+format-connected-prefix-foreground = ${colors.foreground-alt}
+label-connected = %local_ip%
+
+format-disconnected =
+; format-disconnected = <label-disconnected>
+; format-disconnected-underline = ${self.format-connected-underline}
+; label-disconnected = %ifname% disconnected
+; label-disconnected-foreground = ${colors.foreground-alt}
+
+[module/temperature]
+type = internal/temperature
+thermal-zone = 0
+warn-temperature = 59
+
+format = <ramp> <label>
+format-underline = ${colors.color1}
+format-warn = <ramp> <label-warn>
+format-warn-background = ${colors.alert}
+format-warn-underline = ${self.format-underline}
+
+label = %temperature%
+label-warn = %temperature%
+
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
+ramp-foreground = ${colors.foreground-alt}
+
+[module/memory]
+underline = ${colors.color1}
+
+type = internal/memory
+interval = 2
+
+format-prefix = " "
+format-prefix-foreground = ${colors.iconcolor}
+format-underline = ${self.underline}
+
+label = %percentage_used%%
