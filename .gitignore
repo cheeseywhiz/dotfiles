@@ -15,6 +15,7 @@ Pictures/*
 !.themes/Flatabulous-wal/*
 !.config/i3/*
 !.config/sublime-text-3/Packages/*
+.config/sublime-text-3/Packages/SublimeCodeIntel
 !.config/sublime-text-3/Cache/*
 !.config/compton.conf/*
 !.config/neofetch/config
