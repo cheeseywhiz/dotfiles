@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Tint a grayscale image with a color."""
 import argparse
+import os
 import shlex
 import sys
 from PIL import Image
@@ -18,17 +19,25 @@ class ImagePath(collect.path.Path):
 
     def save(self, array):
         """Save an array as an image to this path."""
-        np.clip(array, 0, 255, array)
-        array = np.asarray(array, dtype='uint8')
+        array = np.clip(array, 0, 255)
+        array = np.asarray(array, dtype=np.uint8)
 
-        with self.open('wb') as file:
+        with open(self, 'wb') as file:
             Image.fromarray(array).save(file, format='png')
 
         return self
 
+    def tint(self, color: (str, tuple), output: os.PathLike):
+        """Tint the image at this path and save to the output path."""
+        if isinstance(color, str):
+            color = hex_to_rgb(color)
 
-def tint(grayscale_map, color):
-    """Given a 2d numpy array height map, tint the map by the given color."""
+        ImagePath.save(output, tint_map(self.array, color))
+
+
+def tint_map(grayscale_map, color):
+    """Given a 2d numpy array height map, tint the map by the given RGB color
+    tuple."""
     grayscale_rgb = np.ndarray((*grayscale_map.shape, 3))
     color_array = np.empty_like(grayscale_rgb)
 
@@ -38,7 +47,7 @@ def tint(grayscale_map, color):
                 color_array[i, j, k] = value
                 grayscale_rgb[i, j, k] = pixel
 
-    return color_array * grayscale_rgb / 127
+    return np.clip(color_array * grayscale_rgb / 127, 0, 255)
 
 
 def hex_to_rgb(hex_str):
@@ -59,7 +68,7 @@ class TintParser(argparse.ArgumentParser):
             'output', type=ImagePath,
             help='Output image path')
         super().add_argument(
-            'color', type=hex_to_rgb,
+            'color',
             help='The hex color to apply to the image. Preceeding # optional.')
 
     def parse_args(self, argv=None, *args, **kwargs):
@@ -69,7 +78,7 @@ class TintParser(argparse.ArgumentParser):
             argv = shlex.split(argv)
 
         args = super().parse_args(argv, *args, **kwargs)
-        args.output.save(tint(args.input.array, args.color))
+        args.input.tint(args.color, args.output)
         return args
 
 

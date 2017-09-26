@@ -8,7 +8,7 @@ import collect
 import tint
 
 FILE = collect.path.Path(__file__)
-DIR = FILE.parent
+IMAGE_MAP = tint.ImagePath(FILE.parent / 'theme_toolbar.png')
 CACHE_DIR = collect.path.Path(CACHE_DIR)
 
 log = collect.logging.getLogger()
@@ -35,7 +35,7 @@ def wal_palatte():
 
     rgb_palatte = {name: tint.hex_to_rgb(color)
                    for name, color in hex_palatte.items()}
-    return hex_palatte, rgb_palatte
+    return tuple(hex_palatte.values()), tuple(rgb_palatte.values())
 
 
 def ntp_background():
@@ -43,25 +43,20 @@ def ntp_background():
     with (CACHE_DIR / 'wal').open() as file:
         wal_img = file.read()
 
-    call(
-        'convert', wal_img, '-scale', '1366x768^', '-blur', '0x10',
-        (CACHE_DIR / 'wal_chrome/img/theme_ntp_background.jpg'))
+    call('convert', wal_img, '-scale', '1366x768^', '-blur', '0x10',
+         CACHE_DIR / 'wal_chrome/img/theme_ntp_background.jpg')
 
 
 def toolbar(hex_palatte):
     """Generate the toolbar image based on color0."""
-    tint.main([
-        str(DIR / 'theme_toolbar.png'),
-        str(CACHE_DIR / 'wal_chrome/img/theme_toolbar.png'),
-        hex_palatte['color0']])
+    IMAGE_MAP.tint(
+        hex_palatte[0], CACHE_DIR / 'wal_chrome/img/theme_toolbar.png')
 
 
 def frame(hex_palatte):
     """Generate the frame image based on color1."""
-    tint.main([
-        str(DIR / 'theme_toolbar.png'),
-        str(CACHE_DIR / 'wal_chrome/img/theme_frame.png'),
-        hex_palatte['color1']])
+    IMAGE_MAP.tint(
+        hex_palatte[1], CACHE_DIR / 'wal_chrome/img/theme_frame.png')
 
 
 def manifest(rgb_palatte):
@@ -77,11 +72,11 @@ def manifest(rgb_palatte):
                 'theme_frame': 'img/theme_frame.png',
             },
             'colors': {
-                'tab_text': rgb_palatte['color7'],
-                'tab_background_text': rgb_palatte['color8'],
-                'bookmark_text': rgb_palatte['color7'],
-                'ntp_background': rgb_palatte['color0'],
-                'ntp_text': rgb_palatte['color7'],
+                'tab_text': rgb_palatte[7],
+                'tab_background_text': rgb_palatte[8],
+                'bookmark_text': rgb_palatte[7],
+                'ntp_background': rgb_palatte[0],
+                'ntp_text': rgb_palatte[7],
             },
             'properties': {
                 'ntp_background_repeat': 'no-repeat',
