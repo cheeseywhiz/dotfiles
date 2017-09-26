@@ -10,7 +10,7 @@ import collect
 
 
 class ImagePath(collect.path.Path):
-    """A Path with Image loading and saving via PIL and numpy."""
+    """A Path with image loading and saving via PIL and numpy."""
     @property
     def array(self):
         """Return the numpy array from the image at this path."""
@@ -53,10 +53,7 @@ def tint_map(grayscale_map, color):
 
 def hex_to_rgb(hex_str):
     """Convert the given string to an RGB tuple. Preceeding # optional."""
-    if hex_str[0] != '#':
-        hex_str = '#' + hex_str
-
-    return eval('(0x{1}{2}, 0x{3}{4}, 0x{5}{6})'.format(*hex_str))
+    return eval('(0x{0}{1}, 0x{2}{3}, 0x{4}{5})'.format(*hex_str.lstrip('#')))
 
 
 class TintParser(argparse.ArgumentParser):
@@ -68,7 +65,7 @@ class TintParser(argparse.ArgumentParser):
             'color',
             help='The hex color to apply to the image. Preceeding # optional.')
         super().add_argument(
-            'output', type=ImagePath, help='Output image path')
+            'output', help='Output image path')
 
     def parse_args(self, argv=None, *args, **kwargs):
         if argv is None:

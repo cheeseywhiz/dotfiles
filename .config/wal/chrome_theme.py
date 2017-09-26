@@ -18,13 +18,13 @@ log.name = FILE.split[0]
 log.setLevel('INFO')
 
 
-def call(*args, **Popen_kwargs):
+def call(cmd, *args, **Popen_kwargs):
     """Call the given command and exit if the command returned a nonzero exit
     code."""
-    if len(args) == 1:
-        args = shlex.split(args[0])
+    if not args:
+        cmd, *args = shlex.split(cmd)
 
-    proc = subprocess.Popen([*args], **Popen_kwargs)
+    proc = subprocess.Popen([cmd, *args], **Popen_kwargs)
     ret_code = proc.wait()
 
     if ret_code:
@@ -65,7 +65,7 @@ def frame(hex_p):
 
 
 def manifest(rgb_p):
-    """Generate the dict structure for the manifest.json theme file."""
+    """Generate the data structure for the manifest.json theme file."""
     return {
         'manifest_version': 2,
         'name': 'wal_chrome',
