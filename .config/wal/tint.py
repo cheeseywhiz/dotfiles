@@ -38,17 +38,15 @@ class ImagePath(collect.path.Path):
 def tint_map(grayscale_map, color):
     """Given a 2d numpy array height map, tint the map by the given RGB color
     tuple."""
-    grayscale_rgb = np.ndarray((*grayscale_map.shape, 3))
-    color_array = np.empty_like(grayscale_rgb)
-
-    for i, row in enumerate(grayscale_map):
-        for j, pixel in enumerate(row):
-            for k, value in enumerate(color):
-                color_array[i, j, k] = value
-                grayscale_rgb[i, j, k] = pixel
-
-    new_array = color_array * grayscale_rgb / np.mean(grayscale_map)
-    return np.clip(new_array, 0, 255)
+    new_array = np.array([
+        [color] * len(row)
+        for row in grayscale_map
+    ]) * np.array([
+        [[brightness] * 3
+         for brightness in row]
+        for row in grayscale_map
+    ]) / np.mean(grayscale_map)
+    return new_array
 
 
 def hex_to_rgb(hex_str):
