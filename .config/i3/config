@@ -227,16 +227,20 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 ##Audio Control
+
+# sink tends to switch between 1 and 0
+set $sink 0
+
 # Fn+F1       toggle mute
 # Fn+F2       lower volume by 5%
 # Shift+Fn+F2 lower volume by 1%
 # Fn+F3       raise volume by 5%
 # Shift+Fn+F3 raise volume by 1%
-bindsym XF86AudioMute exec pactl set-sink-mute 0 toggle
-bindsym XF86AudioLowerVolume exec pactl set-sink-mute 0 false; exec pactl set-sink-volume 0 -5%
-bindsym shift+XF86AudioLowerVolume exec pactl set-sink-mute 0 false; exec pactl set-sink-volume 0 -1%
-bindsym XF86AudioRaiseVolume exec pactl set-sink-mute 0 false; exec pactl set-sink-volume 0 +5%
-bindsym shift+XF86AudioRaiseVolume exec pactl set-sink-mute 0 false; exec pactl set-sink-volume 0 +1%
+bindsym XF86AudioMute exec pactl set-sink-mute $sink toggle
+bindsym XF86AudioLowerVolume exec pactl set-sink-mute $sink false; exec pactl set-sink-volume $sink -5%
+bindsym shift+XF86AudioLowerVolume exec pactl set-sink-mute $sink false; exec pactl set-sink-volume $sink -1%
+bindsym XF86AudioRaiseVolume exec pactl set-sink-mute $sink false; exec pactl set-sink-volume $sink +5%
+bindsym shift+XF86AudioRaiseVolume exec pactl set-sink-mute $sink false; exec pactl set-sink-volume $sink +1%
 
 ##Screen Brightness
 # permissions

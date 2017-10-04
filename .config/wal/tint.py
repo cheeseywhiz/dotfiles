@@ -21,9 +21,10 @@ class ImagePath(collect.path.Path):
         """Save an array as an image to this path."""
         array = np.clip(array, 0, 255)
         array = np.asarray(array, np.uint8)
+        array = Image.fromarray(array)
 
         with open(self, 'wb') as file:
-            Image.fromarray(array).save(file)
+            array.save(file)
 
         return self
 
@@ -39,7 +40,7 @@ def tint_map(grayscale_map, color):
     """Given a 2d numpy array height map, tint the map by the given RGB color
     tuple."""
     new_array = np.array([
-        [color] * len(row)
+        [color] * row.size
         for row in grayscale_map
     ]) * np.array([
         [[brightness] * 3

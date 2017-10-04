@@ -31,5 +31,6 @@ alias ls='ls -h --color=auto'
 alias ll='ls -l'
 alias la='ll -a'
 alias pipes='pipes.sh -p 20 -r 3000 -t 0 -R'
+alias grubcfg='sudo grub-mkconfig -o /boot/grub/grub.cfg'
 
 PS1='$(printf '%.*s' $? $?)\[\e[01;32m\]\u\[\e[0m\]: $(tty): \[\e[1;34m\]$(rel_git_path)\[\e[0m\] $(git_branch)\n\$ '
