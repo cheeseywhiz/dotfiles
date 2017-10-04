@@ -21,7 +21,21 @@ git_branch() {
     fi
 }
 
-alias sudo='sudo'
+allman() {
+    USAGE="Usage: allman TOPIC"
+
+    if [[ ! $1 ]]; then
+        echo USAGE
+        exit 1
+    fi
+
+    man $1
+
+    for i in $(seq 1 1 8); do
+        man $i $1
+    done
+}
+
 alias wallaunch='$HOME/.config/wal/wallaunch.sh'
 alias walnow='cat $HOME/.cache/wal/wal'
 alias walcopy='cp $(walnow) $HOME/Pictures/wallpapers'
