@@ -246,9 +246,9 @@ underline = ${colors.color6}
 type = internal/date
 
 ; primary
-date = %-I:%M %P
+date = %I:%M %P
 ; alt
-time-alt = %A, %B %e, %Y at %-I:%M:%S %P
+time-alt = %A, %B %-e, %Y at %I:%M:%S %P
 
 format-padding = 1
 format-prefix = " "
