@@ -8,14 +8,13 @@ from pywal.settings import CACHE_DIR
 import collect
 import tint
 
-FILE = collect.path.Path(__file__)
-CONFIG_DIR = FILE.parent
+CONFIG_DIR = collect.path.Path('~/.config/wal')
 CACHE_DIR = collect.path.Path(CACHE_DIR)
 THEME_DIR = CACHE_DIR / 'wal_chrome'
 
-log = collect.logging.getLogger()
-log.name = FILE.split[0]
-log.setLevel('INFO')
+Logger = collect.Logger
+Logger.name += '.' + collect.path.Path(__file__).split[0]
+Logger.setLevel('INFO')
 
 
 def call(cmd, *args, **Popen_kwargs):
@@ -99,7 +98,7 @@ def main():
     with (THEME_DIR / 'manifest.json').open('w') as file:
         json.dump(manifest(rgb_p), file)
 
-    log.info('Made chrome theme')
+    Logger.info('Made chrome theme')
 
 
 if __name__ == '__main__':
