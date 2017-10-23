@@ -2,7 +2,7 @@
 rofi.hide-scrollbar: true
 rofi.lines:          5
 rofi.width:          33
-rofi.font:           SFNS Display 16
+rofi.font:           Consolas 16
 
 !! URxvt
 URxvt.chdir:        /home/cheese

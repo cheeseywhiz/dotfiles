@@ -1,29 +1,31 @@
 [colors]
 transparent = #00000000
-; use blank color until wal pushes new colors
-color0 = ${xrdb:color0:${self.transparent}}
-color1 = ${xrdb:color1:${self.transparent}}
-color2 = ${xrdb:color2:${self.transparent}}
-color3 = ${xrdb:color3:${self.transparent}}
-color4 = ${xrdb:color4:${self.transparent}}
-color5 = ${xrdb:color5:${self.transparent}}
-color6 = ${xrdb:color6:${self.transparent}}
-color7 = ${xrdb:color7:${self.transparent}}
-color8 = ${xrdb:color8:${self.transparent}}
+
+; use basic colors until wal pushes new colors
+tmp-bg = #000000
+tmp-fg = #FFFFFF
+color0 = ${xrdb:color0:${self.tmp-bg}}
+color1 = ${xrdb:color1:${self.tmp-fg}}
+color2 = ${xrdb:color2:${self.tmp-fg}}
+color3 = ${xrdb:color3:${self.tmp-bg}}
+color4 = ${xrdb:color4:${self.tmp-fg}}
+color5 = ${xrdb:color5:${self.tmp-fg}}
+color6 = ${xrdb:color6:${self.tmp-fg}}
+color7 = ${xrdb:color7:${self.tmp-fg}}
+color8 = ${xrdb:color8:${self.tmp-fg}}
 
 background = ${self.color0}
-background-alt = ${self.color4}
-foreground = ${self.color7}
+alert = ${self.color1}
 
 icon = ${self.color4}
-alert = ${self.color1}
+icon-alt = ${self.color2}
+foreground = ${self.color7}
+foreground-alt = ${self.color6}
 
 [bar/top]
 monitor = eDP-1
 width = 100%
 height = 24
-; offset-x = 1%
-; offset-y = 1%
 radius = 6.0
 fixed-center = true
 
@@ -35,15 +37,8 @@ line-size = 4
 border-size = 4
 border-color = ${colors.transparent}
 
-; padding-left = 0
-; padding-right = 0
-
-; module-margin-left = 0
-; module-margin-right = 0
-
-; TODO: font-0 = SFNS Display:pixelsize=10;1
-font-0 = Sans:pixelsize=10;1
-font-1 = Monospace:pixelsize=9:antialias=false;1
+font-0 = Colsolas:pixelsize=10;1
+font-1 = Consolas:pixelsize=12:antialias=true;1
 font-2 = FontAwesome:pixelsize=11;1
 
 modules-left = i3
@@ -52,16 +47,12 @@ modules-right = cpu volume battery batterytime filesystem clock powermenu
 
 tray-position = center
 tray-padding = 2
-; tray-transparent = true
-; tray-background = #0063ff
-
-; override-redirect = true
 
 scroll-up = i3wm-wsnext
 scroll-down = i3wm-wsprev
 
 [module/i3]
-underline = ${colors.color7}
+underline = ${colors.color4}
 padding = 2
 
 type = internal/i3
@@ -71,43 +62,40 @@ wrapping-scroll = false
 
 format-prefix = %{A1:$HOME/.config/i3/i3launcher.py:}%{A}
 format-prefix-padding = 2
-format-prefix-foreground = ${colors.icon}
-
-; Only show workspaces on the same output as the bar
-; pin-workspaces = true
+format-prefix-foreground = ${colors.icon-alt}
+format-prefix-underline = ${colors.icon-alt}
 
 label-mode-padding = ${self.padding}
-label-mode-foreground = ${colors.foreground}
-label-mode-background = ${colors.alert}
+label-mode-foreground = ${colors.foreground-alt}
+label-mode-underline = ${colors.foreground-alt}
 
 ; focused = Active workspace on focused monitor
-label-focused = %index%%icon%
-label-focused-background = ${colors.background-alt}
-label-focused-underline = ${self.underline}
+label-focused = %index% %icon%
 label-focused-padding = ${self.padding}
+label-focused-foreground = ${self.underline}
+label-focused-underline = ${self.underline}
 
 ; unfocused = Inactive workspace on any monitor
-label-unfocused = %index%%icon%
+label-unfocused = %index% %icon%
 label-unfocused-padding = ${self.padding}
-
-; visible = Active workspace on unfocused monitor
-label-visible = visible ws
-label-visible-padding = ${self.padding}
+label-unfocused-underline = ${colors.foreground}
 
 ; urgent = Workspace with urgency hint set
-label-urgent = %index%%icon%
-label-urgent-background = ${colors.alert}
+label-urgent = %index% %icon%
 label-urgent-padding = ${self.padding}
+label-urgent-foreground = ${colors.alert}
+label-urgent-underline = ${colors.alert}
 
-ws-icon-0 = 1; 
-ws-icon-1 = 2; 
-ws-icon-2 = 3; 
-ws-icon-3 = 4; 
+ws-icon-0 = 1;
+ws-icon-1 = 2;
+ws-icon-2 = 3;
+ws-icon-3 = 4;
 
 [module/xwindow]
 type = internal/xwindow
 label = %title%
-label-maxlen = 100
+label-font = 2
+label-maxlen = 85
 
 [module/cpu]
 underline = ${colors.color1}
@@ -144,23 +132,6 @@ label-muted-padding = 1
 format-muted-foreground = ${colors.icon}
 format-muted-underline = ${self.underline}
 
-bar-volume-width = 10
-bar-volume-foreground-0 = ${colors.color1}
-bar-volume-foreground-1 = ${colors.color2}
-bar-volume-foreground-2 = ${colors.color3}
-bar-volume-foreground-3 = ${colors.color4}
-bar-volume-foreground-4 = ${colors.color5}
-bar-volume-foreground-5 = ${colors.color6}
-bar-volume-foreground-6 = ${colors.color7}
-bar-volume-gradient = true
-bar-volume-indicator = |
-bar-volume-indicator-font = 2
-bar-volume-fill = =
-bar-volume-fill-font = 2
-bar-volume-empty = ─
-bar-volume-empty-font = 2
-bar-volume-empty-foreground = ${colors.icon}
-
 [module/battery]
 underline = ${colors.color3}
 
@@ -184,7 +155,7 @@ label-full-underline = ${self.underline}
 
 ramp-capacity-0 =  
 ramp-capacity-0-padding = 1
-ramp-capacity-0-background = ${colors.alert}
+ramp-capacity-0-underline = ${colors.alert}
 ramp-capacity-1 = 
 ramp-capacity-2 = 
 ramp-capacity-3 = 
@@ -207,21 +178,21 @@ type = internal/battery
 time-format = %-H:%M
 full-at = 95
 
-format-charging-prefix = " "
+format-charging-prefix = " "
 format-charging-prefix-foreground = ${colors.icon}
 format-charging = <label-charging>
 format-charging-padding = 1
 format-charging-underline = ${self.underline}
-label-charging = %time% to F
+label-charging = %time%
 
 label-full =
 
-format-discharging-prefix = " "
+format-discharging-prefix = " "
 format-discharging-prefix-foreground = ${colors.icon}
 format-discharging = <label-discharging>
 format-discharging-padding = 1
 format-discharging-underline = ${self.underline}
-label-discharging = %time% to E
+label-discharging = %time%
 
 [module/filesystem]
 underline = ${colors.color5}
@@ -269,10 +240,9 @@ format-spacing = 0
 
 label-open = " "
 label-open-padding = 1
-label-open-foreground = ${colors.color2}
+label-open-foreground = ${colors.icon-alt}
 label-open-underline = ${self.underline}
 label-close = "  cancel"
-label-close-foreground = ${colors.color2}
 label-close-underline = ${self.underline}
 label-separator = |
 label-separator-padding = 1
@@ -283,6 +253,7 @@ menu-0-0 = reboot
 menu-0-0-underline = ${self.underline}
 menu-0-0-exec = menu-open-1
 menu-0-1 = "power off  "
+menu-0-1-prefix = 
 menu-0-1-underline = ${self.underline}
 menu-0-1-exec = menu-open-2
 
@@ -310,5 +281,3 @@ screenchange-reload = true
 [global/wm]
 margin-top = 5
 margin-bottom = 5
-
-; vim:ft=dosini

@@ -9,7 +9,7 @@
 
 rel_git_path() {
     if git rev-parse >& /dev/null; then
-        realpath --relative-to=$(git rev-parse --git-dir)/../.. $(pwd)
+        realpath --relative-to=$(git rev-parse --git-dir)/../.. "$(pwd)"
     else
         pwd
     fi
@@ -36,9 +36,9 @@ allman() {
     done
 }
 
+source ~/.cache/wal/colors.sh
 alias wallaunch='$HOME/.config/wal/wallaunch.sh'
-alias walnow='cat $HOME/.cache/wal/wal'
-alias walcopy='cp $(walnow) $HOME/Pictures/wallpapers'
+alias walcopy='cp $wallpaper $HOME/Pictures/wallpapers'
 alias reset='reset -Q'
 alias pacman='pacman --color=auto'
 alias ls='ls -h --color=auto'

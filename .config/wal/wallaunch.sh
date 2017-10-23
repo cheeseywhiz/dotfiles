@@ -7,4 +7,4 @@ if [[ ! $1 ]]; then
 fi
 
 wal -i $1 -a 93
-$HOME/.config/wal/chrome_theme.py & 
+$HOME/.config/wal/chrome_theme.py
