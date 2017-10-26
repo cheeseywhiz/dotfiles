@@ -7,7 +7,7 @@ tmp-fg = #FFFFFF
 color0 = ${xrdb:color0:${self.tmp-bg}}
 color1 = ${xrdb:color1:${self.tmp-fg}}
 color2 = ${xrdb:color2:${self.tmp-fg}}
-color3 = ${xrdb:color3:${self.tmp-bg}}
+color3 = ${xrdb:color3:${self.tmp-fg}}
 color4 = ${xrdb:color4:${self.tmp-fg}}
 color5 = ${xrdb:color5:${self.tmp-fg}}
 color6 = ${xrdb:color6:${self.tmp-fg}}
@@ -15,12 +15,12 @@ color7 = ${xrdb:color7:${self.tmp-fg}}
 color8 = ${xrdb:color8:${self.tmp-fg}}
 
 background = ${self.color0}
-alert = ${self.color1}
 
-icon = ${self.color4}
-icon-alt = ${self.color2}
 foreground = ${self.color7}
 foreground-alt = ${self.color6}
+icon = ${self.color4}
+icon-alt = ${self.color2}
+alert = ${self.color1}
 
 [bar/top]
 monitor = eDP-1
