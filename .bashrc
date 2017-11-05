@@ -37,7 +37,12 @@ allman() {
 }
 
 source ~/.cache/wal/colors.sh
-alias wallaunch='$HOME/.config/wal/wallaunch.sh'
+
+wallaunch() {
+    $HOME/.config/wal/wallaunch.sh $@
+    source ~/.cache/wal/colors.sh
+}
+
 alias walcopy='cp $wallpaper $HOME/Pictures/wallpapers'
 alias reset='reset -Q'
 alias pacman='pacman --color=auto'
