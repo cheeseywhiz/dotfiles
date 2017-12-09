@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"A File Icon",
 		"All Autocomplete",
 		"Anaconda",
 		"Git blame",
@@ -13,6 +14,8 @@
 		"Gotham Theme",
 		"i3 wm",
 		"INI",
+		"MasmAssembly",
+		"Material Theme",
 		"Package Control",
 		"SideBarEnhancements",
 		"SublimeCodeIntel",

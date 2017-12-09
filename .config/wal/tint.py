@@ -9,7 +9,7 @@ import numpy as np
 import collect
 
 
-class ImagePath(collect.path.Path):
+class ImagePath(collect.Path):
     """A Path with image loading and saving via PIL and numpy."""
     @property
     def array(self):

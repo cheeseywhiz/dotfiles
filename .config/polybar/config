@@ -37,7 +37,7 @@ line-size = 4
 border-size = 4
 border-color = ${colors.transparent}
 
-font-0 = Colsolas:pixelsize=10;1
+font-0 = Sans:pixelsize=10;1
 font-1 = Consolas:pixelsize=12:antialias=true;1
 font-2 = FontAwesome:pixelsize=11;1
 
@@ -127,10 +127,7 @@ ramp-volume-1 = 
 ramp-volume-2 = 
 ramp-volume-foreground = ${colors.icon}
 
-label-muted = 
-label-muted-padding = 1
-format-muted-foreground = ${colors.icon}
-format-muted-underline = ${self.underline}
+label-muted =
 
 [module/battery]
 underline = ${colors.color3}
@@ -145,22 +142,19 @@ format-charging-padding = 1
 format-charging-underline = ${self.underline}
 
 format-discharging = <ramp-capacity> <label-discharging>
-format-discharging-padding = 1
+format-discharging-padding = 0
 format-discharging-underline = ${self.underline}
 
-label-full = 
-label-full-padding = 1
-label-full-foreground = ${colors.icon}
-label-full-underline = ${self.underline}
+label-discharging = "%percentage%% "
+label-full=
 
-ramp-capacity-0 =  
-ramp-capacity-0-padding = 1
+ramp-capacity-0 = "  "
 ramp-capacity-0-underline = ${colors.alert}
-ramp-capacity-1 = 
-ramp-capacity-2 = 
-ramp-capacity-3 = 
-ramp-capacity-4 = 
-ramp-capacity-5 = 
+ramp-capacity-1 = " "
+ramp-capacity-2 = " "
+ramp-capacity-3 = " "
+ramp-capacity-4 = " "
+ramp-capacity-5 = " "
 ramp-capacity-foreground = ${colors.icon}
 
 animation-charging-0 = 
@@ -185,7 +179,7 @@ format-charging-padding = 1
 format-charging-underline = ${self.underline}
 label-charging = %time%
 
-label-full =
+label-full=
 
 format-discharging-prefix = " "
 format-discharging-prefix-foreground = ${colors.icon}

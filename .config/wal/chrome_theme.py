@@ -8,12 +8,12 @@ from pywal.settings import CACHE_DIR
 import collect
 import tint
 
-CONFIG_DIR = collect.path.Path('~/.config/wal')
-CACHE_DIR = collect.path.Path(CACHE_DIR)
+CONFIG_DIR = collect.Path('~/.config/wal')
+CACHE_DIR = collect.Path(CACHE_DIR)
 THEME_DIR = CACHE_DIR / 'wal_chrome'
 
 Logger = collect.Logger
-Logger.name += '.' + collect.path.Path(__file__).split[0]
+Logger.name += '.' + collect.Path(__file__).split[0]
 Logger.setLevel('INFO')
 
 

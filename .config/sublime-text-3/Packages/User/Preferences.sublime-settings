@@ -1,6 +1,6 @@
 {
 	"always_show_minimap_viewport": true,
-	"color_scheme": "Packages/Gotham Theme/Gotham.tmTheme",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
 	[
@@ -17,18 +17,15 @@
 		"env3",
 		"bin",
 		"include",
-		"lib",
 		"Old Firefox Data",
 		"Sublime Projects",
-		"build",
 		"*.egg-info",
 		"dist"
 	],
-	"font_face": "Consolas",
-	"font_size": 11,
+	"font_face": "Roboto Mono",
+	"font_size": 10,
 	"ignored_packages":
 	[
-		"All Autocomplete",
 		"Vintage"
 	],
 	"indent_guide_options":
@@ -36,12 +33,19 @@
 		"draw_normal",
 		"draw_active"
 	],
-	"rulers":
-	[
-		79
-	],
+	"line_padding_bottom": 2,
+	"line_padding_top": 2,
+	"material_theme_accent_lime": true,
+	"material_theme_accent_scrollbars": true,
+	"material_theme_compact_panel": true,
+	"material_theme_compact_sidebar": true,
+	"material_theme_contrast_mode": true,
+	"material_theme_small_statusbar": true,
+	"material_theme_small_tab": true,
+	"material_theme_tabs_separator": true,
+	"overlay_scroll_bars": "enabled",
 	"show_tab_close_buttons": false,
-	"theme": "Gotham.sublime-theme",
+	"theme": "Material-Theme-Darker.sublime-theme",
 	"theme_gotham_compact_sidebar": true,
 	"theme_gotham_compact_tab": true,
 	"theme_gotham_horizontal_scrollbar_thinnest": true,
