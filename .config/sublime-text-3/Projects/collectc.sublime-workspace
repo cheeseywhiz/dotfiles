@@ -1,0 +1,1480 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"clos",
+				"close_code"
+			],
+			[
+				"ur",
+				"urandom"
+			],
+			[
+				"err",
+				"errno"
+			],
+			[
+				"O",
+				"OBJECTS"
+			],
+			[
+				"lib",
+				"libcollect.so"
+			],
+			[
+				"B",
+				"BUILD"
+			],
+			[
+				"obj",
+				"obj"
+			],
+			[
+				"T",
+				"TEST"
+			],
+			[
+				"li",
+				"libcollect.so"
+			],
+			[
+				"LD",
+				"LDFLAGS"
+			],
+			[
+				"TE",
+				"TEST_CMD"
+			],
+			[
+				"jsmn",
+				"jsmnutils.so"
+			],
+			[
+				"L",
+				"LIB"
+			],
+			[
+				"OBJ",
+				"OBJECTS"
+			],
+			[
+				"OB",
+				"OBJECTS"
+			],
+			[
+				"bi",
+				"build_dirs"
+			],
+			[
+				"build",
+				"build_dirs"
+			],
+			[
+				"clea",
+				"clean"
+			],
+			[
+				"scr",
+				"score_url_fname"
+			],
+			[
+				"score",
+				"score_url_fname"
+			],
+			[
+				"tests",
+				"test_str_slice"
+			],
+			[
+				"regexs",
+				"regex_str_slice"
+			],
+			[
+				"exc",
+				"expected"
+			],
+			[
+				"cases",
+				"case_str_slice"
+			],
+			[
+				"reg",
+				"regex_str_slice\t(jsmnutils.c)"
+			],
+			[
+				"test",
+				"test_match_one_subexpr"
+			],
+			[
+				"case",
+				"case_match_one_subexpr"
+			],
+			[
+				"inc",
+				"inc\t#include <…>"
+			],
+			[
+				"regexm",
+				"regex_match_one_subexpr"
+			],
+			[
+				"case_",
+				"case_match_one_subexpr"
+			],
+			[
+				"regex",
+				"regex_match_one_subexpr\t(reg.c)"
+			],
+			[
+				"regext",
+				"regex_test_main\t(regtest.c)"
+			],
+			[
+				"tes",
+				"test_score"
+			],
+			[
+				"stru",
+				"struct\tstruct"
+			],
+			[
+				"regexst",
+				"regex_starts_with\t(reg.c)"
+			],
+			[
+				"objet",
+				"objects"
+			],
+			[
+				"urandom",
+				"urandom_number"
+			],
+			[
+				"rand",
+				"randbelow(10"
+			],
+			[
+				"R",
+				"RAND_MAX"
+			],
+			[
+				"jur",
+				"ju_random_iter"
+			],
+			[
+				"testr",
+				"test_random_next"
+			],
+			[
+				"jua",
+				"ju_array_next"
+			],
+			[
+				"testu",
+				"test_url_next"
+			],
+			[
+				"juu",
+				"ju_url_next\t(jsmnutils.c)"
+			],
+			[
+				"te",
+				"test_url_init"
+			],
+			[
+				"array",
+				"array_i"
+			],
+			[
+				"ju",
+				"ju_url_init\t(jsmnutils.c)"
+			],
+			[
+				"tet",
+				"test_parse"
+			],
+			[
+				"value",
+				"value2str"
+			],
+			[
+				"val",
+				"value2tok"
+			],
+			[
+				"json",
+				"json_str\t(jsmnutils.c)"
+			],
+			[
+				"ju_ran",
+				"ju_random_url_init"
+			],
+			[
+				"uran",
+				"urandom_number\t(rand.c)"
+			],
+			[
+				"int",
+				"int"
+			],
+			[
+				"randm",
+				"random_url_iter"
+			],
+			[
+				"regex_",
+				"regex_url_fname"
+			],
+			[
+				"random",
+				"random_url_iter"
+			],
+			[
+				"ran",
+				"random_url_iter"
+			],
+			[
+				"jura",
+				"ju_random_next"
+			],
+			[
+				"ju_ur",
+				"ju_url_next\t(jsmnutils.c)"
+			],
+			[
+				"ju_u",
+				"ju_url_init\t(jsmnutils.c)"
+			],
+			[
+				"ju_ar",
+				"ju_array_next\t(jsmnutils.c)"
+			],
+			[
+				"ju_arr",
+				"ju_array_init\t(jsmnutils.c)"
+			],
+			[
+				"ju_url",
+				"ju_url_init\t(jsmnutils.h)"
+			],
+			[
+				"n_",
+				"n_items"
+			],
+			[
+				"ind",
+				"indices"
+			],
+			[
+				"new",
+				"new_char_list"
+			],
+			[
+				"ju_",
+				"ju_array_iter"
+			],
+			[
+				"char",
+				"char_i"
+			],
+			[
+				"cha",
+				"char_i"
+			],
+			[
+				"size",
+				"size"
+			],
+			[
+				"self",
+				"self"
+			],
+			[
+				"str",
+				"struct"
+			],
+			[
+				"intli",
+				"int_list_random_order\t(rand.c)"
+			],
+			[
+				"in",
+				"int_list_random_order"
+			],
+			[
+				"fr",
+				"free_int_list\t(rand.c)"
+			],
+			[
+				"free",
+				"free_int_list"
+			],
+			[
+				"intl",
+				"int_list"
+			],
+			[
+				"intlis",
+				"int_list_iter"
+			],
+			[
+				"type",
+				"typedef"
+			],
+			[
+				"breka",
+				"break\t(collect.py)"
+			],
+			[
+				"rm",
+				"rm_eo\t(reg.c)"
+			],
+			[
+				"REG",
+				"REG_EXTENDED\t(get.c)"
+			],
+			[
+				"n",
+				"n_matches"
+			],
+			[
+				"clean",
+				"cleanup"
+			],
+			[
+				"ma",
+				"match"
+			],
+			[
+				"url",
+				"url_i"
+			],
+			[
+				"req",
+				"requests"
+			],
+			[
+				"buf",
+				"buffer"
+			],
+			[
+				"ima",
+				"image.jpg"
+			],
+			[
+				"buff",
+				"buffer_len"
+			],
+			[
+				"f_",
+				"f_get_response\t(get.c)"
+			],
+			[
+				"im",
+				"im_fd"
+			],
+			[
+				"cot",
+				"content"
+			],
+			[
+				"ju_in",
+				"ju_init_url_iter"
+			],
+			[
+				"fre",
+				"free_response"
+			],
+			[
+				"juin",
+				"ju_init_array_iter\t(jsontest.c)"
+			],
+			[
+				"tok",
+				"tok_str"
+			],
+			[
+				"key",
+				"key"
+			],
+			[
+				"dest",
+				"dest"
+			],
+			[
+				"des",
+				"dest_length"
+			],
+			[
+				"regex_s",
+				"regex_str_slice"
+			],
+			[
+				"hay",
+				"hay_len"
+			],
+			[
+				"start",
+				"startswith"
+			],
+			[
+				"jsn",
+				"jsmnutils"
+			],
+			[
+				"re",
+				"response"
+			],
+			[
+				"ar",
+				"argc"
+			],
+			[
+				"get",
+				"get_response"
+			],
+			[
+				"ju_init",
+				"ju_init_url_iter\t(jsmnutils.c)"
+			],
+			[
+				"prin",
+				"print_urls"
+			],
+			[
+				"jm",
+				"jsmnutils\t(Makefile)"
+			],
+			[
+				"src",
+				"src"
+			],
+			[
+				"hays",
+				"haystack_length\t(reg.c)"
+			],
+			[
+				"ju_arra",
+				"ju_array_next\t(jsontest.c)"
+			],
+			[
+				"arra",
+				"array_i"
+			],
+			[
+				"arr",
+				"array_i"
+			],
+			[
+				"ju_array_",
+				"ju_array_iter\t(jsmnutils.h)"
+			],
+			[
+				"pr",
+				"printf\tprintf …"
+			],
+			[
+				"E",
+				"E_NO_MATCH\t(jsmnutils.h)"
+			],
+			[
+				"E_",
+				"E_NOT_ARRAY\t(jsmnutils.h)"
+			],
+			[
+				"data",
+				"data_arr_i"
+			],
+			[
+				"stat",
+				"start_i"
+			],
+			[
+				"par",
+				"parent_i"
+			],
+			[
+				"dat",
+				"data_arr_i"
+			],
+			[
+				"i",
+				"if\tIf Condition"
+			],
+			[
+				"jso",
+				"json_str"
+			],
+			[
+				"N",
+				"NEW_OBJ"
+			],
+			[
+				"len",
+				"length"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/cheese/collectc/Makefile",
+			"settings":
+			{
+				"buffer_size": 1382,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/cheese/.bashrc",
+			"settings":
+			{
+				"buffer_size": 1001,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/cheese/collectc/src/jsmnutils.c",
+			"settings":
+			{
+				"buffer_size": 4825,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/cheese/collectc/src/rand.c",
+			"settings":
+			{
+				"buffer_size": 1569,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/cheese/collectc/src/reg.c",
+			"settings":
+			{
+				"buffer_size": 1890,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/cheese/collectc/src/get.c",
+			"settings":
+			{
+				"buffer_size": 3127,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/cheese/collectc/src/main.c",
+			"settings":
+			{
+				"buffer_size": 1760,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/cheese/collectc/src/jsmnutils.h",
+			"settings":
+			{
+				"buffer_size": 980,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/cheese/collectc/src/rand.h",
+			"settings":
+			{
+				"buffer_size": 273,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/cheese/collectc/src/reg.h",
+			"settings":
+			{
+				"buffer_size": 206,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/cheese/collectc/src/get.h",
+			"settings":
+			{
+				"buffer_size": 262,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/cheese/collectc/src/config.h",
+			"settings":
+			{
+				"buffer_size": 65,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				"Syntax Check"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 384.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Enable Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 465.0
+	},
+	"console":
+	{
+		"height": 136.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/cheese/collectc",
+		"/home/cheese/collectc/test"
+	],
+	"file_history":
+	[
+		"/home/cheese/Downloads/tilem-2.0/a.out",
+		"/home/cheese/collectc/.travis-script.sh",
+		"/home/cheese/collectc/README.md",
+		"/home/cheese/collectc/travis-script.sh",
+		"/home/cheese/collectc/.travis.yml",
+		"/home/cheese/collectc/.gitignore",
+		"/home/cheese/collectc/.giti",
+		"/home/cheese/collectc/.gitmodules",
+		"/home/cheese/collectc/lib/jsmn/.gitignore",
+		"/home/cheese/collectc/a.out",
+		"/home/cheese/collectc/aout",
+		"/home/cheese/collectc/test/jsmntest.c",
+		"/home/cheese/collectc/log.txt?deansi=false",
+		"/home/cheese/collectc/configure",
+		"/home/cheese/collectc/test/regtest.c",
+		"/home/cheese/.bashrc",
+		"/home/cheese/collectc/test/test.c",
+		"/home/cheese/collectc/test/randtest.c",
+		"/tmp/tmp.GWLj5Y7For/a.out",
+		"/home/cheese/collectc/test/iter.c",
+		"/home/cheese/collectc/py_example/collect.py",
+		"/home/cheese/collectc/image.jpg",
+		"/home/cheese/collectc/src/main.c",
+		"/home/cheese/collectc/main.s",
+		"/home/cheese/.config/i3/config",
+		"/home/cheese/collectc/a.jpg",
+		"/home/cheese/collectc/b.out",
+		"/home/cheese/collectc/test/jsontest.c",
+		"/tmp/tmp.W9VsoQtBNt/collectc/build/collect",
+		"/home/cheese/collectc/src/stringutil.h",
+		"/home/cheese/collectc/src/stringutil.c",
+		"/home/cheese/collectc/src/json.h",
+		"/home/cheese/collectc/src/json.c",
+		"/home/cheese/collectc/lib/jsmn/Makefile",
+		"/home/cheese/collectc/src/regtest.c",
+		"/home/cheese/collectc/get.h",
+		"/home/cheese/collectc/get.c",
+		"/home/cheese/collectc/main.c",
+		"/home/cheese/collectc/src/get.h",
+		"/home/cheese/collectc/src/get.c",
+		"/home/cheese/collectc/build/collect",
+		"/home/cheese/collectc/collect",
+		"/home/cheese/collectc/src/collect.c",
+		"/home/cheese/collectc/src/get.",
+		"/home/cheese/collectc/collect.c",
+		"/home/cheese/collectc/collect.py",
+		"/home/cheese/collectc/image",
+		"/home/cheese/collect/requirements.txt",
+		"/home/cheese/collect/collect/collect.sh",
+		"/home/cheese/collect/collect/util.py",
+		"/home/cheese/collect/collect/__init__.py",
+		"/home/cheese/collect/collect/__main__.py",
+		"/home/cheese/collect/collect/collect.py",
+		"/home/cheese/collect/collect/config.py",
+		"/home/cheese/collect/collect/logger.py",
+		"/home/cheese/qemu",
+		"/home/cheese/a.out",
+		"/home/cheese/A.OUT",
+		"/home/cheese/.bash_history",
+		"/etc/grub.d/30_os-prober",
+		"/etc/default/grub",
+		"/boot/grub/grub.cfg",
+		"/etc/grub.d/40_custom",
+		"/home/cheese/.config/sublime-text-3/Installed Packages/All Autocomplete.sublime-package",
+		"/home/cheese/collect/README.md",
+		"/home/cheese/collect/a.out",
+		"/var/xlog",
+		"/home/cheese/collect/setup.py",
+		"/usr/bin/collect",
+		"/home/cheese/collect/README",
+		"/home/cheese/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package",
+		"/home/cheese/collect/collect/cacheutil.py",
+		"/home/cheese/collect/collect/cache.py",
+		"/usr/lib/python3.6/site-packages/collect-1.0-py3.6.egg/collect/__init__.py",
+		"/usr/lib/python3.6/site-packages/collect-1.0-py3.6.egg/collect/__main__.py",
+		"/usr/lib/python3.6/site-packages/collect-1.0-py3.6.egg/collect",
+		"/home/cheese/collect/files.txt",
+		"/home/cheese/collect/configure",
+		"/home/cheese/collect/.gitignore",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/collect/collect/__init__.py",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/collect/collect/collect.py",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/collect/collect/__main__.py",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/collect/collect/cache.py",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/collect/collect/util.py",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/collect/collect/config.py",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/collect/setup.py",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/collect/configure",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/collect/Makefile",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/collect/.gitignore",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/collect/README",
+		"/home/cheese/.cache/collect/pickle",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/collect/requirements.txt",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/collect/collect/_secret.py",
+		"/home/cheese/random",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/collect/.configure",
+		"/home/cheese/.config/polybar/config",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/wallpapers/collect/config.py",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/wallpapers/collect/__main__.py",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/wallpapers/collect/__init__.py",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/wallpapers/collect/collect.py",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/wallpapers/collect/util.py",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/wallpapers/collect/cache.py",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/wallpapers/Makefile",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/wallpapers/dist/collect-1.0-py3.6.egg",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/wallpapers/setup.py",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/wallpapers/a.out",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/wallpapers/collect/funcutil.py",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/wallpapers/collect/main.py",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/wallpapers/cache.py",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/wallpapers/util.py",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/wallpapers/collect.py",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/wallpapers/__init__.py",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/wallpapers/cache_.py",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/wallpapers/test.py",
+		"/usr/lib/python3.6/collections/__init__.py",
+		"/usr/lib/python3.6/site-packages/pywal/util.py",
+		"/home/cheese/cheeseywhiz/Mandelbrot-Set/decorators.py",
+		"/home/cheese/cheeseywhiz/http/static/js/jquery-3.2.1.js",
+		"/home/cheese/.local/share/xorg/Xorg.0.log",
+		"/home/cheese/.config/wal/launch.sh",
+		"/home/cheese/.cache/wal/wal",
+		"/mnt/home/home/cheese/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
+		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/libwifi.py",
+		"/mnt/home/home/a.out",
+		"/etc/fstab",
+		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/pyqtbindings.py",
+		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/wifi_dialog.py",
+		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/get_password.py"
+	],
+	"find":
+	{
+		"height": 42.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			" $(BUILD)\n",
+			" $(BUILD)",
+			"so",
+			"make_objects",
+			"libcollect..so",
+			"libcollect.a",
+			".so",
+			"so",
+			"@cd",
+			" $(LDFLAGS)",
+			".o",
+			"so",
+			"libcollect.so",
+			".o",
+			"OBJECTS",
+			".so",
+			"TEST_CMD",
+			"VCMD",
+			"$(OBJ)/",
+			"$@",
+			"$(eval",
+			"make_lib",
+			"build_dirs",
+			"$@",
+			"@echo $@",
+			":",
+			"$(LIB)/",
+			"make_test",
+			".so",
+			"$(OBJ)/",
+			".so",
+			".c",
+			"get.c",
+			".so",
+			".c",
+			".o",
+			".so",
+			".o",
+			".so",
+			"src/",
+			"case_match_one_subexpr",
+			"case",
+			"case_match_one_subexpr",
+			"report",
+			"\n        ",
+			"\"",
+			"apple",
+			"starts_withscore",
+			"cases[i]",
+			"case_stats_with",
+			"objects",
+			"urandom_number",
+			"25",
+			"100",
+			"unsigned long long",
+			"n",
+			"unsigned int",
+			"return 0;",
+			"return",
+			"return 1;",
+			"void",
+			"successfully",
+			"};",
+			"ju_url_next",
+			"SYMBOL",
+			"int",
+			"SYMBOL",
+			"url_iter",
+			"self->json",
+			"i",
+			"ju_next_url",
+			"ju_init_url_iter",
+			"ju_array_next",
+			"ju_init_array_iter",
+			"ju_next_url",
+			"ju_init_url_iter",
+			"ju_next_url",
+			"ju_init_url_iter",
+			"ju_next_url",
+			"ju_init_url_iter",
+			"ju_init_array_iter",
+			"iter",
+			"char_i",
+			"list",
+			"items",
+			"i",
+			"SYMBOL",
+			"list",
+			"ju_array_next",
+			"match",
+			"cleanup",
+			"JU_MAX_TOKENS",
+			">\n",
+			"ju_object_get",
+			"ju_parse",
+			"alloc",
+			"free_response",
+			"url",
+			"done",
+			"p",
+			"e",
+			"x",
+			"ju_parse failed",
+			"ju_pa",
+			"n_chars",
+			"len",
+			"goto return_",
+			"exit",
+			"return NULL",
+			"im->content",
+			"void",
+			"ua_prefix",
+			"parent",
+			"data_arr_i",
+			"en->",
+			"token.",
+			", ",
+			"json",
+			"fprintf",
+			"json.",
+			"int",
+			"vjujoid",
+			"ju_key_search",
+			"ju_object_get",
+			"ju_ibject_get",
+			"ju_key_search",
+			"ju_ibject_get",
+			"strlen(haystack)"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/cheese/collectc/Makefile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1382,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								933,
+								933
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"open_with_edit": true,
+							"syntax": "Packages/Makefile/Makefile.sublime-syntax",
+							"tab_size": 8
+						},
+						"translation.x": 0.0,
+						"translation.y": 522.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/cheese/.bashrc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1001,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								822,
+								822
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/cheese/collectc/src/jsmnutils.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4825,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/cheese/collectc/src/rand.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1569,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								490,
+								490
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"open_with_edit": true,
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/cheese/collectc/src/reg.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1890,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"open_with_edit": true,
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/cheese/collectc/src/get.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3127,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/cheese/collectc/src/main.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1760,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								470,
+								470
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 7,
+					"file": "/home/cheese/collectc/src/jsmnutils.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 980,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								221,
+								221
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/home/cheese/collectc/src/rand.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 273,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"open_with_edit": true,
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/home/cheese/collectc/src/reg.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 206,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"open_with_edit": true,
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/home/cheese/collectc/src/get.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 262,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/C++/C.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/home/cheese/collectc/src/config.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 65,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"open_with_edit": true,
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 40.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.665160230074,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 98.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 25.0
+	},
+	"pinned_build_system": "",
+	"project": "collectc.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/.config/sublime-text-3/Projects/collect.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 149.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

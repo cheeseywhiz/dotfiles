@@ -18,6 +18,7 @@
 
 !.config/i3/*
 !.config/sublime-text-3/Packages/*
+!.config/sublime-text-3/Projects/*
 .config/sublime-text-3/Packages/SublimeCodeIntel
 !.config/compton.conf/*
 !.config/neofetch/config

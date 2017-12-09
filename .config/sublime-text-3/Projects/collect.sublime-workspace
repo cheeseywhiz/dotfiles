@@ -1,0 +1,1529 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"stat",
+				"static_method"
+			],
+			[
+				"clas",
+				"class_method"
+			],
+			[
+				"obj",
+				"object"
+			],
+			[
+				"doco",
+				"doc_object\tfunction"
+			],
+			[
+				"Cla",
+				"ClassMethod"
+			],
+			[
+				"Stat",
+				"StaticMethod"
+			],
+			[
+				"cla",
+				"classmethod"
+			],
+			[
+				"chil",
+				"child_type"
+			],
+			[
+				"ch",
+				"child_type\tfunction"
+			],
+			[
+				"chi",
+				"child_type"
+			],
+			[
+				"child",
+				"child_type"
+			],
+			[
+				"clean",
+				"clean_docs"
+			],
+			[
+				"type",
+				"type_"
+			],
+			[
+				"Bas",
+				"BaseException\tclass"
+			],
+			[
+				"import",
+				"import_module\tfunction"
+			],
+			[
+				"enum",
+				"enumerate"
+			],
+			[
+				"links",
+				"links_str"
+			],
+			[
+				"names",
+				"names_str"
+			],
+			[
+				"objec",
+				"object"
+			],
+			[
+				"form",
+				"format_data\tstatement"
+			],
+			[
+				"for",
+				"format_data\tstatement"
+			],
+			[
+				"name",
+				"name_"
+			],
+			[
+				"ob",
+				"object_"
+			],
+			[
+				"class",
+				"class_\tparam"
+			],
+			[
+				"na",
+				"names\tstatement"
+			],
+			[
+				"typ",
+				"type_"
+			],
+			[
+				"mo",
+				"module\tstatement"
+			],
+			[
+				"mod",
+				"module_all"
+			],
+			[
+				"url",
+				"url_fname\tfunction"
+			],
+			[
+				"re",
+				"reddit_url"
+			],
+			[
+				"red",
+				"reddit_listing"
+			],
+			[
+				"nex",
+				"next_no_repeat"
+			],
+			[
+				"Red",
+				"RedditAPIWrapper"
+			],
+			[
+				"redd",
+				"reddit_json_api\t(collect.py)"
+			],
+			[
+				"args",
+				"args_str"
+			],
+			[
+				"Col",
+				"Collect"
+			],
+			[
+				"coll",
+				"collector"
+			],
+			[
+				"_Re",
+				"_RedditJsonAPI\tclass"
+			],
+			[
+				"flags",
+				"flags_next_recover\tfunction"
+			],
+			[
+				"nextno",
+				"next_no_repeat_download\tfunction"
+			],
+			[
+				"next",
+				"next_download\tfunction"
+			],
+			[
+				"exis",
+				"existing_paths\tstatement"
+			],
+			[
+				"api",
+				"_api\tfunction"
+			],
+			[
+				"_R",
+				"_RedditJsonAPI\tclass"
+			],
+			[
+				"handle",
+				"_handle_fail"
+			],
+			[
+				"reco",
+				"recover_new\tfunction"
+			],
+			[
+				"image",
+				"image_path"
+			],
+			[
+				"exi",
+				"existing_paths\tstatement"
+			],
+			[
+				"imag",
+				"image_path"
+			],
+			[
+				"_Api",
+				"_APIIter"
+			],
+			[
+				"json",
+				"json_url"
+			],
+			[
+				"ima",
+				"image_path"
+			],
+			[
+				"str",
+				"strerr"
+			],
+			[
+				"_get",
+				"_get_image"
+			],
+			[
+				"pare",
+				"parent_path"
+			],
+			[
+				"col",
+				"collections"
+			],
+			[
+				"def",
+				"default"
+			],
+			[
+				"_API",
+				"_APIPost"
+			],
+			[
+				"exist",
+				"existing_paths"
+			],
+			[
+				"d",
+				"download"
+			],
+			[
+				"ext",
+				"exists"
+			],
+			[
+				"im",
+				"image_path"
+			],
+			[
+				"_pa",
+				"_path_all"
+			],
+			[
+				"_P",
+				"_path_all"
+			],
+			[
+				"Make",
+				"MakeStr\t(path.py)"
+			],
+			[
+				"rai",
+				"raise_"
+			],
+			[
+				"cont",
+				"continue\tkeyword"
+			],
+			[
+				"Int",
+				"IntFlag\tclass"
+			],
+			[
+				"add",
+				"add_argument"
+			],
+			[
+				"is_",
+				"is_file"
+			],
+			[
+				"parent",
+				"parent_dir"
+			],
+			[
+				"error",
+				"error_msg"
+			],
+			[
+				"ur",
+				"url"
+			],
+			[
+				"stt",
+				"staticmethod"
+			],
+			[
+				"NO",
+				"NO_REPEAT"
+			],
+			[
+				"Redd",
+				"Reddit_Flags"
+			],
+			[
+				"IN",
+				"INSTALL_FLAGS"
+			],
+			[
+				"B",
+				"BIN_DIR"
+			],
+			[
+				"setup",
+				"setuptools\tmodule"
+			],
+			[
+				"M",
+				"MyMachines"
+			],
+			[
+				"rot",
+				"rootfs"
+			],
+			[
+				"fails",
+				"failsafe"
+			],
+			[
+				"exc",
+				"exc_type\tstatement"
+			],
+			[
+				"Logg",
+				"LoggingException\tclass"
+			],
+			[
+				"Lo",
+				"LoggingException\tclass"
+			],
+			[
+				"Coll",
+				"CollectorSurpressFileNotFound\tclass"
+			],
+			[
+				"File",
+				"FileNotFoundError\tclass"
+			],
+			[
+				"do",
+				"download\tfunction"
+			],
+			[
+				"de",
+				"debug"
+			],
+			[
+				"no",
+				"no_repeat\tparam"
+			],
+			[
+				"get",
+				"getattr\tfunction"
+			],
+			[
+				"cl",
+				"clear\tfunction"
+			],
+			[
+				"subco",
+				"subcommand_func\tstatement"
+			],
+			[
+				"ra",
+				"random_flag"
+			],
+			[
+				"reddit",
+				"reddit_p\tstatement"
+			],
+			[
+				"sub",
+				"subcommand_func\tstatement"
+			],
+			[
+				"subc",
+				"subcommand_func\tstatement"
+			],
+			[
+				"se",
+				"set_defaults\tfunction"
+			],
+			[
+				"cle",
+				"clear_p\tstatement"
+			],
+			[
+				"ran",
+				"random_p\tstatement"
+			],
+			[
+				"ver",
+				"VERSION\tstatement"
+			],
+			[
+				"pyth",
+				"python-magic"
+			],
+			[
+				"from",
+				"from_file"
+			],
+			[
+				"mime",
+				"mime_type\tstatement"
+			],
+			[
+				"gue",
+				"guess_type\tfunction"
+			],
+			[
+				"pr",
+				"print_usage\tfunction"
+			],
+			[
+				"Log",
+				"Logger"
+			],
+			[
+				"content",
+				"content_type\tstatement"
+			],
+			[
+				"if",
+				"ifmain\tif __name__ == '__main__'"
+			],
+			[
+				"dir",
+				"dir_parts\tstatement"
+			],
+			[
+				"self",
+				"self_part\tstatement"
+			],
+			[
+				"par",
+				"parse_args\tfunction"
+			],
+			[
+				"colec",
+				"collect"
+			],
+			[
+				"Path",
+				"PathBase\tclass"
+			],
+			[
+				"__f",
+				"__func__\tinstance"
+			],
+			[
+				"D",
+				"Decorate\tclass"
+			],
+			[
+				"Mak",
+				"MakeStr"
+			],
+			[
+				"Pa",
+				"PathBase\tclass"
+			],
+			[
+				"Wrap",
+				"WrapLater\tclass"
+			],
+			[
+				"__in",
+				"__init__\tfunction"
+			],
+			[
+				"new",
+				"new_cls\tparam"
+			],
+			[
+				"__init",
+				"__init_subclass__\tfunction"
+			],
+			[
+				"func",
+				"func\tparam"
+			],
+			[
+				"__",
+				"__name__"
+			],
+			[
+				"fro",
+				"from_str"
+			],
+			[
+				"meta",
+				"metaclass"
+			],
+			[
+				"ne",
+				"new_type"
+			],
+			[
+				"Not",
+				"NotImplemented\tinstance"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/cheese/collect/Makefile",
+			"settings":
+			{
+				"buffer_size": 633,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/cheese/collect/doc.py",
+			"settings":
+			{
+				"buffer_size": 4787,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/cheese/collect/DOC.md",
+			"settings":
+			{
+				"buffer_size": 5607,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/cheese/collect/collect/_path.py",
+			"settings":
+			{
+				"buffer_size": 9376,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/cheese/collect/collect/__main__.py",
+			"settings":
+			{
+				"buffer_size": 5617,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/cheese/collect/collect/_collect.py",
+			"settings":
+			{
+				"buffer_size": 6214,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/cheese/collect/collect/_flags.py",
+			"settings":
+			{
+				"buffer_size": 575,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/cheese/collect/collect/_logger.py",
+			"settings":
+			{
+				"buffer_size": 866,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/cheese/collect/collect/_config.py",
+			"settings":
+			{
+				"buffer_size": 331,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/cheese/collect/setup.py",
+			"settings":
+			{
+				"buffer_size": 248,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/cheese/collect/collect/__init__.py",
+			"settings":
+			{
+				"buffer_size": 277,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				"Syntax Check"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "theme",
+		"selected_items":
+		[
+			[
+				"theme",
+				"Material Theme: Advanced configuration"
+			],
+			[
+				"mater",
+				"Material Theme: Advanced configuration"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Enable Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 206.0
+	},
+	"console":
+	{
+		"height": 136.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/cheese/collect",
+		"/home/cheese/collect/collect"
+	],
+	"file_history":
+	[
+		"/home/cheese/collect/README.md",
+		"/home/cheese/collect/a.out",
+		"/home/cheese/collect/DOC.md",
+		"/home/cheese/collect/mddoc.py",
+		"/home/cheese/.bash_history",
+		"/home/cheese/collect/doc/conf.py",
+		"/usr/lib/python3.6/site-packages/sphinxcontrib/builders/rst.py",
+		"/home/cheese/collect/doc/subl",
+		"/home/cheese/collect/doc/index.rst",
+		"/home/cheese/collect/doc/collect.rst",
+		"/home/cheese/collect/doc/_build/text/collect.txt",
+		"/home/cheese/collect/setup.py",
+		"/home/cheese/collect/collect/config.py",
+		"/home/cheese/collect/collect/logger.py",
+		"/home/cheese/collect/collect/path.py",
+		"/home/cheese/collect/collect/flags.py",
+		"/home/cheese/collect/collect/collect.py",
+		"/home/cheese/collect/doc/test/collect.rst",
+		"/home/cheese/collect/requirements.txt",
+		"/home/cheese/.config/i3/config",
+		"/home/cheese/.config/praw.ini",
+		"/boot/grub/grub.cfg",
+		"/etc/grub.d/40_custom",
+		"/home/cheese/.config/polybar/config",
+		"/home/cheese/collect/collect/collect.sh",
+		"/home/cheese/collect/collect/util.py",
+		"/home/cheese/collect/collect/__init__.py",
+		"/home/cheese/collect/collect/__main__.py",
+		"/home/cheese/qemu",
+		"/home/cheese/a.out",
+		"/home/cheese/A.OUT",
+		"/etc/grub.d/30_os-prober",
+		"/etc/default/grub",
+		"/home/cheese/.config/sublime-text-3/Installed Packages/All Autocomplete.sublime-package",
+		"/var/xlog",
+		"/usr/bin/collect",
+		"/home/cheese/collect/README",
+		"/home/cheese/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package",
+		"/home/cheese/collect/collect/cacheutil.py",
+		"/home/cheese/collect/collect/cache.py",
+		"/usr/lib/python3.6/site-packages/collect-1.0-py3.6.egg/collect/__init__.py",
+		"/usr/lib/python3.6/site-packages/collect-1.0-py3.6.egg/collect/__main__.py",
+		"/usr/lib/python3.6/site-packages/collect-1.0-py3.6.egg/collect",
+		"/home/cheese/collect/files.txt",
+		"/home/cheese/collect/configure",
+		"/home/cheese/collect/.gitignore",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/collect/collect/__init__.py",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/collect/collect/collect.py",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/collect/collect/__main__.py",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/collect/collect/cache.py",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/collect/collect/util.py",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/collect/collect/config.py",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/collect/setup.py",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/collect/configure",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/collect/Makefile",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/collect/.gitignore",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/collect/README",
+		"/home/cheese/.cache/collect/pickle",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/collect/requirements.txt",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/collect/collect/_secret.py",
+		"/home/cheese/random",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/collect/.configure",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/wallpapers/collect/config.py",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/wallpapers/collect/__main__.py",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/wallpapers/collect/__init__.py",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/wallpapers/collect/collect.py",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/wallpapers/collect/util.py",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/wallpapers/collect/cache.py",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/wallpapers/Makefile",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/wallpapers/dist/collect-1.0-py3.6.egg",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/wallpapers/setup.py",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/wallpapers/a.out",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/wallpapers/collect/funcutil.py",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/wallpapers/collect/main.py",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/wallpapers/cache.py",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/wallpapers/util.py",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/wallpapers/collect.py",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/wallpapers/__init__.py",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/wallpapers/cache_.py",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/wallpapers/test.py",
+		"/usr/lib/python3.6/collections/__init__.py",
+		"/usr/lib/python3.6/site-packages/pywal/util.py",
+		"/home/cheese/.bashrc",
+		"/home/cheese/cheeseywhiz/Mandelbrot-Set/decorators.py",
+		"/home/cheese/cheeseywhiz/http/static/js/jquery-3.2.1.js",
+		"/home/cheese/.local/share/xorg/Xorg.0.log",
+		"/home/cheese/.config/wal/launch.sh",
+		"/home/cheese/.cache/wal/wal",
+		"/mnt/home/home/cheese/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
+		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/libwifi.py",
+		"/mnt/home/home/a.out",
+		"/etc/fstab",
+		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/pyqtbindings.py",
+		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/wifi_dialog.py",
+		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/get_password.py",
+		"/home/cheese/cheeseywhiz/math/colorlib/colorlib.py",
+		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/wifi_interface.py",
+		"/home/cheese/.bash_profile",
+		"/home/cheese/.config/i3/ws-key-func",
+		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/requirements.txt",
+		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/ugly.py",
+		"/home/cheese/.config/i3/i3blocks.conf",
+		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/out.py",
+		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/test.py",
+		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/password_dialog.py",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/GetRedditLink/Dialogs/Input.py",
+		"/home/cheese/cheeseywhiz/.gitignore",
+		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/out",
+		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/noconflict.py",
+		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/random_data.py",
+		"/home/cheese/Desktop/scroll_area_mwe/main.py",
+		"/home/cheese/.config/sublime-text-3/Packages/User/All Autocomplete.sublime-settings",
+		"/home/cheese/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
+		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/test_interface.py",
+		"/home/cheese/Desktop/char",
+		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/wifi_list.py",
+		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/dict",
+		"/home/cheese/cheeseywhiz/Reddit-scripts/GetRedditLink/main.py",
+		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/interp",
+		"/home/cheese/cheeseywhiz/GUIs/Wifi Interface/wifi_list.py",
+		"/home/cheese/cheeseywhiz/Mandelbrot-Set/c/mdbsmodule.c",
+		"/home/cheese/cheeseywhiz/AvgImg/imglib.py",
+		"/home/cheese/cheeseywhiz/Mandelbrot-Set/mdbs5.py",
+		"/home/cheese/cheeseywhiz/Mandelbrot-Set/c/__init__.py",
+		"/home/cheese/cheeseywhiz/Mandelbrot-Set/c/math_ops.h",
+		"/home/cheese/cheeseywhiz/AvgImg/avgimg.py",
+		"/home/cheese/Desktop/test.py",
+		"/home/cheese/cheeseywhiz/AvgImg/imglib/__init__.py"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"def",
+			"static_method",
+			"object",
+			"clean_docs",
+			"obj_class",
+			", **kwargs",
+			"names",
+			"cls_",
+			"child_class",
+			"type_",
+			"obj",
+			"child",
+			"DocBase",
+			"level",
+			"self",
+			"obj",
+			"structure",
+			"template",
+			"types",
+			"self.format_data.update",
+			"long_name",
+			"names)",
+			"names):",
+			"name_",
+			"object",
+			"class ",
+			"class Function",
+			"parent_names",
+			"name",
+			"public",
+			"module",
+			"CastCls",
+			"cast_one_arg",
+			"g",
+			"Author",
+			"Path",
+			"config",
+			"flags",
+			"config.",
+			"collect.",
+			"collect",
+			"Collect",
+			"collect",
+			"logger",
+			"path",
+			"collect",
+			"self.data['",
+			"post",
+			"_RedditFlags",
+			"URL",
+			"_RedditFlags",
+			"flags_next",
+			"flags_handle_stop",
+			"random",
+			"url",
+			"next_download",
+			"next_no_repeat",
+			"RedditAPIWrapper",
+			"SubmissionWrapper",
+			"_RedditPost",
+			"RedditJsonAPI",
+			"_RedditJsonAPI",
+			"recover_all",
+			"api",
+			"flags_handle_error",
+			"flags_recover",
+			"api",
+			"_APIPost",
+			"api",
+			"_APIIter",
+			"self",
+			"data",
+			"return post",
+			"existing_posts",
+			"jiter",
+			"existing_paths",
+			"self['url']",
+			"image_path",
+			"visited",
+			"something",
+			"api_posts",
+			"iter",
+			"_verify_response",
+			"_Reddit_Flags",
+			"            data = post['data']\n            image_url = data['url']\n            image_path = self.url_fname(image_url)\n\n            if self == image_path:\n                pass\n            elif image_path.exists():\n                Logger.debug('Already downloaded: %s' % image_url)\n                existing_paths[image_path] = data\n                if not flags & NO_REPEAT:\n                    break\n            else:\n                try:\n                    image_path.download(image_url)\n                except ValueError as error:\n                    Logger.debug(str(error))\n                else:\n                    Logger.debug('Collected new image: %s', image_url)\n                    break\n\n            data = None\n            image_url = None\n            image_path = None",
+			"self.url",
+			"from_str",
+			"MakeStr",
+			"raise_",
+			"NOTSET",
+			"File:",
+			"no_repeat_flag",
+			"_path",
+			"existing_paths",
+			"return",
+			"image_url",
+			"Reddit_Flags",
+			"Failsafe",
+			"randomized",
+			"url",
+			"PREFIX",
+			"BIN_DIR",
+			"log_exceptions",
+			"randomized",
+			"DIRECTORY",
+			"REDDIT_URL",
+			"randomized",
+			"f'"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/cheese/collect/Makefile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 633,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Makefile/Makefile.sublime-syntax",
+							"tab_size": 8,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/cheese/collect/doc.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4787,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								211,
+								211
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/cheese/collect/DOC.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5607,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/cheese/collect/collect/_path.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9376,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								92,
+								92
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/cheese/collect/collect/__main__.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5617,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/cheese/collect/collect/_collect.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6214,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/cheese/collect/collect/_flags.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 575,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/home/cheese/collect/collect/_logger.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 866,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/home/cheese/collect/collect/_config.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 331,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/home/cheese/collect/setup.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 248,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								84,
+								84
+							],
+							[
+								113,
+								113
+							],
+							[
+								139,
+								139
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/home/cheese/collect/collect/__init__.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 277,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 98.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 25.0
+	},
+	"pinned_build_system": "",
+	"project": "collect.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/.config/sublime-text-3/Projects/cheeseywhiz.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 157.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
