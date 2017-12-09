@@ -1020,8 +1020,8 @@
 						"selection":
 						[
 							[
-								211,
-								211
+								217,
+								217
 							]
 						],
 						"settings":
@@ -1055,7 +1055,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1056.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1499,7 +1499,7 @@
 		[
 			[
 				"",
-				"~/.config/sublime-text-3/Projects/cheeseywhiz.sublime-project"
+				"~/.config/sublime-text-3/Projects/cheese.sublime-project"
 			]
 		],
 		"width": 380.0

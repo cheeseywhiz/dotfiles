@@ -29,6 +29,7 @@
 !.config/polybar/*
 !.config/res
 !.config/res/*
+!.config/devilspie2
 
 bin
 include

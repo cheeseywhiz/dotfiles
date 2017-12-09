@@ -624,6 +624,8 @@
 	],
 	"file_history":
 	[
+		"/home/cheese/.bash_profile",
+		"/home/cheese/.gitignore",
 		"/home/cheese/.config/.devilspie/launch.sh",
 		"/home/cheese/.config/.devilspie/opacity.ds",
 		"/home/cheese/.config/polybar/launch.sh",
@@ -714,7 +716,6 @@
 		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/get_password.py",
 		"/home/cheese/cheeseywhiz/math/colorlib/colorlib.py",
 		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/wifi_interface.py",
-		"/home/cheese/.bash_profile",
 		"/home/cheese/.config/i3/ws-key-func",
 		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/requirements.txt",
 		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/ugly.py",
@@ -750,8 +751,7 @@
 		"/home/cheese/cheeseywhiz/Mandelbrot-Set/c/main.c",
 		"/home/cheese/cheeseywhiz/Mandelbrot-Set/c/mem_dict.h",
 		"/home/cheese/cheeseywhiz/Mandelbrot-Set/c/my_complex.h",
-		"/home/cheese/cheeseywhiz/Mandelbrot-Set/c/a.out",
-		"/home/cheese/cheeseywhiz/AvgImg/avgimglib/imageiter.py"
+		"/home/cheese/cheeseywhiz/Mandelbrot-Set/c/a.out"
 	],
 	"find":
 	{
@@ -823,7 +823,7 @@
 						"translation.y": 5288.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -853,7 +853,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -882,7 +882,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
