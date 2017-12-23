@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"polybar",
+				"polybar_launch"
+			],
+			[
+				"cli",
+				"client_secret"
+			],
+			[
+				"clie",
+				"client_id"
+			],
+			[
 				"gentoo",
 				"gentoo-mem"
 			],
@@ -502,18 +514,6 @@
 			[
 				"ArgP",
 				"ArgumentParser\tclass"
-			],
-			[
-				"Sav",
-				"SAVE_DIR\tmodule"
-			],
-			[
-				"sa",
-				"save_cache"
-			],
-			[
-				"wrappe",
-				"wrapper\tfunction"
 			]
 		]
 	},
@@ -523,25 +523,25 @@
 			"file": "/home/cheese/.config/i3/config",
 			"settings":
 			{
-				"buffer_size": 9430,
+				"buffer_size": 8855,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/cheese/.config/devilspie2/launch.sh",
+			"file": "/home/cheese/.bash_profile",
 			"settings":
 			{
-				"buffer_size": 223,
+				"buffer_size": 221,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/cheese/.config/devilspie2/subl.lua",
+			"file": "/home/cheese/.config/i3/sys_cmd.sh",
 			"settings":
 			{
-				"buffer_size": 78,
+				"buffer_size": 475,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -574,13 +574,17 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 384.0,
-		"last_filter": "pack",
+		"height": 392.0,
+		"last_filter": "ma",
 		"selected_items":
 		[
 			[
+				"ma",
+				"Material Theme: Activate theme"
+			],
+			[
 				"pack",
-				"Package Control: List Packages"
+				"Package Control: Install Package"
 			],
 			[
 				"Package Control: ",
@@ -595,7 +599,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 465.0
+		"width": 497.0
 	},
 	"console":
 	{
@@ -617,15 +621,18 @@
 	[
 		"/home/cheese",
 		"/home/cheese/.config",
-		"/home/cheese/.config/devilspie2",
 		"/home/cheese/.config/i3",
 		"/home/cheese/.config/polybar",
 		"/home/cheese/.config/wal"
 	],
 	"file_history":
 	[
-		"/home/cheese/.bash_profile",
+		"/home/cheese/.config/devilspie2/launch.sh",
 		"/home/cheese/.gitignore",
+		"/home/cheese/.bashrc",
+		"/home/cheese/.config/devilspie2/subl.lua",
+		"/home/cheese/.config/praw.ini",
+		"/home/cheese/.bash_profile",
 		"/home/cheese/.config/.devilspie/launch.sh",
 		"/home/cheese/.config/.devilspie/opacity.ds",
 		"/home/cheese/.config/polybar/launch.sh",
@@ -635,7 +642,6 @@
 		"/home/cheese/.config/wal/tint.py",
 		"/home/cheese/gentoo/qemu",
 		"/home/cheese/gentoo/init.sh",
-		"/home/cheese/.bashrc",
 		"/home/cheese/.xinitrc",
 		"/home/cheese/collect/collect/__init__.py",
 		"/home/cheese/collect/collect/__main__.py",
@@ -748,14 +754,11 @@
 		"/home/cheese/cheeseywhiz/AvgImg/imglib/__init__.py",
 		"/home/cheese/cheeseywhiz/Mandelbrot-Set/c/setup.py",
 		"/home/cheese/cheeseywhiz/Mandelbrot-Set/c/testmodule.c",
-		"/home/cheese/cheeseywhiz/Mandelbrot-Set/c/main.c",
-		"/home/cheese/cheeseywhiz/Mandelbrot-Set/c/mem_dict.h",
-		"/home/cheese/cheeseywhiz/Mandelbrot-Set/c/my_complex.h",
-		"/home/cheese/cheeseywhiz/Mandelbrot-Set/c/a.out"
+		"/home/cheese/cheeseywhiz/Mandelbrot-Set/c/main.c"
 	],
 	"find":
 	{
-		"height": 30.0
+		"height": 48.0
 	},
 	"find_in_files":
 	{
@@ -769,6 +772,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"exec",
+			"echo",
+			"bar_cmd",
+			"\nexec",
+			"\nexec_always",
+			"exec --no-startup-id",
+			"exec_always --no-startup-id",
 			"get_application_name",
 			"collect",
 			"collect.path",
@@ -792,7 +802,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -801,15 +811,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9430,
+						"buffer_size": 8855,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9323,
-								9323
+								7805,
+								7809
 							]
 						],
 						"settings":
@@ -820,27 +830,56 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 5288.0,
+						"translation.y": 4988.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "/home/cheese/.config/devilspie2/launch.sh",
+					"file": "/home/cheese/.bash_profile",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 223,
+						"buffer_size": 221,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								220,
-								220
+								23,
+								23
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/cheese/.config/i3/sys_cmd.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 475,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12,
+								12
 							]
 						],
 						"settings":
@@ -848,35 +887,6 @@
 							"git_gutter_is_enabled": true,
 							"open_with_edit": true,
 							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/home/cheese/.config/devilspie2/subl.lua",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 78,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								78,
-								78
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Lua/Lua.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

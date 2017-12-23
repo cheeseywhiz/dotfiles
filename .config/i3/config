@@ -2,8 +2,10 @@
 #
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 
-set $bar_cmd $HOME/.config/polybar/launch.sh
-exec_always --no-startup-id $bar_cmd
+set $sys_cmd $HOME/.config/i3/sys_cmd.sh
+
+exec_always --no-startup-id $sys_cmd always_init
+exec $sys_cmd once_init
 
 ##window colors
 set $bg-color            #2f343f
@@ -37,9 +39,6 @@ font pango:$user_font 8
 # clear in small sizes. However, its unicode glyph coverage is limited, the old
 # X core fonts rendering does not support right-to-left and this being a bitmap
 # font, it doesn’t scale on retina/hidpi displays.
-
-# try natural scrolling
-exec --no-startup-id synclient HorizEdgeScroll=1 VertEdgeScroll=1 VertScrollDelta=-111 LBCornerButton=1 RBCornerButton=2
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -243,8 +242,6 @@ bindsym XF86AudioRaiseVolume exec pactl set-sink-mute $sink false; exec pactl se
 bindsym shift+XF86AudioRaiseVolume exec pactl set-sink-mute $sink false; exec pactl set-sink-volume $sink +1%
 
 ##Screen Brightness
-# permissions
-exec_always sudo chmod 666 /sys/class/backlight/intel_backlight/brightness
 # Fn+F11       Dimmer
 # Shift+Fn+F11 Full dim
 # Fn+F12       Brighter
@@ -256,15 +253,6 @@ bindsym shift+XF86MonBrightnessDown exec xbacklight -set 1 $slow
 bindsym XF86MonBrightnessUp exec xbacklight -inc 10 $quick
 bindsym shift+XF86MonBrightnessUp exec xbacklight -set 100 $slow
 
-set $wallaunch $HOME/.config/wal/wallaunch.sh
-set $wal_args $HOME/Pictures/wallpapers
-set $reddit_wal_args $(collect -v reddit -n -r -a)
-
-exec_always --no-startup-id compton -bc --config $HOME/.config/compton.conf
-exec_always --no-startup-id $HOME/.config/devilspie2/launch.sh
-exec --no-startup-id $wallaunch $reddit_wal_args
-
-bindsym $mod+Shift+x exec xrdb -merge $HOME/.Xresources
-bindsym $mod+Shift+b exec $bar_cmd
-bindsym $mod+Shift+w exec $wallaunch $reddit_wal_args
-bindsym $mod+Shift+Ctrl+w exec $wallaunch $wal_args
+bindsym $mod+Shift+b exec $sys_cmd polybar_launch
+bindsym $mod+Shift+w exec $sys_cmd wal_reddit
+bindsym $mod+Shift+Ctrl+w exec $sys_cmd wal_wallpapers

@@ -519,15 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/home/cheese/cheeseywhiz/latex/10solutions.tex",
-			"settings":
-			{
-				"buffer_size": 4745,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -556,10 +547,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 384.0,
-		"last_filter": "pack",
+		"height": 354.0,
+		"last_filter": "package ",
 		"selected_items":
 		[
+			[
+				"package ",
+				"Package Control: List Packages"
+			],
 			[
 				"pack",
 				"Package Control: Install Package"
@@ -577,7 +572,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 465.0
+		"width": 513.0
 	},
 	"console":
 	{
@@ -598,11 +593,15 @@
 	"expanded_folders":
 	[
 		"/home/cheese/cheeseywhiz",
-		"/home/cheese/cheeseywhiz/GUIs",
 		"/home/cheese/cheeseywhiz/latex"
 	],
 	"file_history":
 	[
+		"/home/cheese/cheeseywhiz/latex/10solutions.tex",
+		"/home/cheese/cheeseywhiz/socket/app.py",
+		"/home/cheese/cheeseywhiz/socket/server/app.py",
+		"/home/cheese/cheeseywhiz/socket/server/http.py",
+		"/home/cheese/cheeseywhiz/socket/server/server.py",
 		"/home/cheese/cheeseywhiz/latex/Makefile",
 		"/mnt/Users/Owner/Documents/LaTeX/Dec 2016 Alma Revision 2/alma.sty",
 		"/mnt/Users/Owner/Documents/LaTeX/Dec 2016 Alma Revision 2/Dec 2016 Alma Revision 2.tex",
@@ -725,16 +724,11 @@
 		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/interp",
 		"/home/cheese/cheeseywhiz/GUIs/Wifi Interface/wifi_list.py",
 		"/home/cheese/cheeseywhiz/Mandelbrot-Set/c/mdbsmodule.c",
-		"/home/cheese/cheeseywhiz/AvgImg/imglib.py",
-		"/home/cheese/cheeseywhiz/Mandelbrot-Set/mdbs5.py",
-		"/home/cheese/cheeseywhiz/Mandelbrot-Set/c/__init__.py",
-		"/home/cheese/cheeseywhiz/Mandelbrot-Set/c/math_ops.h",
-		"/home/cheese/cheeseywhiz/AvgImg/avgimg.py",
-		"/home/cheese/Desktop/test.py"
+		"/home/cheese/cheeseywhiz/AvgImg/imglib.py"
 	],
 	"find":
 	{
-		"height": 30.0
+		"height": 48.0
 	},
 	"find_in_files":
 	{
@@ -748,6 +742,42 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"|y_0|",
+			"%\n\\section",
+			"\\section",
+			"align",
+			"dots",
+			"align",
+			"can plu",
+			"infinity",
+			"\\ddx",
+			"\\frac{d}{dx}",
+			"ddx",
+			"sfrac",
+			"xfrac",
+			":",
+			"align",
+			"&",
+			"\n&\\",
+			"&\\",
+			"&=",
+			"&",
+			"\\frac{\\pi}",
+			"\\frac{d}{dx}",
+			"ddx",
+			"\\,",
+			"Arranging",
+			"display",
+			"displaymath",
+			"equation",
+			"collect.path",
+			"collect",
+			"collect.path",
+			"collect",
+			"collect.path",
+			"collect",
+			"collect.path",
+			"collect",
 			"u",
 			"section",
 			"and",
@@ -833,38 +863,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/home/cheese/cheeseywhiz/latex/10solutions.tex",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4745,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2909,
-								2909
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/LaTeX/LaTeX.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 603.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -874,7 +874,7 @@
 	},
 	"input":
 	{
-		"height": 29.0
+		"height": 30.0
 	},
 	"layout":
 	{
