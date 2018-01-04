@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"nex",
+				"next_no_repeat\tfunction"
+			],
+			[
+				"next",
+				"next_no_repeat_download"
+			],
+			[
+				"exi",
+				"exists\tfunction"
+			],
+			[
+				"Red",
+				"RedditFlags"
+			],
+			[
 				"subsc",
 				"subscriptions"
 			],
@@ -280,14 +296,6 @@
 				"reddit_listing"
 			],
 			[
-				"nex",
-				"next_no_repeat"
-			],
-			[
-				"Red",
-				"RedditAPIWrapper"
-			],
-			[
 				"redd",
 				"reddit_json_api\t(collect.py)"
 			],
@@ -316,10 +324,6 @@
 				"next_no_repeat_download\tfunction"
 			],
 			[
-				"next",
-				"next_download\tfunction"
-			],
-			[
 				"exis",
 				"existing_paths\tstatement"
 			],
@@ -342,10 +346,6 @@
 			[
 				"image",
 				"image_path"
-			],
-			[
-				"exi",
-				"existing_paths\tstatement"
 			],
 			[
 				"imag",
@@ -529,28 +529,10 @@
 			}
 		},
 		{
-			"file": "/home/cheese/collect/README.md",
-			"settings":
-			{
-				"buffer_size": 1245,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/cheese/collect/doc.py",
-			"settings":
-			{
-				"buffer_size": 9693,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "/home/cheese/collect/collect/_path.py",
 			"settings":
 			{
-				"buffer_size": 9422,
+				"buffer_size": 9408,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -568,7 +550,7 @@
 			"file": "/home/cheese/collect/collect/_collect.py",
 			"settings":
 			{
-				"buffer_size": 6530,
+				"buffer_size": 6427,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -577,7 +559,7 @@
 			"file": "/home/cheese/collect/collect/_flags.py",
 			"settings":
 			{
-				"buffer_size": 575,
+				"buffer_size": 519,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -595,16 +577,7 @@
 			"file": "/home/cheese/collect/collect/_config.py",
 			"settings":
 			{
-				"buffer_size": 331,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/cheese/collect/setup.py",
-			"settings":
-			{
-				"buffer_size": 248,
+				"buffer_size": 342,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -706,6 +679,9 @@
 	],
 	"file_history":
 	[
+		"/home/cheese/collect/README.md",
+		"/home/cheese/collect/doc.py",
+		"/home/cheese/collect/setup.py",
 		"/tmp/tmp.ceriTaGGCf/a.out",
 		"/home/cheese/collect/collect.md",
 		"/home/cheese/collect/a.out",
@@ -715,7 +691,6 @@
 		"/home/cheese/.config/sublime-text-3/Packages/User/Terminal.sublime-settings",
 		"/home/cheese/collect/collect/__init__.py",
 		"/home/cheese/.config/sublime-text-3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
-		"/home/cheese/collect/README.md",
 		"/home/cheese/collect/mddoc.py",
 		"/home/cheese/.bash_history",
 		"/home/cheese/collect/doc/conf.py",
@@ -724,7 +699,6 @@
 		"/home/cheese/collect/doc/index.rst",
 		"/home/cheese/collect/doc/collect.rst",
 		"/home/cheese/collect/doc/_build/text/collect.txt",
-		"/home/cheese/collect/setup.py",
 		"/home/cheese/collect/collect/config.py",
 		"/home/cheese/collect/collect/logger.py",
 		"/home/cheese/collect/collect/path.py",
@@ -832,8 +806,7 @@
 		"/home/cheese/cheeseywhiz/Reddit-scripts/GetRedditLink/main.py",
 		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/interp",
 		"/home/cheese/cheeseywhiz/GUIs/Wifi Interface/wifi_list.py",
-		"/home/cheese/cheeseywhiz/Mandelbrot-Set/c/mdbsmodule.c",
-		"/home/cheese/cheeseywhiz/AvgImg/imglib.py"
+		"/home/cheese/cheeseywhiz/Mandelbrot-Set/c/mdbsmodule.c"
 	],
 	"find":
 	{
@@ -851,6 +824,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".tree",
+			".parent",
+			"self.__",
+			"args.collector",
 			"listing_type",
 			"_reddit",
 			"url",
@@ -974,16 +951,12 @@
 			"self['url']",
 			"image_path",
 			"visited",
-			"something",
-			"api_posts",
-			"iter",
-			"_verify_response",
-			"_Reddit_Flags"
+			"something"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": true,
+		"regex": false,
 		"replace_history":
 		[
 		],
@@ -996,7 +969,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -1012,8 +985,8 @@
 						"selection":
 						[
 							[
-								521,
-								521
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1024,291 +997,19 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 338.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/home/cheese/collect/README.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1245,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								390,
-								390
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/home/cheese/collect/doc.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 9693,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5646,
-								5646
-							]
-						],
-						"settings":
-						{
-							"auto_complete": true,
-							"auto_complete_triggers":
-							[
-								{
-									"characters": ".",
-									"selector": "source.python - string - comment - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								}
-							],
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 4224.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/home/cheese/collect/collect/_path.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 9422,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5568,
-								5568
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": ".",
-									"selector": "source.python - string - comment - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								}
-							],
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 4266.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "/home/cheese/collect/collect/__main__.py",
+					"buffer": 1,
+					"file": "/home/cheese/collect/collect/_path.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5820,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3278,
-								3278
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": ".",
-									"selector": "source.python - string - comment - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								}
-							],
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1848.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/home/cheese/collect/collect/_collect.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6530,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								315,
-								315
-							]
-						],
-						"settings":
-						{
-							"auto_complete_triggers":
-							[
-								{
-									"characters": ".",
-									"selector": "source.python - string - comment - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								},
-								{
-									"characters": ".",
-									"selector": "source.python - string - constant.numeric"
-								}
-							],
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Python/Python.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/home/cheese/collect/collect/_flags.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 575,
+						"buffer_size": 9408,
 						"regions":
 						{
 						},
@@ -1321,6 +1022,199 @@
 						],
 						"settings":
 						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/cheese/collect/collect/__main__.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5820,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/cheese/collect/collect/_collect.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6427,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/cheese/collect/collect/_flags.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 519,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
 							"git_gutter_is_enabled": true,
 							"syntax": "Packages/Python/Python.sublime-syntax",
 							"tab_size": 4,
@@ -1334,7 +1228,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 5,
 					"file": "/home/cheese/collect/collect/_logger.py",
 					"semi_transient": false,
 					"settings":
@@ -1361,16 +1255,16 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 6,
 					"file": "/home/cheese/collect/collect/_config.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 331,
+						"buffer_size": 342,
 						"regions":
 						{
 						},
@@ -1392,6 +1286,10 @@
 								{
 									"characters": ".",
 									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
 								}
 							],
 							"git_gutter_is_enabled": true,
@@ -1401,36 +1299,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "/home/cheese/collect/setup.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 248,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -1507,7 +1376,7 @@
 		[
 			[
 				"",
-				"~/.config/sublime-text-3/Projects/cheese.sublime-project"
+				"~/.config/sublime-text-3/Projects/collectc.sublime-project"
 			]
 		],
 		"width": 380.0

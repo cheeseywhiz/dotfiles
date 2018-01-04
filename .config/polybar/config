@@ -43,7 +43,7 @@ font-2 = FontAwesome:pixelsize=11;1
 
 modules-left = i3
 modules-center = xwindow
-modules-right = cpu volume battery batterytime filesystem clock powermenu
+modules-right = cpu volume battery batterytime filesystem date powermenu
 
 tray-position = center
 tray-padding = 2
@@ -205,7 +205,7 @@ format-mounted-underline = ${self.underline}
 
 label-unmounted =
 
-[module/clock]
+[module/date]
 underline = ${colors.color6}
 
 type = internal/date
@@ -213,7 +213,7 @@ type = internal/date
 ; primary
 date = %I:%M %P
 ; alt
-time-alt = %A, %B %-e, %Y at %I:%M:%S %P
+time-alt = %A, %B %e, %Y at %I:%M:%S %P
 
 format-padding = 1
 format-prefix = " "

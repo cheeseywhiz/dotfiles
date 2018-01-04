@@ -4,516 +4,516 @@
 		"selected_items":
 		[
 			[
-				"clos",
-				"close_code"
-			],
-			[
-				"ur",
-				"urandom"
-			],
-			[
-				"err",
-				"errno"
-			],
-			[
-				"O",
-				"OBJECTS"
-			],
-			[
-				"lib",
-				"libcollect.so"
-			],
-			[
-				"B",
-				"BUILD"
-			],
-			[
-				"obj",
-				"obj"
-			],
-			[
-				"T",
-				"TEST"
-			],
-			[
-				"li",
-				"libcollect.so"
-			],
-			[
-				"LD",
-				"LDFLAGS"
-			],
-			[
-				"TE",
-				"TEST_CMD"
-			],
-			[
-				"jsmn",
-				"jsmnutils.so"
-			],
-			[
-				"L",
-				"LIB"
-			],
-			[
-				"OBJ",
-				"OBJECTS"
-			],
-			[
-				"OB",
-				"OBJECTS"
-			],
-			[
-				"bi",
-				"build_dirs"
-			],
-			[
-				"build",
-				"build_dirs"
-			],
-			[
-				"clea",
-				"clean"
-			],
-			[
-				"scr",
-				"score_url_fname"
-			],
-			[
-				"score",
-				"score_url_fname"
-			],
-			[
-				"tests",
-				"test_str_slice"
-			],
-			[
-				"regexs",
-				"regex_str_slice"
-			],
-			[
-				"exc",
-				"expected"
-			],
-			[
-				"cases",
-				"case_str_slice"
-			],
-			[
-				"reg",
-				"regex_str_slice\t(jsmnutils.c)"
-			],
-			[
-				"test",
-				"test_match_one_subexpr"
-			],
-			[
-				"case",
-				"case_match_one_subexpr"
-			],
-			[
-				"inc",
-				"inc\t#include <…>"
-			],
-			[
-				"regexm",
-				"regex_match_one_subexpr"
-			],
-			[
-				"case_",
-				"case_match_one_subexpr"
-			],
-			[
-				"regex",
-				"regex_match_one_subexpr\t(reg.c)"
-			],
-			[
-				"regext",
-				"regex_test_main\t(regtest.c)"
-			],
-			[
-				"tes",
-				"test_score"
-			],
-			[
-				"stru",
-				"struct\tstruct"
-			],
-			[
-				"regexst",
-				"regex_starts_with\t(reg.c)"
-			],
-			[
-				"objet",
-				"objects"
-			],
-			[
-				"urandom",
-				"urandom_number"
-			],
-			[
-				"rand",
-				"randbelow(10"
-			],
-			[
-				"R",
-				"RAND_MAX"
-			],
-			[
-				"jur",
-				"ju_random_iter"
-			],
-			[
-				"testr",
-				"test_random_next"
-			],
-			[
-				"jua",
-				"ju_array_next"
-			],
-			[
-				"testu",
-				"test_url_next"
-			],
-			[
-				"juu",
-				"ju_url_next\t(jsmnutils.c)"
-			],
-			[
-				"te",
-				"test_url_init"
-			],
-			[
-				"array",
-				"array_i"
-			],
-			[
-				"ju",
-				"ju_url_init\t(jsmnutils.c)"
-			],
-			[
-				"tet",
-				"test_parse"
-			],
-			[
-				"value",
-				"value2str"
-			],
-			[
-				"val",
-				"value2tok"
-			],
-			[
-				"json",
-				"json_str\t(jsmnutils.c)"
-			],
-			[
-				"ju_ran",
-				"ju_random_url_init"
-			],
-			[
-				"uran",
-				"urandom_number\t(rand.c)"
-			],
-			[
-				"int",
-				"int"
-			],
-			[
-				"randm",
-				"random_url_iter"
-			],
-			[
-				"regex_",
-				"regex_url_fname"
-			],
-			[
-				"random",
-				"random_url_iter"
-			],
-			[
-				"ran",
-				"random_url_iter"
-			],
-			[
-				"jura",
-				"ju_random_next"
-			],
-			[
-				"ju_ur",
-				"ju_url_next\t(jsmnutils.c)"
-			],
-			[
-				"ju_u",
-				"ju_url_init\t(jsmnutils.c)"
-			],
-			[
-				"ju_ar",
-				"ju_array_next\t(jsmnutils.c)"
-			],
-			[
-				"ju_arr",
-				"ju_array_init\t(jsmnutils.c)"
-			],
-			[
-				"ju_url",
-				"ju_url_init\t(jsmnutils.h)"
-			],
-			[
-				"n_",
-				"n_items"
-			],
-			[
-				"ind",
-				"indices"
-			],
-			[
-				"new",
-				"new_char_list"
-			],
-			[
-				"ju_",
-				"ju_array_iter"
-			],
-			[
-				"char",
-				"char_i"
-			],
-			[
-				"cha",
-				"char_i"
+				"res",
+				"result"
 			],
 			[
 				"size",
-				"size"
-			],
-			[
-				"self",
-				"self"
-			],
-			[
-				"str",
-				"struct"
-			],
-			[
-				"intli",
-				"int_list_random_order\t(rand.c)"
-			],
-			[
-				"in",
-				"int_list_random_order"
-			],
-			[
-				"fr",
-				"free_int_list\t(rand.c)"
-			],
-			[
-				"free",
-				"free_int_list"
-			],
-			[
-				"intl",
-				"int_list"
-			],
-			[
-				"intlis",
-				"int_list_iter"
-			],
-			[
-				"type",
-				"typedef"
-			],
-			[
-				"breka",
-				"break\t(collect.py)"
-			],
-			[
-				"rm",
-				"rm_eo\t(reg.c)"
-			],
-			[
-				"REG",
-				"REG_EXTENDED\t(get.c)"
-			],
-			[
-				"n",
-				"n_matches"
-			],
-			[
-				"clean",
-				"cleanup"
-			],
-			[
-				"ma",
-				"match"
-			],
-			[
-				"url",
-				"url_i"
-			],
-			[
-				"req",
-				"requests"
+				"sizeof"
 			],
 			[
 				"buf",
-				"buffer"
-			],
-			[
-				"ima",
-				"image.jpg"
-			],
-			[
-				"buff",
-				"buffer_len"
-			],
-			[
-				"f_",
-				"f_get_response\t(get.c)"
-			],
-			[
-				"im",
-				"im_fd"
-			],
-			[
-				"cot",
-				"content"
-			],
-			[
-				"ju_in",
-				"ju_init_url_iter"
+				"buf_len"
 			],
 			[
 				"fre",
 				"free_response"
 			],
 			[
-				"juin",
-				"ju_init_array_iter\t(jsontest.c)"
+				"inc",
+				"inc\t#include <…>"
 			],
 			[
-				"tok",
-				"tok_str"
+				"urand",
+				"urandom_number"
 			],
 			[
-				"key",
-				"key"
+				"free",
+				"free_json"
 			],
 			[
-				"dest",
-				"dest"
-			],
-			[
-				"des",
-				"dest_length"
-			],
-			[
-				"regex_s",
-				"regex_str_slice"
-			],
-			[
-				"hay",
-				"hay_len"
-			],
-			[
-				"start",
-				"startswith"
-			],
-			[
-				"jsn",
-				"jsmnutils"
-			],
-			[
-				"re",
-				"response"
-			],
-			[
-				"ar",
-				"argc"
-			],
-			[
-				"get",
-				"get_response"
-			],
-			[
-				"ju_init",
-				"ju_init_url_iter\t(jsmnutils.c)"
-			],
-			[
-				"prin",
-				"print_urls"
-			],
-			[
-				"jm",
-				"jsmnutils\t(Makefile)"
-			],
-			[
-				"src",
-				"src"
-			],
-			[
-				"hays",
-				"haystack_length\t(reg.c)"
-			],
-			[
-				"ju_arra",
-				"ju_array_next\t(jsontest.c)"
-			],
-			[
-				"arra",
-				"array_i"
-			],
-			[
-				"arr",
-				"array_i"
-			],
-			[
-				"ju_array_",
-				"ju_array_iter\t(jsmnutils.h)"
-			],
-			[
-				"pr",
-				"printf\tprintf …"
-			],
-			[
-				"E",
-				"E_NO_MATCH\t(jsmnutils.h)"
-			],
-			[
-				"E_",
-				"E_NOT_ARRAY\t(jsmnutils.h)"
-			],
-			[
-				"data",
-				"data_arr_i"
-			],
-			[
-				"stat",
-				"start_i"
-			],
-			[
-				"par",
-				"parent_i"
-			],
-			[
-				"dat",
-				"data_arr_i"
-			],
-			[
-				"i",
-				"if\tIf Condition"
-			],
-			[
-				"jso",
+				"json",
 				"json_str"
 			],
 			[
-				"N",
-				"NEW_OBJ"
+				"raw_n",
+				"raw_new_listing"
 			],
 			[
-				"len",
-				"length"
+				"random",
+				"random\t(path.c)"
+			],
+			[
+				"entr",
+				"entry_path"
+			],
+			[
+				"close",
+				"closedir"
+			],
+			[
+				"new",
+				"new_item"
+			],
+			[
+				"dir",
+				"dir_list"
+			],
+			[
+				"rp",
+				"rp_append\t(jsmnutils.c)"
+			],
+			[
+				"enty",
+				"entry_path"
+			],
+			[
+				"entry",
+				"entry_path"
+			],
+			[
+				"S_",
+				"S_ISDIR"
+			],
+			[
+				"path_is_",
+				"path_is_dir"
+			],
+			[
+				"OBJ",
+				"OBJECTS"
+			],
+			[
+				"TEST",
+				"TESTFLAGS"
+			],
+			[
+				"MK",
+				"path_mkdir"
+			],
+			[
+				"EX",
+				"MK_EXISTS_OK"
+			],
+			[
+				"MK_",
+				"MK_EXISTS_OK\t(path.h)"
+			],
+			[
+				"cle",
+				"cleandeps"
+			],
+			[
+				"regex_s",
+				"regex_starts_with"
+			],
+			[
+				"parent",
+				"parent"
+			],
+			[
+				"path_mk",
+				"path_mkdir"
+			],
+			[
+				"path",
+				"path_join"
+			],
+			[
+				"trimm",
+				"trimmed_once"
+			],
+			[
+				"regex_rmo",
+				"regex_remove_first_pattern\t(reg.c)"
+			],
+			[
+				"regex_mat",
+				"regex_match_one_subexpr"
+			],
+			[
+				"hay",
+				"haystack"
+			],
+			[
+				"regex",
+				"regex_remove_last"
+			],
+			[
+				"regex_f",
+				"regex_find_last"
+			],
+			[
+				"ned",
+				"ned_len"
+			],
+			[
+				"remov",
+				"remove_i"
+			],
+			[
+				"remo",
+				"removed_rev"
+			],
+			[
+				"aft",
+				"after_len"
+			],
+			[
+				"befo",
+				"before_len"
+			],
+			[
+				"need",
+				"needle"
+			],
+			[
+				"nee",
+				"needle"
+			],
+			[
+				"pat",
+				"pattern_len"
+			],
+			[
+				"patt",
+				"pattern"
+			],
+			[
+				"other",
+				"other"
+			],
+			[
+				"base",
+				"basename_as_is"
+			],
+			[
+				"trim",
+				"trim_double_dots"
+			],
+			[
+				"exi",
+				"exists"
+			],
+			[
+				"end",
+				"endif\t(Makefile)"
+			],
+			[
+				"score",
+				"score_array_rp"
+			],
+			[
+				"scre",
+				"score_array_rp"
+			],
+			[
+				"sc",
+				"score"
+			],
+			[
+				"exp",
+				"expected"
+			],
+			[
+				"juar",
+				"ju_array_next"
+			],
+			[
+				"fali",
+				"failing"
+			],
+			[
+				"items",
+				"item_alias"
+			],
+			[
+				"next",
+				"next_item"
+			],
+			[
+				"juarr",
+				"ju_array_element\t(jsmnutils.c)"
+			],
+			[
+				"jua",
+				"ju_array_element"
+			],
+			[
+				"elem",
+				"elem_num"
+			],
+			[
+				"user",
+				"user_agent"
+			],
+			[
+				"ju_arr",
+				"ju_array_rp\t(jsmnutils.c)"
+			],
+			[
+				"trav",
+				"travis_run"
+			],
+			[
+				"item",
+				"item_alias"
+			],
+			[
+				"self",
+				"self"
+			],
+			[
+				"rp_pop",
+				"rp_pop_index"
+			],
+			[
+				"rpT",
+				"rp_test_main"
+			],
+			[
+				"random_",
+				"random_popper.h\t(random_popper.c)"
+			],
+			[
+				"rando",
+				"random_popper_len"
+			],
+			[
+				"randm",
+				"random_popper_t"
+			],
+			[
+				"random_p",
+				"random_popper_append"
+			],
+			[
+				"rand_it",
+				"rand_iter_free\t(randtest.c)"
+			],
+			[
+				"randi",
+				"rand_iter_next"
+			],
+			[
+				"rand_i",
+				"rand_iter_init\t(rand.c)"
+			],
+			[
+				"int_li",
+				"int_list_random_order"
+			],
+			[
+				"rand",
+				"rand_iter"
+			],
+			[
+				"index",
+				"index_max"
+			],
+			[
+				"intli",
+				"int_list_contains"
+			],
+			[
+				"path_ex",
+				"path_expand_user"
+			],
+			[
+				"home",
+				"home_name"
+			],
+			[
+				"reu",
+				"return"
+			],
+			[
+				"clean",
+				"cleanup"
+			],
+			[
+				"ne",
+				"needle_rev"
+			],
+			[
+				"hay_",
+				"hay_rev"
+			],
+			[
+				"fail",
+				"failing"
+			],
+			[
+				"re",
+				"regex_ends_with\t(reg.c)"
+			],
+			[
+				"val",
+				"validate_index"
+			],
+			[
+				"jur",
+				"ju_random_next\t(jsmnutils.c)"
+			],
+			[
+				"jura",
+				"ju_random_iter\t(jsmnutils.c)"
+			],
+			[
+				"raw_lis",
+				"raw_listing_next_download"
+			],
+			[
+				"raw_free",
+				"raw_free_post"
+			],
+			[
+				"path_e",
+				"path_eq\t(path.c)"
+			],
+			[
+				"raw_po",
+				"raw_post"
+			],
+			[
+				"jsmn",
+				"jsmntok_t"
+			],
+			[
+				"n",
+				"n_tokens"
+			],
+			[
+				"pos",
+				"posts_arr_i"
+			],
+			[
+				"raw_fr",
+				"raw_free_post\t(raw.c)"
+			],
+			[
+				"raw_li",
+				"raw_listing_flags_next_download\t(raw.c)"
+			],
+			[
+				"raw_new",
+				"raw_new_listing\t(raw.c)"
+			],
+			[
+				"raw_listing_ne",
+				"raw_listing_next_download"
+			],
+			[
+				"raw_list",
+				"raw_listing_next_no_repeat_download"
+			],
+			[
+				"raw_listing_next",
+				"raw_listing_next_no_repeat_download"
+			],
+			[
+				"rawfr",
+				"raw_free_post"
+			],
+			[
+				"raw_re",
+				"raw_free_post"
+			],
+			[
+				"raw_lin",
+				"raw_listing"
+			],
+			[
+				"raw",
+				"raw_listing_next"
+			],
+			[
+				"iter",
+				"iter_next"
+			],
+			[
+				"new_b",
+				"new_base_listing"
+			],
+			[
+				"raw_ne",
+				"raw_new_listing\t(raw.h)"
+			],
+			[
+				"data",
+				"data_obj_i"
+			],
+			[
+				"ju_ary",
+				"ju_array_init\t(jsmnutils.c)"
+			],
+			[
+				"pare",
+				"parent_path"
+			],
+			[
+				"raw_",
+				"raw_listing_next_no_repeat"
+			],
+			[
+				"ju_a",
+				"ju_array_iter\t(jsmnutils.c)"
+			],
+			[
+				"jsmnu",
+				"jsmnutils.h\t(jsmnutils.c)"
+			],
+			[
+				"pattern",
+				"pattern_len"
+			],
+			[
+				"content",
+				"content-type"
+			],
+			[
+				"REG",
+				"REG_ICASE"
+			],
+			[
+				"RE",
+				"REG_EXTENDED"
+			],
+			[
+				"heade",
+				"header_len\t(get.h)"
+			],
+			[
+				"siz",
+				"size_t"
+			],
+			[
+				"path_ur",
+				"path_url_fname\t(path.c)"
+			],
+			[
+				"tmp",
+				"tmp_dir"
+			],
+			[
+				"not",
+				"not_exists"
+			],
+			[
+				"test",
+				"testflags"
+			],
+			[
+				"in",
+				"inc\t#include <…>"
+			],
+			[
+				"patht",
+				"path_test_main"
+			],
+			[
+				"regext",
+				"regex_test_main"
 			]
 		]
 	},
@@ -523,52 +523,7 @@
 			"file": "/home/cheese/collectc/Makefile",
 			"settings":
 			{
-				"buffer_size": 1382,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/cheese/.bashrc",
-			"settings":
-			{
-				"buffer_size": 1001,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/cheese/collectc/src/jsmnutils.c",
-			"settings":
-			{
-				"buffer_size": 4825,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/cheese/collectc/src/rand.c",
-			"settings":
-			{
-				"buffer_size": 1569,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/cheese/collectc/src/reg.c",
-			"settings":
-			{
-				"buffer_size": 1890,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/cheese/collectc/src/get.c",
-			"settings":
-			{
-				"buffer_size": 3127,
+				"buffer_size": 2314,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -577,7 +532,70 @@
 			"file": "/home/cheese/collectc/src/main.c",
 			"settings":
 			{
-				"buffer_size": 1760,
+				"buffer_size": 1112,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/cheese/collectc/src/jsmnutils.c",
+			"settings":
+			{
+				"buffer_size": 2988,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/cheese/collectc/src/raw.c",
+			"settings":
+			{
+				"buffer_size": 5361,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/cheese/collectc/src/path.c",
+			"settings":
+			{
+				"buffer_size": 9230,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/cheese/collectc/src/rand.c",
+			"settings":
+			{
+				"buffer_size": 244,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/cheese/collectc/src/random_popper.c",
+			"settings":
+			{
+				"buffer_size": 2692,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/cheese/collectc/src/reg.c",
+			"settings":
+			{
+				"buffer_size": 4199,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/cheese/collectc/src/get.c",
+			"settings":
+			{
+				"buffer_size": 4013,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -586,7 +604,25 @@
 			"file": "/home/cheese/collectc/src/jsmnutils.h",
 			"settings":
 			{
-				"buffer_size": 980,
+				"buffer_size": 643,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/cheese/collectc/src/raw.h",
+			"settings":
+			{
+				"buffer_size": 1224,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/cheese/collectc/src/path.h",
+			"settings":
+			{
+				"buffer_size": 849,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -595,7 +631,16 @@
 			"file": "/home/cheese/collectc/src/rand.h",
 			"settings":
 			{
-				"buffer_size": 273,
+				"buffer_size": 148,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/cheese/collectc/src/random_popper.h",
+			"settings":
+			{
+				"buffer_size": 537,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -604,7 +649,7 @@
 			"file": "/home/cheese/collectc/src/reg.h",
 			"settings":
 			{
-				"buffer_size": 206,
+				"buffer_size": 612,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -613,7 +658,7 @@
 			"file": "/home/cheese/collectc/src/get.h",
 			"settings":
 			{
-				"buffer_size": 262,
+				"buffer_size": 387,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -622,7 +667,7 @@
 			"file": "/home/cheese/collectc/src/config.h",
 			"settings":
 			{
-				"buffer_size": 65,
+				"buffer_size": 67,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -655,13 +700,13 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 384.0,
+		"height": 354.0,
 		"last_filter": "Package Control: ",
 		"selected_items":
 		[
 			[
 				"Package Control: ",
-				"Package Control: Enable Package"
+				"Package Control: Remove Package"
 			],
 			[
 				"pack",
@@ -676,7 +721,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 465.0
+		"width": 513.0
 	},
 	"console":
 	{
@@ -696,29 +741,33 @@
 	},
 	"expanded_folders":
 	[
-		"/home/cheese/collectc",
-		"/home/cheese/collectc/test"
+		"/home/cheese/collectc"
 	],
 	"file_history":
 	[
-		"/home/cheese/Downloads/tilem-2.0/a.out",
+		"/home/cheese/collectc/.gitignore",
+		"/home/cheese/collectc/build.log",
+		"/home/cheese/collectc/test/regtest.c",
+		"/home/cheese/collectc/test/jsmntest.c",
+		"/home/cheese/collectc/test/randtest.c",
+		"/home/cheese/collectc/test/random_popper_test.c",
+		"/home/cheese/collectc/.travis.yml",
 		"/home/cheese/collectc/.travis-script.sh",
+		"/home/cheese/collectc/test/test.c",
+		"/home/cheese/collectc/test/pathtest.c",
+		"/home/cheese/collectc/src/reddit_wrapper.c",
+		"/home/cheese/collectc/src/reddit_wrapper.h",
+		"/home/cheese/.bashrc",
+		"/home/cheese/Downloads/tilem-2.0/a.out",
 		"/home/cheese/collectc/README.md",
 		"/home/cheese/collectc/travis-script.sh",
-		"/home/cheese/collectc/.travis.yml",
-		"/home/cheese/collectc/.gitignore",
 		"/home/cheese/collectc/.giti",
 		"/home/cheese/collectc/.gitmodules",
 		"/home/cheese/collectc/lib/jsmn/.gitignore",
 		"/home/cheese/collectc/a.out",
 		"/home/cheese/collectc/aout",
-		"/home/cheese/collectc/test/jsmntest.c",
 		"/home/cheese/collectc/log.txt?deansi=false",
 		"/home/cheese/collectc/configure",
-		"/home/cheese/collectc/test/regtest.c",
-		"/home/cheese/.bashrc",
-		"/home/cheese/collectc/test/test.c",
-		"/home/cheese/collectc/test/randtest.c",
 		"/tmp/tmp.GWLj5Y7For/a.out",
 		"/home/cheese/collectc/test/iter.c",
 		"/home/cheese/collectc/py_example/collect.py",
@@ -823,16 +872,11 @@
 		"/home/cheese/.config/wal/launch.sh",
 		"/home/cheese/.cache/wal/wal",
 		"/mnt/home/home/cheese/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
-		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/libwifi.py",
-		"/mnt/home/home/a.out",
-		"/etc/fstab",
-		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/pyqtbindings.py",
-		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/wifi_dialog.py",
-		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/get_password.py"
+		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/libwifi.py"
 	],
 	"find":
 	{
-		"height": 42.0
+		"height": 30.0
 	},
 	"find_in_files":
 	{
@@ -846,134 +890,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			" $(BUILD)\n",
-			" $(BUILD)",
-			"so",
-			"make_objects",
-			"libcollect..so",
-			"libcollect.a",
-			".so",
-			"so",
-			"@cd",
-			" $(LDFLAGS)",
-			".o",
-			"so",
-			"libcollect.so",
-			".o",
-			"OBJECTS",
-			".so",
-			"TEST_CMD",
-			"VCMD",
-			"$(OBJ)/",
-			"$@",
-			"$(eval",
-			"make_lib",
-			"build_dirs",
-			"$@",
-			"@echo $@",
-			":",
-			"$(LIB)/",
-			"make_test",
-			".so",
-			"$(OBJ)/",
-			".so",
-			".c",
-			"get.c",
-			".so",
-			".c",
-			".o",
-			".so",
-			".o",
-			".so",
-			"src/",
-			"case_match_one_subexpr",
-			"case",
-			"case_match_one_subexpr",
-			"report",
-			"\n        ",
-			"\"",
-			"apple",
-			"starts_withscore",
-			"cases[i]",
-			"case_stats_with",
-			"objects",
-			"urandom_number",
-			"25",
-			"100",
-			"unsigned long long",
-			"n",
-			"unsigned int",
-			"return 0;",
-			"return",
-			"return 1;",
-			"void",
-			"successfully",
-			"};",
-			"ju_url_next",
-			"SYMBOL",
-			"int",
-			"SYMBOL",
-			"url_iter",
-			"self->json",
-			"i",
-			"ju_next_url",
-			"ju_init_url_iter",
-			"ju_array_next",
-			"ju_init_array_iter",
-			"ju_next_url",
-			"ju_init_url_iter",
-			"ju_next_url",
-			"ju_init_url_iter",
-			"ju_next_url",
-			"ju_init_url_iter",
-			"ju_init_array_iter",
-			"iter",
-			"char_i",
-			"list",
-			"items",
-			"i",
-			"SYMBOL",
-			"list",
-			"ju_array_next",
-			"match",
-			"cleanup",
-			"JU_MAX_TOKENS",
-			">\n",
-			"ju_object_get",
-			"ju_parse",
-			"alloc",
-			"free_response",
-			"url",
-			"done",
-			"p",
-			"e",
-			"x",
-			"ju_parse failed",
-			"ju_pa",
-			"n_chars",
-			"len",
-			"goto return_",
+			"pwd",
+			"size_t",
+			"path_home",
+			"rand",
+			"NO_REPEAT",
+			"raw_post_download",
+			"im",
+			"re",
 			"exit",
-			"return NULL",
-			"im->content",
-			"void",
-			"ua_prefix",
-			"parent",
-			"data_arr_i",
-			"en->",
-			"token.",
-			", ",
-			"json",
-			"fprintf",
-			"json.",
+			"im",
+			"raw_listing_next_download",
+			"raw_init_listing",
+			"raw_new_listing",
+			"raw_listing_data",
+			"raw_init_listing",
+			"raw_new_listing",
+			"new_base_listing",
+			"entry_path",
+			"new",
+			"break",
+			"rp_append_entry_path",
+			"continue",
+			"norm",
+			"is_a",
+			"MK_MODE_511",
+			"make",
+			"objects",
+			"$(OBJ)/",
+			"OBJECTS",
+			"$(OBJ)/",
+			"TEST_FLAGS",
+			"$(CC) $(CFLAGS) -shared -o $@ $(OBJECTS) $(LDFLAGS) $(LDLIBS)",
+			"$(CC) $(CFLAGS) -o $@ $< $(LDFLAGS) $(LDLIBS)",
+			"collect",
+			"TESTFLAGS",
+			"testflags",
+			"TESTFLAGS",
+			"EXISTS_OK_DEF",
+			"parent_ret",
+			"path_ret",
+			"cleandeps",
+			"trim_double_dots",
+			"regex_starts_with",
+			"path",
+			"trim_double_dots",
+			"trimmed",
+			"print",
+			"new_path",
+			"find",
+			"new_path",
+			"trimmed_once",
+			"new",
+			"!= 0",
+			"REG_EXTENDED",
+			"regex_match_last",
+			"print",
+			"regex_match_last",
+			"haystack",
+			"hay_len",
+			"haystack",
+			"ned_i",
+			"ptr",
+			"size_after",
+			"0",
+			"strlen(pattern)",
+			"needle_len",
+			"free(pattern);",
+			"base",
+			"path_basename",
+			"pattern",
+			"basename",
+			"match",
+			"path_cwd",
+			"{\"",
+			"regex_contains",
+			"1024",
+			"index",
+			"rp_free",
+			"pop_",
+			"base_listing_next",
 			"int",
-			"vjujoid",
-			"ju_key_search",
-			"ju_object_get",
-			"ju_ibject_get",
-			"ju_key_search",
-			"ju_ibject_get",
-			"strlen(haystack)"
+			"i",
+			"num",
+			"rp_array_case",
+			"ncases",
+			"rp_pop_random(&popper)",
+			"rp_get_index(&",
+			"rp",
+			"num",
+			"int num",
+			"int",
+			"int num",
+			"20",
+			"cleanup1",
+			"pri",
+			"pr",
+			"ju_random_free",
+			"popper->next",
+			"test_random_next",
+			"r_iter",
+			"rp_(iter)",
+			"ju_random_next",
+			"iter",
+			"iter->popper",
+			"array_rp",
+			"random_init",
+			"ju_random_init",
+			"struct ju_random_iter",
+			"rp",
+			"iter->popper",
+			"rp_get_index",
+			"assert(iter->list",
+			"travis_run",
+			"i",
+			"rp_t*",
+			"item",
+			"randtest",
+			"to_be_freed",
+			"tmp",
+			"extern",
+			"random_popper",
+			"rp_H",
+			"random_popper",
+			") {",
+			"static",
+			" {\n",
+			"static",
+			"SYMBOL"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -991,7 +1035,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -1000,15 +1044,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1382,
+						"buffer_size": 2314,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								933,
-								933
+								492,
+								492
 							]
 						],
 						"settings":
@@ -1019,41 +1063,41 @@
 							"tab_size": 8
 						},
 						"translation.x": 0.0,
-						"translation.y": 522.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "/home/cheese/.bashrc",
+					"file": "/home/cheese/collectc/src/main.c",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1001,
+						"buffer_size": 1112,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								822,
-								822
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"git_gutter_is_enabled": true,
-							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax",
+							"syntax": "Packages/C++/C.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 660.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -1062,7 +1106,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4825,
+						"buffer_size": 2988,
 						"regions":
 						{
 						},
@@ -1084,24 +1128,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "/home/cheese/collectc/src/rand.c",
+					"file": "/home/cheese/collectc/src/raw.c",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1569,
+						"buffer_size": 5361,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								490,
-								490
+								3387,
+								3387
 							]
 						],
 						"settings":
@@ -1113,19 +1157,83 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 45.0,
+						"translation.y": 3367.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/cheese/collectc/src/path.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9230,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"open_with_edit": true,
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "/home/cheese/collectc/src/reg.c",
+					"buffer": 5,
+					"file": "/home/cheese/collectc/src/rand.c",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1890,
+						"buffer_size": 244,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"open_with_edit": true,
+							"syntax": "Packages/C++/C.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/cheese/collectc/src/random_popper.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2692,
 						"regions":
 						{
 						},
@@ -1152,12 +1260,12 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "/home/cheese/collectc/src/get.c",
+					"buffer": 7,
+					"file": "/home/cheese/collectc/src/reg.c",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3127,
+						"buffer_size": 4199,
 						"regions":
 						{
 						},
@@ -1171,6 +1279,7 @@
 						"settings":
 						{
 							"git_gutter_is_enabled": true,
+							"open_with_edit": true,
 							"syntax": "Packages/C++/C.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
@@ -1179,24 +1288,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "/home/cheese/collectc/src/main.c",
+					"buffer": 8,
+					"file": "/home/cheese/collectc/src/get.c",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1760,
+						"buffer_size": 4013,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								470,
-								470
+								3171,
+								3171
 							]
 						],
 						"settings":
@@ -1207,33 +1316,33 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3036.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
-					"buffer": 7,
+					"buffer": 9,
 					"file": "/home/cheese/collectc/src/jsmnutils.h",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 980,
+						"buffer_size": 643,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								221,
-								221
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1251,12 +1360,104 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 10,
+					"file": "/home/cheese/collectc/src/raw.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1224,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"open_with_edit": true,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/home/cheese/collectc/src/path.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 849,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"open_with_edit": true,
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
 					"file": "/home/cheese/collectc/src/rand.h",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 273,
+						"buffer_size": 148,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								30,
+								30
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"open_with_edit": true,
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/home/cheese/collectc/src/random_popper.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 537,
 						"regions":
 						{
 						},
@@ -1277,16 +1478,16 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 15,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 14,
 					"file": "/home/cheese/collectc/src/reg.h",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 206,
+						"buffer_size": 612,
 						"regions":
 						{
 						},
@@ -1307,16 +1508,16 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 16,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 15,
 					"file": "/home/cheese/collectc/src/get.h",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 262,
+						"buffer_size": 387,
 						"regions":
 						{
 						},
@@ -1336,16 +1537,16 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 14,
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 16,
 					"file": "/home/cheese/collectc/src/config.h",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 65,
+						"buffer_size": 67,
 						"regions":
 						{
 						},
@@ -1374,11 +1575,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 40.0
+		"height": 30.0
 	},
 	"input":
 	{
-		"height": 29.0
+		"height": 46.0
 	},
 	"layout":
 	{
@@ -1430,7 +1631,7 @@
 	"project": "collectc.sublime-project",
 	"replace":
 	{
-		"height": 46.0
+		"height": 56.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1450,7 +1651,7 @@
 		[
 			[
 				"",
-				"~/.config/sublime-text-3/Projects/collect.sublime-project"
+				"~/.config/sublime-text-3/Projects/cheese.sublime-project"
 			]
 		],
 		"width": 380.0
