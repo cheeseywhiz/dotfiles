@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"text",
+				"text-color"
+			],
+			[
 				"polybar",
 				"polybar_launch"
 			],
@@ -510,56 +514,25 @@
 			[
 				"abs",
 				"abspath\tfunction"
-			],
-			[
-				"ArgP",
-				"ArgumentParser\tclass"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
+			"file": "/home/cheese/.config/wal/wallaunch.sh",
+			"settings":
+			{
+				"buffer_size": 148,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "/home/cheese/.config/i3/config",
 			"settings":
 			{
-				"buffer_size": 8855,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/cheese/.bashrc",
-			"settings":
-			{
-				"buffer_size": 1108,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/cheese/.xinitrc",
-			"settings":
-			{
-				"buffer_size": 612,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/cheese/.config/polybar/config",
-			"settings":
-			{
-				"buffer_size": 6246,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/cheese/.bash_profile",
-			"settings":
-			{
-				"buffer_size": 221,
+				"buffer_size": 8828,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -639,28 +612,29 @@
 	[
 		"/home/cheese",
 		"/home/cheese/.config",
-		"/home/cheese/.config/polybar"
+		"/home/cheese/.config/i3"
 	],
 	"file_history":
 	[
+		"/home/cheese/.bash_profile",
+		"/home/cheese/.config/polybar/config",
+		"/home/cheese/.bashrc",
+		"/home/cheese/.config/i3/cmd_dict.py",
+		"/home/cheese/.config/i3/config",
+		"/home/cheese/.xinitrc",
 		"/home/cheese/.cache/wal/sequences",
 		"/home/cheese/.config/i3/sys_cmd.sh",
 		"/home/cheese/.config/devilspie2/launch.sh",
 		"/home/cheese/.gitignore",
-		"/home/cheese/.bashrc",
 		"/home/cheese/.config/devilspie2/subl.lua",
 		"/home/cheese/.config/praw.ini",
-		"/home/cheese/.bash_profile",
 		"/home/cheese/.config/.devilspie/launch.sh",
 		"/home/cheese/.config/.devilspie/opacity.ds",
 		"/home/cheese/.config/polybar/launch.sh",
-		"/home/cheese/.config/polybar/config",
-		"/home/cheese/.config/i3/config",
 		"/home/cheese/.config/wal/chrome_theme.py",
 		"/home/cheese/.config/wal/tint.py",
 		"/home/cheese/gentoo/qemu",
 		"/home/cheese/gentoo/init.sh",
-		"/home/cheese/.xinitrc",
 		"/home/cheese/collect/collect/__init__.py",
 		"/home/cheese/collect/collect/__main__.py",
 		"/home/cheese/collect/collect/collect.py",
@@ -769,8 +743,7 @@
 		"/home/cheese/cheeseywhiz/Mandelbrot-Set/c/math_ops.h",
 		"/home/cheese/cheeseywhiz/AvgImg/avgimg.py",
 		"/home/cheese/Desktop/test.py",
-		"/home/cheese/cheeseywhiz/AvgImg/imglib/__init__.py",
-		"/home/cheese/cheeseywhiz/Mandelbrot-Set/c/setup.py"
+		"/home/cheese/cheeseywhiz/AvgImg/imglib/__init__.py"
 	],
 	"find":
 	{
@@ -788,6 +761,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"text-color",
+			"bg-color",
+			"active-ws",
+			"f3f4f5",
+			"2f343f",
 			"layout",
 			"lay",
 			"layout",
@@ -828,139 +806,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/home/cheese/.config/i3/config",
+					"file": "/home/cheese/.config/wal/wallaunch.sh",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8855,
+						"buffer_size": 148,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3038,
-								3044
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/zzz A File Icon zzz/aliases/XML (Config).sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 3031.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/home/cheese/.bashrc",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1108,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1108,
-								1108
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 594.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/home/cheese/.xinitrc",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 612,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								608,
-								608
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 660.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "/home/cheese/.config/polybar/config",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6246,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4874,
-								4874
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/INI/INI.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 4370.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/home/cheese/.bash_profile",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 221,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								221,
-								221
+								148,
+								148
 							]
 						],
 						"settings":
@@ -972,7 +830,38 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/cheese/.config/i3/config",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8828,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/i3 wm/Syntax/i3wm_config.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
 					"type": "text"
 				}
 			]

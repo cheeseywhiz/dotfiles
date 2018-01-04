@@ -1,6 +1,6 @@
 # i3 config file (v4)
 #
-# Please see http://i3wm.org/docs/userguide.html for a complete reference!
+# Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
 set $sys_cmd $HOME/.config/i3/sys_cmd.sh
 
@@ -8,19 +8,19 @@ exec_always --no-startup-id $sys_cmd always_init
 exec $sys_cmd once_init
 
 ##window colors
-set $bg-color            #2f343f
 set $transparent         #00000000
-set $active-ws           #00ff0033
-set $inactive-bg-color   #2f343f
-set $text-color          #f3f4f5
-set $inactive-text-color #676E7D
-set $urgent-bg-color     #E53935
-set $indicator           #ff0000
-#                        border             background         text                 indicator
-client.focused           $bg-color          $bg-color          $text-color          $indicator
-client.unfocused         $inactive-bg-color $inactive-bg-color $inactive-text-color $indicator
-client.focused_inactive  $inactive-bg-color $inactive-bg-color $inactive-text-color $indicator
-client.urgent            $urgent-bg-color   $urgent-bg-color   $text-color          $indicator
+set_from_resource $back i3wm.color1 #000000
+set_from_resource $inactive-back i3wm.color0 #000000
+set_from_resource $text i3wm.color7 #ffffff
+set_from_resource $inactive-text i3wm.color1 #999999
+set_from_resource $urgent-back i3wm.color2 #e52935
+set_from_resource $indicator i3wm.color4 #ff0000
+
+#                        border         background     text           indicator
+client.focused           $back          $back          $text          $indicator
+client.unfocused         $inactive-back $inactive-back $inactive-text $indicator
+client.focused_inactive  $inactive-back $inactive-back $inactive-text $indicator
+client.urgent            $urgent-back   $urgent-back   $text          $indicator
 
 set $mod Mod4
 
@@ -143,7 +143,7 @@ bindsym $mod+Shift+9 move container to workspace 9
 bindsym $mod+Shift+0 move container to workspace 10
 bindsym $mod+Shift+grave move container to workspace 10
 
-##i3-gaps inactive-text-color
+##i3-gaps
 for_window [class="^.*"] border pixel 0
 smart_gaps on
 gaps inner 8

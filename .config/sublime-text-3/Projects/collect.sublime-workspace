@@ -541,7 +541,7 @@
 			"file": "/home/cheese/collect/collect/__main__.py",
 			"settings":
 			{
-				"buffer_size": 5820,
+				"buffer_size": 5866,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -550,7 +550,7 @@
 			"file": "/home/cheese/collect/collect/_collect.py",
 			"settings":
 			{
-				"buffer_size": 6427,
+				"buffer_size": 6383,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -969,7 +969,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -1000,7 +1000,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -1059,15 +1059,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5820,
+						"buffer_size": 5866,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								4410,
+								4419
 							]
 						],
 						"settings":
@@ -1109,6 +1109,10 @@
 								{
 									"characters": ".",
 									"selector": "source.python - string - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
 								}
 							],
 							"git_gutter_is_enabled": true,
@@ -1117,10 +1121,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2640.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -1129,15 +1133,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6427,
+						"buffer_size": 6383,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								5975,
+								5975
 							]
 						],
 						"settings":
@@ -1179,10 +1183,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3831.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
