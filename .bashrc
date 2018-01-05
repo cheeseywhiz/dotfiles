@@ -21,6 +21,12 @@ git_branch() {
     fi
 }
 
+git-diff-all() {
+    for file in $(git ls-files -m); do
+        git diff $file
+    done
+}
+
 source ~/.cache/wal/colors.sh
 
 wallaunch() {
