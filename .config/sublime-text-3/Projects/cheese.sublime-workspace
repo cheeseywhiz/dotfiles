@@ -520,19 +520,10 @@
 	"buffers":
 	[
 		{
-			"file": "/home/cheese/.config/wal/wallaunch.sh",
+			"file": "/home/cheese/.bashrc",
 			"settings":
 			{
-				"buffer_size": 148,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/cheese/.config/i3/config",
-			"settings":
-			{
-				"buffer_size": 8828,
+				"buffer_size": 1526,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -565,8 +556,8 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "ma",
+		"height": 354.0,
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -590,7 +581,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 497.0
+		"width": 513.0
 	},
 	"console":
 	{
@@ -610,20 +601,22 @@
 	},
 	"expanded_folders":
 	[
-		"/home/cheese",
-		"/home/cheese/.config",
-		"/home/cheese/.config/i3"
+		"/home/cheese"
 	],
 	"file_history":
 	[
+		"/home/cheese/Downloads/quiver_demo.py",
+		"/home/cheese/.Xresources",
+		"/home/cheese/.bashrc",
+		"/home/cheese/.config/i3/sys_cmd.sh",
+		"/home/cheese/.config/wal/chrome_theme.py",
+		"/home/cheese/.config/wal/wallaunch.sh",
+		"/home/cheese/.config/i3/config",
 		"/home/cheese/.bash_profile",
 		"/home/cheese/.config/polybar/config",
-		"/home/cheese/.bashrc",
 		"/home/cheese/.config/i3/cmd_dict.py",
-		"/home/cheese/.config/i3/config",
 		"/home/cheese/.xinitrc",
 		"/home/cheese/.cache/wal/sequences",
-		"/home/cheese/.config/i3/sys_cmd.sh",
 		"/home/cheese/.config/devilspie2/launch.sh",
 		"/home/cheese/.gitignore",
 		"/home/cheese/.config/devilspie2/subl.lua",
@@ -631,7 +624,6 @@
 		"/home/cheese/.config/.devilspie/launch.sh",
 		"/home/cheese/.config/.devilspie/opacity.ds",
 		"/home/cheese/.config/polybar/launch.sh",
-		"/home/cheese/.config/wal/chrome_theme.py",
 		"/home/cheese/.config/wal/tint.py",
 		"/home/cheese/gentoo/qemu",
 		"/home/cheese/gentoo/init.sh",
@@ -740,14 +732,11 @@
 		"/home/cheese/cheeseywhiz/AvgImg/imglib.py",
 		"/home/cheese/cheeseywhiz/Mandelbrot-Set/mdbs5.py",
 		"/home/cheese/cheeseywhiz/Mandelbrot-Set/c/__init__.py",
-		"/home/cheese/cheeseywhiz/Mandelbrot-Set/c/math_ops.h",
-		"/home/cheese/cheeseywhiz/AvgImg/avgimg.py",
-		"/home/cheese/Desktop/test.py",
-		"/home/cheese/cheeseywhiz/AvgImg/imglib/__init__.py"
+		"/home/cheese/cheeseywhiz/Mandelbrot-Set/c/math_ops.h"
 	],
 	"find":
 	{
-		"height": 48.0
+		"height": 31.968031968
 	},
 	"find_in_files":
 	{
@@ -761,6 +750,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"np.linalg.norm(j)",
 			"text-color",
 			"bg-color",
 			"active-ws",
@@ -801,64 +791,35 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/home/cheese/.config/wal/wallaunch.sh",
+					"file": "/home/cheese/.bashrc",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 148,
+						"buffer_size": 1526,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								148,
-								148
+								291,
+								291
 							]
 						],
 						"settings":
 						{
 							"git_gutter_is_enabled": true,
-							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/home/cheese/.config/i3/config",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8828,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								409,
-								409
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/i3 wm/Syntax/i3wm_config.tmLanguage",
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 41.958041958,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -869,7 +830,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 30.0
+		"height": 31.968031968
 	},
 	"input":
 	{
@@ -918,7 +879,7 @@
 	"project": "cheese.sublime-project",
 	"replace":
 	{
-		"height": 56.0
+		"height": 59.9400599401
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -938,7 +899,7 @@
 		[
 			[
 				"",
-				"~/.config/sublime-text-3/Projects/collectc.sublime-project"
+				"~/.config/sublime-text-3/Projects/cheeseywhiz.sublime-project"
 			]
 		],
 		"width": 380.0

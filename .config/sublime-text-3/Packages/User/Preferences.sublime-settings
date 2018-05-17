@@ -7,7 +7,8 @@
 		".DS_Store",
 		"*.pid",
 		"*.pyc",
-		"pip-selfcheck.json"
+		"pip-selfcheck.json",
+		"yarn.lock"
 	],
 	"folder_exclude_patterns":
 	[

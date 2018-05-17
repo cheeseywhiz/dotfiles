@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"PDF",
+				"PDF_FLAGS"
+			],
+			[
+				"grph",
+				"graph2.pdf"
+			],
+			[
+				"nan",
+				"nan\tstatement"
+			],
+			[
+				"expr",
+				"expr_xyz"
+			],
+			[
 				"PD",
 				"PDF_FLAGS"
 			],
@@ -498,22 +514,6 @@
 			[
 				"u",
 				"util\tmodule"
-			],
-			[
-				"pro",
-				"process_args\tfunction"
-			],
-			[
-				"abs",
-				"abspath\tfunction"
-			],
-			[
-				"ArgP",
-				"ArgumentParser\tclass"
-			],
-			[
-				"Sav",
-				"SAVE_DIR\tmodule"
 			]
 		]
 	},
@@ -548,20 +548,20 @@
 	"command_palette":
 	{
 		"height": 354.0,
-		"last_filter": "package ",
+		"last_filter": "",
 		"selected_items":
 		[
 			[
+				"Package Control: ",
+				"Package Control: Enable Package"
+			],
+			[
 				"package ",
-				"Package Control: List Packages"
+				"Package Control: Enable Package"
 			],
 			[
 				"pack",
 				"Package Control: Install Package"
-			],
-			[
-				"Package Control: ",
-				"Package Control: Enable Package"
 			],
 			[
 				"package",
@@ -592,17 +592,44 @@
 	},
 	"expanded_folders":
 	[
-		"/home/cheese/cheeseywhiz",
-		"/home/cheese/cheeseywhiz/latex"
+		"/home/cheese/cheeseywhiz"
 	],
 	"file_history":
 	[
+		"/home/cheese/cheeseywhiz/math/fractions.py",
+		"/home/cheese/cheeseywhiz/apcsp/expl.tex",
+		"/home/cheese/cheeseywhiz/apcsp/graph.sty",
+		"/home/cheese/cheeseywhiz/apcsp/graph2.tex",
+		"/home/cheese/cheeseywhiz/apcsp/Makefile",
+		"/home/cheese/cheeseywhiz/latex/calcIII/solutions.sty",
+		"/home/cheese/cheeseywhiz/latex/calcIII/solutions.tex",
 		"/home/cheese/cheeseywhiz/latex/10solutions.tex",
+		"/home/cheese/cheeseywhiz/latex/calcIII/Makefile",
+		"/home/cheese/cheeseywhiz/math/Taylor Series/differentiable.py",
+		"/home/cheese/cheeseywhiz/math/Taylor Series/main.py",
+		"/home/cheese/cheeseywhiz/apcsp/graph.py",
+		"/home/cheese/cheeseywhiz/apcsp/graph3.tex",
+		"/home/cheese/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
+		"/home/cheese/cheeseywhiz/apcsp/graph3b.tex",
+		"/home/cheese/cheeseywhiz/apcsp/.gitignore",
+		"/home/cheese/.bash_history",
+		"/tmp/tmp.7VZK4hpC1G/file",
+		"/tmp/tmp.i0hmRvAZY9/file",
+		"/home/cheese/cheeseywhiz/apcsp/graph3.log",
+		"/home/cheese/cheeseywhiz/apcsp/file",
+		"/home/cheese/cheeseywhiz/apcsp/graph.tex",
+		"/home/cheese/cheeseywhiz/apcsp/graph.latex",
+		"/home/cheese/cheeseywhiz/latex/Makefile",
+		"/home/cheese/.config/sublime-text-3/Packages/User/Python.sublime-settings",
+		"/tmp/tmp.ixBYBPqczt/file",
+		"/home/cheese/Downloads/export_20180220 (1).csv",
+		"/home/cheese/cheeseywhiz/latex/app_nerf_report.tex",
+		"/home/cheese/Downloads/export_20180220.csv",
+		"/home/cheese/cheeseywhiz/latex/app_nerf_report.log",
 		"/home/cheese/cheeseywhiz/socket/app.py",
 		"/home/cheese/cheeseywhiz/socket/server/app.py",
 		"/home/cheese/cheeseywhiz/socket/server/http.py",
 		"/home/cheese/cheeseywhiz/socket/server/server.py",
-		"/home/cheese/cheeseywhiz/latex/Makefile",
 		"/mnt/Users/Owner/Documents/LaTeX/Dec 2016 Alma Revision 2/alma.sty",
 		"/mnt/Users/Owner/Documents/LaTeX/Dec 2016 Alma Revision 2/Dec 2016 Alma Revision 2.tex",
 		"/home/cheese/cheeseywhiz/latex/10solutions.log",
@@ -627,7 +654,6 @@
 		"/home/cheese/qemu",
 		"/home/cheese/a.out",
 		"/home/cheese/A.OUT",
-		"/home/cheese/.bash_history",
 		"/etc/grub.d/30_os-prober",
 		"/etc/default/grub",
 		"/boot/grub/grub.cfg",
@@ -697,38 +723,11 @@
 		"/etc/fstab",
 		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/pyqtbindings.py",
 		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/wifi_dialog.py",
-		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/get_password.py",
-		"/home/cheese/cheeseywhiz/math/colorlib/colorlib.py",
-		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/wifi_interface.py",
-		"/home/cheese/.bash_profile",
-		"/home/cheese/.config/i3/ws-key-func",
-		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/requirements.txt",
-		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/ugly.py",
-		"/home/cheese/.config/i3/i3blocks.conf",
-		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/out.py",
-		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/test.py",
-		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/password_dialog.py",
-		"/home/cheese/cheeseywhiz/Reddit-scripts/GetRedditLink/Dialogs/Input.py",
-		"/home/cheese/cheeseywhiz/.gitignore",
-		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/out",
-		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/noconflict.py",
-		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/random_data.py",
-		"/home/cheese/Desktop/scroll_area_mwe/main.py",
-		"/home/cheese/.config/sublime-text-3/Packages/User/All Autocomplete.sublime-settings",
-		"/home/cheese/.config/sublime-text-3/Packages/User/Anaconda.sublime-settings",
-		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/test_interface.py",
-		"/home/cheese/Desktop/char",
-		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/wifi_list.py",
-		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/dict",
-		"/home/cheese/cheeseywhiz/Reddit-scripts/GetRedditLink/main.py",
-		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/interp",
-		"/home/cheese/cheeseywhiz/GUIs/Wifi Interface/wifi_list.py",
-		"/home/cheese/cheeseywhiz/Mandelbrot-Set/c/mdbsmodule.c",
-		"/home/cheese/cheeseywhiz/AvgImg/imglib.py"
+		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/get_password.py"
 	],
 	"find":
 	{
-		"height": 48.0
+		"height": 31.968031968
 	},
 	"find_in_files":
 	{
@@ -742,110 +741,134 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"|y_0|",
-			"%\n\\section",
-			"\\section",
-			"align",
-			"dots",
-			"align",
-			"can plu",
-			"infinity",
-			"\\ddx",
-			"\\frac{d}{dx}",
-			"ddx",
-			"sfrac",
-			"xfrac",
-			":",
-			"align",
-			"&",
-			"\n&\\",
-			"&\\",
-			"&=",
-			"&",
-			"\\frac{\\pi}",
-			"\\frac{d}{dx}",
-			"ddx",
-			"\\,",
-			"Arranging",
-			"display",
-			"displaymath",
-			"equation",
-			"collect.path",
-			"collect",
-			"collect.path",
-			"collect",
-			"collect.path",
-			"collect",
-			"collect.path",
-			"collect",
-			"u",
+			"numbers",
+			"print",
+			"\"",
+			"fractional",
+			"decimal",
+			"i",
+			"srebmun",
+			"continued",
+			"\n",
+			"://",
+			"http",
+			"’",
+			"‘",
+			"”",
+			"“",
+			"’",
+			"”",
+			"Data”",
+			"“",
+			"\"",
+			"’",
+			",",
+			"“",
+			"\\textbf{2",
+			"\\textbf{2a.}",
 			"section",
-			"and",
-			"\n%\n",
-			"C_2",
-			"C_1",
-			"C_0",
-			"alignat",
-			"aligned",
+			"along",
+			"\\frac{1}{2}",
+			"align",
+			"\\limits",
+			"limits",
+			"using the",
+			"section",
+			",",
+			"section",
+			"\\paren{t}",
+			"&=",
+			"align",
+			"\\begin{determinant}{ccc}",
+			"determinant",
+			"\\begin{determinant}[ccc]",
+			"4t^4+4t^2+1",
+			"paren{2t^2+1}^2}",
+			"\\vector{2-4t^2,4t,4t}",
+			"&=",
+			"%\n",
+			"equals",
+			"gather",
+			"the parametri",
+			"v",
+			"u",
+			"n",
+			"v",
+			"u",
+			"rlll",
+			"&=",
+			"align",
+			"matrix",
+			"cdot",
+			"cdot1",
+			"cdot",
+			"mathbf",
+			"math",
+			"align",
+			"xpart",
+			"llllll",
+			"\\int\\limits",
+			"\\int",
+			"\\mathbf",
+			"vector",
+			":\\ ",
+			"tabular",
+			"gather*",
 			"align*",
-			"C_1",
-			"A",
-			"\\paren{f^{-1}}'\\paren{a}",
-			"\\@int",
-			"align*",
-			"\\ ",
-			"DeclareMathOperator",
-			"lmtt",
-			"lmr",
-			"lmss",
-			"cmss",
-			"helvet",
-			"qcr",
-			"tgheros",
-			"lmodern",
-			"charter",
-			"align*",
-			" $",
-			"$",
-			"equation*",
-			"f'(x)",
-			"f(x)",
-			"(f^{-1}\\paren{a})",
-			"(a)",
-			"(f^{-1})",
-			"C",
-			"&= ",
-			"=",
-			"center",
-			"align*",
-			"\\cos^{-1}{x}",
-			"=",
-			"&=\\",
-			"$&$",
-			"$$",
-			"align*",
+			"xpartial",
 			"align",
 			"equation",
-			" x",
-			"aligned",
-			"align",
-			"align*",
-			"align",
-			"equation",
-			"-1})'(5)",
-			"5",
-			"\\right)",
-			"\\left(",
-			"main",
-			"$(CRT0)",
-			".hex",
-			"hex",
-			"CRT0",
-			"crt0",
-			"CRT0",
-			"crt0.rel",
-			"make_all",
-			"ihx"
+			"paren",
+			"usepackage",
+			"spacewidth",
+			"spacespace",
+			"prompt_expr()",
+			"prompt_expr",
+			"prompt",
+			"sympy_expr_list",
+			"eval_str",
+			"str_expr",
+			"(z**2)/(x**2+y**2)",
+			"plot_map_f_xyz",
+			"plot_map_f_xy",
+			"sympy_expr",
+			"str_expr",
+			"sympy_expr",
+			"expr_to_f_xy",
+			"prompt_expr",
+			"obj",
+			" ",
+			"\n",
+			"PythonYield",
+			".tex",
+			"PDF_FLAGS",
+			"PDF",
+			" ",
+			"textbf",
+			"section",
+			"usepackage",
+			"ffmpeg",
+			"|",
+			"tikspicture",
+			"mk2",
+			"mk1",
+			"myboxe",
+			"myboxs",
+			"_",
+			"mpl",
+			"mystyle",
+			"PDFS",
+			"RECTANGLE",
+			"sympy_expr",
+			"25",
+			"ans",
+			"row",
+			"y_limits",
+			"C_limits",
+			"c_limits",
+			"domain",
+			"C_list",
+			"x"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -870,11 +893,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 30.0
+		"height": 31.968031968
 	},
 	"input":
 	{
-		"height": 30.0
+		"height": 47.952047952
 	},
 	"layout":
 	{
@@ -919,7 +942,7 @@
 	"project": "cheeseywhiz.sublime-project",
 	"replace":
 	{
-		"height": 56.0
+		"height": 59.9400599401
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -939,7 +962,7 @@
 		[
 			[
 				"",
-				"~/.config/sublime-text-3/Projects/cheese.sublime-project"
+				"~/.config/sublime-text-3/Projects/collectc.sublime-project"
 			]
 		],
 		"width": 380.0
