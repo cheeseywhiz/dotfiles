@@ -8,3 +8,9 @@ rofi.font:           Consolas 16
 URxvt.chdir:        /home/cheese
 URxvt.scrollBar:    false
 URxvt.depth:        32
+#define termfont xft:Fixed:style=SemiCondensed:pixelsize=13
+#define termbold xft:Fixed:style=Bold SemiCondensed:pixelsize=13
+URxvt.font:           termfont
+URxvt.boldFont:       termbold
+URxvt.italicFont:     termfont
+URxvt.boldItalicFont: termbold

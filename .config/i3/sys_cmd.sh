@@ -10,7 +10,16 @@ always_init() {
 
 once_init() {
     synclient HorizEdgeScroll=1 VertEdgeScroll=1 VertScrollDelta=-111 LBCornerButton=1 RBCornerButton=2 &
-    wal_reddit &
+}
+
+wallaunch () {
+    wal -i $1 -a 93
+}
+
+walR() {
+    # wal -R -a 93
+    wallaunch $wallpaper
+    ~/.config/wal/chrome_theme.py
 }
 
 wal_wallpapers() {

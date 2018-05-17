@@ -17,6 +17,8 @@
 !.fonts/FontAwesome.otf
 
 !.config/i3/*
+!.config/rofi/*
+!.config/rofi/config
 !.config/sublime-text-3/Packages/*
 !.config/sublime-text-3/Projects/*
 .config/sublime-text-3/Packages/SublimeCodeIntel

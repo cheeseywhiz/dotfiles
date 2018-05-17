@@ -17,7 +17,7 @@ rel_git_path() {
 
 git_branch() {
     if git rev-parse >& /dev/null; then
-        echo "($(git rev-parse --abbrev-ref HEAD))"
+        echo "($(git rev-parse --abbrev-ref HEAD 2>/dev/null))"
     fi
 }
 
@@ -27,12 +27,15 @@ git-diff-all() {
     done
 }
 
-source ~/.cache/wal/colors.sh
-
-wallaunch() {
-    $HOME/.config/wal/wallaunch.sh $@
-    source ~/.cache/wal/colors.sh
+# Clean the mirrors
+windex() {
+    # Fetch | uncomment | write as root to file
+    curl "https://www.archlinux.org/mirrorlist/?country=CA&country=FR&country=DE&country=MX&country=GB&country=US&protocol=https&ip_version=4&ip_version=6&use_mirror_status=on" \
+        | sed -e 's/#Server/Server/g' \
+        | sudo tee /etc/pacman.d/mirrorlist
 }
+
+source ~/.cache/wal/colors.sh
 
 alias allman='man -a'
 alias s='source ~/.bashrc'
@@ -46,7 +49,9 @@ alias cdtmp='cd $(mktemp -d)'
 alias pipes='pipes.sh -p 20 -r 3000 -t 0 -R'
 alias ffind='find / 2>/dev/null | fgrep'
 alias grubcfg='sudo grub-mkconfig -o /boot/grub/grub.cfg'
+alias wallaunch='~/.config/i3/sys_cmd.sh wallaunch'
 
-PS1='$(printf '%.*s' $? $?)\[\e[01;32m\]\u\[\e[0m\]: $(tty): \[\e[1;34m\]$(rel_git_path)\[\e[0m\] $(git_branch)\n\$ '
+PS1='$(printf '%.*s' $? $?)\[\e[01;32m\]\u\[\e[0m\]: $(date "+%X"): \[\e[1;34m\]$(rel_git_path)\[\e[0m\] $(git_branch)\n\$ '
 export EDITOR=vim
 export XDG_CONFIG_HOME=$HOME/.config
+source /usr/share/nvm/init-nvm.sh
