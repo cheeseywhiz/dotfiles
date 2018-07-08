@@ -1,4 +1,4 @@
 {
-    "terminal": "urxvt",
-    "parameters": ["-cd", "%CWD%"]
+    "terminal": "st",
+    "parameters": ["-d", "%CWD%"]
 }

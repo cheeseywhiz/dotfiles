@@ -675,10 +675,12 @@
 	},
 	"expanded_folders":
 	[
-		"/home/cheese/collect"
+		"/home/cheese/collect",
+		"/home/cheese/collect/collect"
 	],
 	"file_history":
 	[
+		"/home/cheese/collect/collect/__init__.py",
 		"/home/cheese/collect/README.md",
 		"/home/cheese/collect/doc.py",
 		"/home/cheese/collect/setup.py",
@@ -689,7 +691,6 @@
 		"/home/cheese/.config/sublime-text-3/Packages/Terminal/Default (Linux).sublime-keymap",
 		"/home/cheese/.config/sublime-text-3/Packages/User/Terminal (Linux).sublime-settings",
 		"/home/cheese/.config/sublime-text-3/Packages/User/Terminal.sublime-settings",
-		"/home/cheese/collect/collect/__init__.py",
 		"/home/cheese/.config/sublime-text-3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
 		"/home/cheese/collect/mddoc.py",
 		"/home/cheese/.bash_history",
@@ -810,7 +811,7 @@
 	],
 	"find":
 	{
-		"height": 48.0
+		"height": 31.968031968
 	},
 	"find_in_files":
 	{
@@ -1047,10 +1048,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 6383.0,
+						"translation.y": 6335.66433566,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -1121,7 +1122,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2574.0,
+						"translation.y": 2574.42557443,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
@@ -1303,7 +1304,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -1311,7 +1312,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 30.0
+		"height": 31.968031968
 	},
 	"input":
 	{
@@ -1360,7 +1361,7 @@
 	"project": "collect.sublime-project",
 	"replace":
 	{
-		"height": 56.0
+		"height": 59.9400599401
 	},
 	"save_all_on_build": true,
 	"select_file":

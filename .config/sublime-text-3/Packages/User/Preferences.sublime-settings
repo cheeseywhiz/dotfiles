@@ -21,9 +21,15 @@
 		"Old Firefox Data",
 		"Sublime Projects",
 		"*.egg-info",
-		"dist"
+		"dist",
+		"node_modules",
+		"bld"
 	],
-	"font_face": "Roboto Mono",
+	"font_face": "Fira Code Medium",
+	"font_options":
+	[
+		"subpixel_antialias"
+	],
 	"font_size": 10,
 	"ignored_packages":
 	[

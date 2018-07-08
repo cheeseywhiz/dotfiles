@@ -832,7 +832,7 @@
 	],
 	"find":
 	{
-		"height": 48.0
+		"height": 31.968031968
 	},
 	"find_in_files":
 	{
@@ -991,7 +991,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -1016,7 +1016,8 @@
 							"git_gutter_is_enabled": true,
 							"open_with_edit": true,
 							"syntax": "Packages/Makefile/Makefile.sublime-syntax",
-							"tab_size": 8
+							"tab_size": 8,
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1038,8 +1039,8 @@
 						"selection":
 						[
 							[
-								1011,
-								1011
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1050,10 +1051,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 594.405594406,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -1069,8 +1070,8 @@
 						"selection":
 						[
 							[
-								3276,
-								3210
+								6979,
+								6979
 							]
 						],
 						"settings":
@@ -1082,10 +1083,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3960.03996004,
+						"translation.y": 6290.70929071,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -1426,7 +1427,7 @@
 	"project": "collectc.sublime-project",
 	"replace":
 	{
-		"height": 59.9400599401
+		"height": 57.9420579421
 	},
 	"save_all_on_build": true,
 	"select_file":

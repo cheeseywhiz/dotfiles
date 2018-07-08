@@ -520,10 +520,10 @@
 	"buffers":
 	[
 		{
-			"file": "/home/cheese/.bashrc",
+			"file": "/home/cheese/.config/i3/config",
 			"settings":
 			{
-				"buffer_size": 1526,
+				"buffer_size": 8828,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -601,17 +601,21 @@
 	},
 	"expanded_folders":
 	[
-		"/home/cheese"
+		"/home/cheese",
+		"/home/cheese/.config",
+		"/home/cheese/.config/i3"
 	],
 	"file_history":
 	[
-		"/home/cheese/Downloads/quiver_demo.py",
-		"/home/cheese/.Xresources",
+		"/home/cheese/.gitconfig",
 		"/home/cheese/.bashrc",
 		"/home/cheese/.config/i3/sys_cmd.sh",
+		"/home/cheese/.config/i3/config",
+		"/home/cheese/.local/bin/git-new",
+		"/home/cheese/Downloads/quiver_demo.py",
+		"/home/cheese/.Xresources",
 		"/home/cheese/.config/wal/chrome_theme.py",
 		"/home/cheese/.config/wal/wallaunch.sh",
-		"/home/cheese/.config/i3/config",
 		"/home/cheese/.bash_profile",
 		"/home/cheese/.config/polybar/config",
 		"/home/cheese/.config/i3/cmd_dict.py",
@@ -730,13 +734,11 @@
 		"/home/cheese/cheeseywhiz/GUIs/Wifi Interface/wifi_list.py",
 		"/home/cheese/cheeseywhiz/Mandelbrot-Set/c/mdbsmodule.c",
 		"/home/cheese/cheeseywhiz/AvgImg/imglib.py",
-		"/home/cheese/cheeseywhiz/Mandelbrot-Set/mdbs5.py",
-		"/home/cheese/cheeseywhiz/Mandelbrot-Set/c/__init__.py",
-		"/home/cheese/cheeseywhiz/Mandelbrot-Set/c/math_ops.h"
+		"/home/cheese/cheeseywhiz/Mandelbrot-Set/mdbs5.py"
 	],
 	"find":
 	{
-		"height": 31.968031968
+		"height": 48.951048951
 	},
 	"find_in_files":
 	{
@@ -796,30 +798,30 @@
 			[
 				{
 					"buffer": 0,
-					"file": "/home/cheese/.bashrc",
+					"file": "/home/cheese/.config/i3/config",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1526,
+						"buffer_size": 8828,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								291,
-								291
+								1887,
+								1882
 							]
 						],
 						"settings":
 						{
 							"git_gutter_is_enabled": true,
-							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax",
+							"syntax": "Packages/zzz A File Icon zzz/aliases/XML (Config).sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 41.958041958,
+						"translation.y": 638.361638362,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -834,7 +836,7 @@
 	},
 	"input":
 	{
-		"height": 46.0
+		"height": 46.953046953
 	},
 	"layout":
 	{
@@ -879,7 +881,7 @@
 	"project": "cheese.sublime-project",
 	"replace":
 	{
-		"height": 59.9400599401
+		"height": 57.9420579421
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -899,7 +901,7 @@
 		[
 			[
 				"",
-				"~/.config/sublime-text-3/Projects/cheeseywhiz.sublime-project"
+				"~/.config/sublime-text-3/Projects/st.sublime-project"
 			]
 		],
 		"width": 380.0
