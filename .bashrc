@@ -5,7 +5,7 @@
 # If not running interactively, don't do anything
 # [[ $- != *i* ]] && return
 
-(cat ~/.cache/wal/sequences &)
+# (cat ~/.cache/wal/sequences &)
 
 rel_git_path() {
     if git rev-parse >& /dev/null; then
@@ -54,4 +54,5 @@ alias wallaunch='~/.config/i3/sys_cmd.sh wallaunch'
 PS1='$(printf '%.*s' $? $?)\[\e[01;32m\]\u\[\e[0m\]: $(date "+%X"): \[\e[1;34m\]$(rel_git_path)\[\e[0m\] $(git_branch)\n\$ '
 export EDITOR=vim
 export XDG_CONFIG_HOME=$HOME/.config
+export PATH="${PATH}:$HOME/.local/bin"
 source /usr/share/nvm/init-nvm.sh

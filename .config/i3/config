@@ -44,7 +44,7 @@ font pango:$user_font 8
 floating_modifier $mod
 
 # start a terminal
-set $terminal urxvt
+set $terminal st -e tmux
 bindsym $mod+Return exec $terminal
 bindsym $mod+Shift+Return exec transparent
 
@@ -228,7 +228,7 @@ bindsym $mod+r mode "resize"
 ##Audio Control
 
 # sink tends to switch between 1 and 0
-set $sink 1
+set $sink 0
 
 # Fn+F1       toggle mute
 # Fn+F2       lower volume by 5%
