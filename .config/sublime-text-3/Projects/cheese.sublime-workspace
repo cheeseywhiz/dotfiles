@@ -519,15 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/home/cheese/.config/i3/config",
-			"settings":
-			{
-				"buffer_size": 8828,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -601,16 +592,14 @@
 	},
 	"expanded_folders":
 	[
-		"/home/cheese",
-		"/home/cheese/.config",
-		"/home/cheese/.config/i3"
+		"/home/cheese"
 	],
 	"file_history":
 	[
-		"/home/cheese/.gitconfig",
 		"/home/cheese/.bashrc",
-		"/home/cheese/.config/i3/sys_cmd.sh",
+		"/home/cheese/.gitconfig",
 		"/home/cheese/.config/i3/config",
+		"/home/cheese/.config/i3/sys_cmd.sh",
 		"/home/cheese/.local/bin/git-new",
 		"/home/cheese/Downloads/quiver_demo.py",
 		"/home/cheese/.Xresources",
@@ -738,7 +727,7 @@
 	],
 	"find":
 	{
-		"height": 48.951048951
+		"height": 49.95004995
 	},
 	"find_in_files":
 	{
@@ -752,6 +741,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"OSC",
+			"title",
+			"\\\\\\[.*\\\\\\]",
+			"terminal",
+			"$terminal",
 			"np.linalg.norm(j)",
 			"text-color",
 			"bg-color",
@@ -780,7 +774,7 @@
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
 		],
@@ -793,40 +787,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/home/cheese/.config/i3/config",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8828,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1887,
-								1882
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/zzz A File Icon zzz/aliases/XML (Config).sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 638.361638362,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],

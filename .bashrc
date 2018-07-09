@@ -30,9 +30,9 @@ git-diff-all() {
 set-title() {
     ESC="\e"
     OSC="\x5d"
-    BEL="\a"
+    ST="\x5c"
     TITLE="${USER}: $(date "+%X"): $(rel_git_path) $(git_branch)"
-    echo -ne "${ESC}${OSC}2;${TITLE}${BEL}"
+    echo -ne "${ESC}${OSC}0;${TITLE}${ESC}${ST}"
 }
 
 # Clean the mirrors

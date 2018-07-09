@@ -44,7 +44,7 @@ font pango:$user_font 8
 floating_modifier $mod
 
 # start a terminal
-set $terminal st -e tmux
+set $terminal st
 bindsym $mod+Return exec $terminal
 bindsym $mod+Shift+Return exec transparent
 
