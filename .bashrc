@@ -27,6 +27,14 @@ git-diff-all() {
     done
 }
 
+set-title() {
+    ESC="\e"
+    OSC="\x5d"
+    BEL="\a"
+    TITLE="${USER}: $(date "+%X"): $(rel_git_path) $(git_branch)"
+    echo -ne "${ESC}${OSC}2;${TITLE}${BEL}"
+}
+
 # Clean the mirrors
 windex() {
     # Fetch | uncomment | write as root to file
@@ -51,7 +59,7 @@ alias ffind='find / 2>/dev/null | fgrep'
 alias grubcfg='sudo grub-mkconfig -o /boot/grub/grub.cfg'
 alias wallaunch='~/.config/i3/sys_cmd.sh wallaunch'
 
-PS1='$(printf '%.*s' $? $?)\[\e[01;32m\]\u\[\e[0m\]: $(date "+%X"): \[\e[1;34m\]$(rel_git_path)\[\e[0m\] $(git_branch)\n\$ '
+PS1='$(printf '%.*s' $? $?)\[\e[01;32m\]\u\[\e[0m\]: $(date "+%X"): \[\e[1;34m\]$(rel_git_path)\[\e[0m\] $(git_branch)\n\$ $(set-title)'
 export EDITOR=vim
 export XDG_CONFIG_HOME=$HOME/.config
 export PATH="${PATH}:$HOME/.local/bin"
