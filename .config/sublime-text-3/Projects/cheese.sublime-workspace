@@ -519,6 +519,24 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/home/cheese/.config/i3/i3launcher.py",
+			"settings":
+			{
+				"buffer_size": 505,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/cheese/.bashrc",
+			"settings":
+			{
+				"buffer_size": 1964,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -592,10 +610,14 @@
 	},
 	"expanded_folders":
 	[
-		"/home/cheese"
+		"/home/cheese",
+		"/home/cheese/.config",
+		"/home/cheese/.config/i3"
 	],
 	"file_history":
 	[
+		"/home/cheese/.config/i3/cmd_dict.py",
+		"/home/cheese/.cache/wal/colors.sh",
 		"/home/cheese/.bashrc",
 		"/home/cheese/.gitconfig",
 		"/home/cheese/.config/i3/config",
@@ -607,7 +629,6 @@
 		"/home/cheese/.config/wal/wallaunch.sh",
 		"/home/cheese/.bash_profile",
 		"/home/cheese/.config/polybar/config",
-		"/home/cheese/.config/i3/cmd_dict.py",
 		"/home/cheese/.xinitrc",
 		"/home/cheese/.cache/wal/sequences",
 		"/home/cheese/.config/devilspie2/launch.sh",
@@ -722,8 +743,7 @@
 		"/home/cheese/cheeseywhiz/GUIs/wifi-interface/interp",
 		"/home/cheese/cheeseywhiz/GUIs/Wifi Interface/wifi_list.py",
 		"/home/cheese/cheeseywhiz/Mandelbrot-Set/c/mdbsmodule.c",
-		"/home/cheese/cheeseywhiz/AvgImg/imglib.py",
-		"/home/cheese/cheeseywhiz/Mandelbrot-Set/mdbs5.py"
+		"/home/cheese/cheeseywhiz/AvgImg/imglib.py"
 	],
 	"find":
 	{
@@ -741,6 +761,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"cmd_dict",
+			"subprocess",
+			"shlex",
+			"pathlib",
+			"os",
+			"json",
+			"pathlib",
 			"OSC",
 			"title",
 			"\\\\\\[.*\\\\\\]",
@@ -787,8 +814,80 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/home/cheese/.config/i3/i3launcher.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 505,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								80,
+								90
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": ".",
+									"selector": "source.python - string - comment - constant.numeric"
+								},
+								{
+									"characters": ".",
+									"selector": "source.python - string - constant.numeric"
+								}
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/cheese/.bashrc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1964,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1063,
+								1063
+							]
+						],
+						"settings":
+						{
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/ShellScript/Bash.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 588.411588412,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
