@@ -48,7 +48,7 @@ source ~/.cache/wal/colors.sh
 alias allman='man -a'
 alias s='source ~/.bashrc'
 alias walcopy='s && cp $wallpaper $HOME/Pictures/wallpapers'
-alias reset='reset -Q'
+alias reset='tput reset'
 alias pacman='pacman --color=auto'
 alias ls='ls -h --color=auto'
 alias ll='ls -l'
@@ -64,3 +64,8 @@ export EDITOR=vim
 export XDG_CONFIG_HOME=$HOME/.config
 export PATH="${PATH}:$HOME/.local/bin"
 source /usr/share/nvm/init-nvm.sh
+
+export WS1="chromium --new-window --load-extension=/home/cheese/.cache/wal/wal_chrome"
+export WS2=subl
+export WS3=st
+export WS10="${WS1} --incognito https://www.reddit.com/"
